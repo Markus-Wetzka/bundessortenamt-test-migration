@@ -1,0 +1,29 @@
+{
+  "analysis-summary": {
+    "status": "complete",
+    "metadata": {
+      "siteUrl": "https://www.bundessortenamt.de",
+      "siteName": "www.bundessortenamt.de",
+      "analysisDate": "2026-11-17",
+      "rootPageTitle": "Bundessortenamt: Start"
+    },
+    "metrics": {
+      "urlDiscoveryMethod": "user-provided-list",
+      "totalPages": 2,
+      "localeCount": 0,
+      "locales": [],
+      "totalTemplates": 1,
+      "totalBlockTypes": 3,
+      "unknownBlockVariants": 0,
+      "edsBlockVariants": 3,
+      "pagesAnalyzed": 2,
+      "percentAnalyzed": 100,
+      "pagesPending": 0,
+      "pagesFailed": 0,
+      "blockDetectionCrashes": 0
+    },
+    "errors": {
+      "totalCount": 0
+    }
+  }
+}

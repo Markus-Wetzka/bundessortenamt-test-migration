@@ -1,0 +1,12 @@
+{
+  "templates": [
+    {
+      "name": "homepage",
+      "description": "Bundessortenamt home page with top-news stage, news list and quick-access sidebar",
+      "urls": [
+        "https://www.bundessortenamt.de/bsa/",
+        "https://bundessortenamt.de/"
+      ]
+    }
+  ]
+}

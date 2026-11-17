@@ -1,0 +1,11 @@
+{
+  "variantName": "news-teaser",
+  "baseBlock": "cards",
+  "canonicalModel": "cards",
+  "visualCharacteristics": "Vertical news list. Each teaser is one clickable card with the image on the left and, on the right, a meta line (date | category), the headline, a short text and a 'Weiterlesen' line.",
+  "contentPattern": "One row per teaser (cells in any order) or all teasers flat in one cell. Content is classified, not indexed: picture = image, a dd.mm.yyyy paragraph = date, a link-free paragraph before the heading = category, h2–h6 = headline (starts a new teaser), a paragraph with only one link = card link / read-more text, anything else = teaser text.",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "News list in the main column of the home page.",
+  "reuseGuidance": "Reuse for dated news or press teasers with image, headline and text. For grid card layouts without dates use cards."
+}

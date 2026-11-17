@@ -1,0 +1,39 @@
+{
+  "id": "v_bad45ad86a0a",
+  "type": "tabs",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-17T15:24:10.742Z",
+  "sourceContext": {
+    "originUrl": "https://www.bundessortenamt.de/bsa/",
+    "discoveredDuring": "excat-replica-adapter"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "minimal",
+    "imagePattern": "noimg",
+    "purpose": "Stage",
+    "structure": "Stage block"
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.bundessortenamt.de/bsa/",
+        "instanceId": "b01-stage",
+        "instanceIds": [
+          "b01-stage"
+        ],
+        "screenshot": ".pages/www_bundessortenamt_de_bsa--a688fe08/blocks/b01-stage.jpg"
+      },
+      {
+        "url": "https://bundessortenamt.de/",
+        "instanceId": "b01-stage",
+        "instanceIds": [
+          "b01-stage"
+        ],
+        "screenshot": ".pages/bundessortenamt_de--0bc1c805/blocks/b01-stage.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "v_c14a471c6328",
+  "type": "cards",
+  "canonicalModel": "standalone",
+  "version": "1.0.0",
+  "created": "2026-11-17T15:24:10.742Z",
+  "sourceContext": {
+    "originUrl": "https://www.bundessortenamt.de/bsa/",
+    "discoveredDuring": "excat-replica-adapter"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "minimal",
+    "imagePattern": "noimg",
+    "purpose": "News teaser",
+    "structure": "News teaser block"
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://www.bundessortenamt.de/bsa/",
+        "instanceId": "b02-news-teaser",
+        "instanceIds": [
+          "b02-news-teaser"
+        ],
+        "screenshot": ".pages/www_bundessortenamt_de_bsa--a688fe08/blocks/b02-news-teaser.jpg"
+      },
+      {
+        "url": "https://bundessortenamt.de/",
+        "instanceId": "b02-news-teaser",
+        "instanceIds": [
+          "b02-news-teaser"
+        ],
+        "screenshot": ".pages/bundessortenamt_de--0bc1c805/blocks/b02-news-teaser.jpg"
+      }
+    ],
+    "reuseCount": 2
+  }
+}

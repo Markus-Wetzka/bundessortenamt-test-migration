@@ -1,0 +1,10 @@
+{
+  "sites": {
+    "bundessortenamt-test-migration": {
+      "previewOrg": "Markus-Wetzka",
+      "previewSite": "bundessortenamt-test-migration",
+      "contentHostUrl": "https://content.da.live/markus-wetzka/bundessortenamt-test-migration/"
+    }
+  },
+  "type": "da"
+}

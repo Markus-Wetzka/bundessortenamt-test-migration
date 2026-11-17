@@ -1,0 +1,11 @@
+{
+  "variantName": "shortcuts",
+  "baseBlock": "custom",
+  "canonicalModel": "custom",
+  "visualCharacteristics": "Sidebar aside: the ministry logo link at the top, followed by the 'Schnellzugriff' list of quick links (its heading is visually hidden and labels the navigation).",
+  "contentPattern": "One cell classified by content: a paragraph with an (optionally linked) image is the logo, a heading is the list title, a list of links is the shortcut links. Anything else stays visible after the list.",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Right-hand sidebar on the home page with the ministry logo and quick-access links.",
+  "reuseGuidance": "Reuse for sidebar quick-link lists with an optional logo. For in-page link lists without a sidebar role use default content."
+}

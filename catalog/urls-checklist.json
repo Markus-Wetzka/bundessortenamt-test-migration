@@ -1,0 +1,27 @@
+{
+  "analysis-urls-checklist": {
+    "captured": "2026-11-17T15:24:10.742Z",
+    "totalPages": 2,
+    "statusBreakdown": {
+      "analyzed": 2
+    },
+    "pages": {
+      "https://www.bundessortenamt.de/bsa/": {
+        "url": "https://www.bundessortenamt.de/bsa/",
+        "status": "analyzed",
+        "slug": "www_bundessortenamt_de_bsa--a688fe08",
+        "title": "Bundessortenamt: Start",
+        "componentBlockCount": 3,
+        "analyzedAt": "2026-11-17T15:24:10.742Z"
+      },
+      "https://bundessortenamt.de/": {
+        "url": "https://bundessortenamt.de/",
+        "status": "analyzed",
+        "slug": "bundessortenamt_de--0bc1c805",
+        "title": "Bundessortenamt: Start",
+        "componentBlockCount": 3,
+        "analyzedAt": "2026-11-17T15:24:10.742Z"
+      }
+    }
+  }
+}

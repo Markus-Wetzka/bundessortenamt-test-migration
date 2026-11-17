@@ -1,0 +1,93 @@
+{
+  "url": "https://www.bundessortenamt.de/bsa/",
+  "title": "Bundessortenamt: Start",
+  "timestamp": "2026-11-17T15:24:10.742Z",
+  "duration": "0s",
+  "cleanup": {
+    "elementsRemoved": 0,
+    "types": [],
+    "cookieConsentDismissed": false,
+    "removed": []
+  },
+  "skeleton": {
+    "sections": []
+  },
+  "pageLayout": null,
+  "blocks": [
+    {
+      "id": "b01-stage",
+      "type": "tabs",
+      "name": "stage",
+      "variantId": "v_bad45ad86a0a",
+      "selector": null,
+      "screenshot": null,
+      "bounds": {
+        "x": 240,
+        "y": 224,
+        "width": 960,
+        "height": 320
+      },
+      "description": "Top-news stage at the top of the home page, switching between featured stories. Used on 2 pages (homepage template).",
+      "visualChars": {
+        "purpose": "Stage",
+        "structure": "Stage block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b02-news-teaser",
+      "type": "cards",
+      "name": "news-teaser",
+      "variantId": "v_c14a471c6328",
+      "selector": null,
+      "screenshot": null,
+      "bounds": {
+        "x": 240,
+        "y": 574,
+        "width": 635,
+        "height": 1123
+      },
+      "description": "News list in the main column of the home page. Used on 2 pages (homepage template).",
+      "visualChars": {
+        "purpose": "News teaser",
+        "structure": "News teaser block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b03-shortcuts",
+      "type": "custom",
+      "name": "shortcuts",
+      "variantId": "v_c470ec0cba9f",
+      "selector": null,
+      "screenshot": null,
+      "bounds": {
+        "x": 907,
+        "y": 574,
+        "width": 293,
+        "height": 345
+      },
+      "description": "Right-hand sidebar on the home page with the ministry logo and quick-access links. Used on 2 pages (homepage template).",
+      "visualChars": {
+        "purpose": "Shortcuts",
+        "structure": "Shortcuts block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    }
+  ],
+  "replicaAdapter": {
+    "stardustSlug": "bsa",
+    "path": "/bsa/",
+    "templateId": "bsa",
+    "liveUrl": "https://main--4f3d7fd3--aemcoder.aem.live/bsa/",
+    "fullPageScreenshot": "full-page.jpg",
+    "screenshotSource": "https://aem-20261117--bundessortenamt-test-migration--markus-wetzka.aem.page/bsa/",
+    "screenshotCapturedAt": "2026-11-17T15:24:19.550Z"
+  }
+}

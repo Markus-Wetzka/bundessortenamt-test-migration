@@ -1,0 +1,44 @@
+{
+  "producer": "excat-replica-adapter",
+  "source": {
+    "tool": "stardust",
+    "version": "0.39.4",
+    "flow": "replica",
+    "mode": "rollout"
+  },
+  "originUrl": "https://www.bundessortenamt.de",
+  "previewBase": "https://main--4f3d7fd3--aemcoder.aem.live/bsa/",
+  "convertedAt": "2026-11-17T15:24:10.742Z",
+  "counts": {
+    "pages": 2,
+    "templates": 1,
+    "blockVariants": 3
+  },
+  "templateNames": {
+    "bsa": {
+      "name": "homepage",
+      "description": "Bundessortenamt home page with top-news stage, news list and quick-access sidebar"
+    }
+  },
+  "screenshots": {
+    "capturedAt": "2026-11-17T15:24:19.978Z",
+    "pages": [
+      {
+        "slug": "bundessortenamt_de--0bc1c805",
+        "captured": 3,
+        "total": 3,
+        "url": "https://aem-20261117--bundessortenamt-test-migration--markus-wetzka.aem.page/"
+      },
+      {
+        "slug": "www_bundessortenamt_de_bsa--a688fe08",
+        "captured": 0,
+        "total": 3,
+        "url": "https://aem-20261117--bundessortenamt-test-migration--markus-wetzka.aem.page/bsa/"
+      }
+    ],
+    "variants": {
+      "total": 3,
+      "cropped": 3
+    }
+  }
+}

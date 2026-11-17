@@ -1,0 +1,71 @@
+{
+  "block-catalog": {
+    "schemaVersion": 2,
+    "captured": "2026-11-17T15:24:10.742Z",
+    "totalBlockVariants": 3,
+    "totalBlocksProcessed": 6,
+    "newVariantsCreated": 0,
+    "variantsReused": 0,
+    "layoutKeyThreshold": 0.85,
+    "completionStatus": {
+      "analyzed": 2,
+      "failed": 0
+    },
+    "blockVariants": {
+      "v_bad45ad86a0a": {
+        "id": "v_bad45ad86a0a",
+        "name": "stage",
+        "type": "tabs",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "description": "Top-news stage at the top of the home page, switching between featured stories. Used on 2 pages (homepage template).",
+        "screenshots": [
+          ".pages/bundessortenamt_de--0bc1c805/blocks/b01-stage.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "stage",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_c14a471c6328": {
+        "id": "v_c14a471c6328",
+        "name": "news-teaser",
+        "type": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "description": "News list in the main column of the home page. Used on 2 pages (homepage template).",
+        "screenshots": [
+          ".pages/bundessortenamt_de--0bc1c805/blocks/b02-news-teaser.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "news-teaser",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_c470ec0cba9f": {
+        "id": "v_c470ec0cba9f",
+        "name": "shortcuts",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "description": "Right-hand sidebar on the home page with the ministry logo and quick-access links. Used on 2 pages (homepage template).",
+        "screenshots": [
+          ".pages/bundessortenamt_de--0bc1c805/blocks/b03-shortcuts.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "shortcuts",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      }
+    }
+  }
+}

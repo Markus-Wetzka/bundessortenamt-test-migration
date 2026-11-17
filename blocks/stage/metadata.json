@@ -1,0 +1,11 @@
+{
+  "variantName": "stage",
+  "baseBlock": "tabs",
+  "canonicalModel": "tabs",
+  "visualCharacteristics": "Home page top-news stage: a large linked image panel on the left (about 66%) with a stacked list of tab labels on the right (about 34%). The active tab shows its panel with a 'Weiterlesen' call-to-action box over the image. Below 720px each tab label becomes a heading above its own panel.",
+  "contentPattern": "One row per tab. Cells are classified by content in any order: link-free paragraph(s) form the tab label (e.g. <em>Kicker</em> teaser text), a picture is the panel image, and a paragraph holding a single link is the panel link (its text is the call-to-action). Rows without an image stay below the block as plain content.",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Top-news stage at the top of the home page, switching between featured stories.",
+  "reuseGuidance": "Reuse for any tabbed image teaser where each tab has a short label, one image and one link. Not for plain text tabs or single heroes (use hero)."
+}

@@ -1,0 +1,21 @@
+{
+  "analysis-urls-all": {
+    "captured": "2026-11-17T15:24:10.742Z",
+    "totalUrls": 2,
+    "totalDocuments": 0,
+    "method": "user-provided-list",
+    "robotsTxtFound": false,
+    "robotsTxtRulesApplied": false,
+    "limitations": "Pages imported from a stardust auto-migration run; no site discovery was performed.",
+    "confidence": "100%",
+    "urls": [
+      {
+        "url": "https://www.bundessortenamt.de/bsa/"
+      },
+      {
+        "url": "https://bundessortenamt.de/"
+      }
+    ],
+    "documents": []
+  }
+}
