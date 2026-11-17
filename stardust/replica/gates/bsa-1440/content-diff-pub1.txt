@@ -1,0 +1,57 @@
+[live-session] waiting to pace live navigations to www.bundessortenamt.de (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+[live-session] waiting to pace live navigations to main--4f3d7fd3--aemcoder.aem.page (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 997 ms
+
+Content diff @ 1440px (profile "generic", roots: #bsa-content, header, footer)
+root "#bsa-content"
+  source: 21 text nodes — 4 headings, 8 eyebrows, 1 CTAs, 8 body; 4 img
+  build: 36 text nodes — 6 headings, 11 eyebrows, 8 CTAs, 11 body; 8 img
+  editable texts (outermost h*/p/ul/ol): source 21 / build 28
+  attributes (placeholder/aria-label/title): source 5 / build 6; icons: source 0 / build 0
+root "header"
+  source: 65 text nodes — 2 headings, 0 eyebrows, 61 CTAs, 2 body; 1 img
+  build: 65 text nodes — 2 headings, 0 eyebrows, 61 CTAs, 2 body; 5 img
+  editable texts (outermost h*/p/ul/ol): source 5 / build 5
+  attributes (placeholder/aria-label/title): source 8 / build 13; icons: source 0 / build 4
+root "footer"
+  source: 0 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 0 body; 1 img
+  build: 5 text nodes — 0 headings, 0 eyebrows, 4 CTAs, 1 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 2
+  attributes (placeholder/aria-label/title): source 1 / build 1; icons: source 0 / build 1
+
+Findings: 35 (0 structural 🔴)
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 35
+  🟠 EXTRA [#bsa-content]: build heading "Top Meldungen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [#bsa-content]: build eyebrow "Sorten schützen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [#bsa-content]: build eyebrow "Sorten zulassen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [#bsa-content]: build eyebrow "Unsere Standorte" has no source source — Unexpected node with no source.
+  🟠 EXTRA [#bsa-content]: build cta "Weiterlesen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [#bsa-content]: build cta "Weiterlesen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [#bsa-content]: build cta "Weiterlesen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [#bsa-content]: build heading "Schnellzugriff" has no source source — Unexpected node with no source.
+  🟠 EXTRA [#bsa-content]: build cta "Stellenangebote" has no source source — Unexpected node with no source.
+  🟠 EXTRA [#bsa-content]: build cta "Antragsformulare" has no source source — Unexpected node with no source.
+  🟠 EXTRA [#bsa-content]: build cta "Sorteninformationen - zur Datenbank" has no source source — Unexpected node with no source.
+  🟠 EXTRA [#bsa-content]: build cta "Deutsche Genbank Zierpflanzen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Impressum" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Datenschutz" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Barrierefreiheit" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Sitemap" has no source source — Unexpected node with no source.
+  🟡 EXTRA [#bsa-content]: build body "Sichert das geistige Eigentum an Pflanzenzüchtun" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#bsa-content]: build body "So wird Saatgutqualität gesichert" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#bsa-content]: build body "An diesen Orten prüfen wir" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA ARIA-LABEL [#bsa-content]: build <nav> aria-label="Schnellzugriff" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 MISSING TITLE [header]: source <a> title="english website" has no build <a> with that title (build <a> titles: "DasBSA", "Sorten", "Saatgut"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 EXTRA TITLE [header]: build <a> title="DasBSA" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Sorten" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Saatgut" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="PflanzengenetischeRessourcen" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Antrag­steller" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Prüfungs­ansteller" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ICON [header]: build image hand.svg (16×16) at "gebärdensprache" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image book.svg (16×16) at "leichte sprache" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image hand.svg (16×16) at "gebärdensprache" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image book.svg (16×16) at "leichte sprache" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA [footer]: build body "© 2020 Bundessortenamt" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 MISSING TITLE [footer]: source <a> title="Externer Link - Öffnet in neuem Fenster - Bundes" has no build <a> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 EXTRA ARIA-LABEL [footer]: build <nav> aria-label="Fußnavigation" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ICON [footer]: build image media_14157e218efafd35fc6fc3b870a16a4d3e02eabd4.png (28×24) at "/company/bundessortenamt/" has no source source. Build-only icon — confirm it is intended.

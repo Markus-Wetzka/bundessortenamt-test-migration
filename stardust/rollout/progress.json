@@ -1,0 +1,88 @@
+{
+  "units": {
+    "foundation": {
+      "status": "done",
+      "at": "2026-11-17T14:30:09.333Z",
+      "gates": {
+        "pixel": {
+          "360": "0.42% Δh0",
+          "1440": "0.20% Δh0"
+        },
+        "chromeParity": "quiet at 1440/360 (roots header.bsa-banner, #bsa-footer; 1 accepted backdrop delta, stardust/replica/chrome-accepted.json)",
+        "cropCompare": {
+          "360": "header 99.91% / footer 100%",
+          "1440": "header 99.99% / footer 100%"
+        },
+        "headerContract": "chrome-compare 15 → 1: control-missing@390 menu — both sides nameless toggle, same rect; comparer cannot pair empty names; owner decision only"
+      },
+      "freeze": "stardust/rollout/foundation-freeze.json (19 files)",
+      "verdict": "PASS"
+    },
+    "archetype:landing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "landing (bsa)"
+      ],
+      "pages": [
+        "bsa"
+      ],
+      "blocks": [
+        "stage",
+        "news-teaser",
+        "shortcuts"
+      ],
+      "startedAt": "2026-11-17T14:20:00Z",
+      "endedAt": "2026-11-17T14:34:42.852Z",
+      "gates": {
+        "360": "gate-all 0.42% Δh0 clip0 content 0/0 PASS; gate.sh pub1 content-diff 0🔴/0🟡",
+        "1440": "gate-all 0.20% Δh0 clip0 content 0/0 PASS; gate.sh pub1 content-diff 0🔴/0🟡"
+      },
+      "verdict": "PASS — /bsa/ live on aem.live, fix rounds 0"
+    },
+    "cluster:landing": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "landing (bsa)"
+      ],
+      "pages": [
+        "index"
+      ],
+      "blocks": [],
+      "startedAt": "2026-11-17T14:35:00Z",
+      "endedAt": "2026-11-17T14:36:04.922Z",
+      "gates": {
+        "360": "gate-all 0.42% Δh0 clip0 content 0/0 PASS",
+        "1440": "gate-all 0.20% Δh0 clip0 content 0/0 PASS"
+      },
+      "verdict": "landing: pages 2/2 live, blocks 3, gate 1440 0.20% / 360 0.42%, requests 0"
+    },
+    "gate-all": {
+      "status": "done",
+      "kind": "final",
+      "startedAt": "2026-11-17T14:36:04.922Z",
+      "endedAt": "2026-11-17T14:36:54.666Z",
+      "pages": [
+        "bsa",
+        "index"
+      ],
+      "gates": {
+        "360": "2 PASS / 0 FAIL of 2",
+        "1440": "2 PASS / 0 FAIL of 2"
+      },
+      "verdict": "roster published-origin gate 2/2 PASS at 1440 and 360; coverage --gate written"
+    },
+    "final": {
+      "status": "done",
+      "kind": "final",
+      "startedAt": "2026-11-17T14:37:10.904Z",
+      "endedAt": "2026-11-17T14:37:10.904Z",
+      "gates": {
+        "freeze": "foundation unchanged (19 files)",
+        "requests": "none queued"
+      },
+      "verdict": "C-final: no foundation requests; archetype re-gate not needed (no foundation change)"
+    }
+  }
+}

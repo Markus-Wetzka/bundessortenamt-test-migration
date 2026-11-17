@@ -1,0 +1,28 @@
+{
+  "types": {
+    "landing": {
+      "archetype": "bsa",
+      "liveUrl": "https://www.bundessortenamt.de/bsa/",
+      "prototype": "stardust/prototypes/bsa-proposed.html",
+      "pages": ["bsa", "index"],
+      "iterations": {"1440": 3, "360": 3},
+      "gates": {
+        "1440": {"round": "iter3", "pixelPct": 0.06, "heightDelta": 0, "contentDiff": "0 🔴 · 0 nothing-lost 🟡", "visualDiff": "0 flags", "chromeParity": "quiet", "clipped": 0, "overflow": "ok", "verdict": "PASS"},
+        "360": {"round": "iter3", "pixelPct": 0.26, "heightDelta": 0, "contentDiff": "0 🔴 · 0 nothing-lost 🟡", "visualDiff": "0 flags", "chromeParity": "quiet", "clipped": 0, "overflow": "ok", "verdict": "PASS"},
+        "cap": {"probeWidth": 2560, "verdict": "PASS", "rows": 4, "failed": 0}
+      },
+      "residuals": [],
+      "motion": {"observed": ["stage tab click → bsa-stage--active + panel hidden toggle", "shortcut-link hover background/color"], "implemented": ["stage tabs (click + arrow keys, desktop tabs / mobile stacked)", "main-nav hover dropdowns + expand buttons", "mobile Menü toggle (hides nav, defocuses page)", "shortcut-link hover"], "dead": ["header scroll-morph", "main-nav item hover (no measured diff)", "teaser hover (no measured diff)"]},
+      "notes": "Source quirks mirrored: footer nav classes bracketed in source ([bsa-footer__col …]) so column rules do not apply; global p/ul margin .3em 0 .5em. Fonts: source BundesSans/BundesSerif self-hosted (register R-01).",
+      "approvedBy": "hands-off",
+      "published": {
+        "status": "pending: block code committed (3155b64, 72bf091), not yet served on the preview origin (needs push); published-origin gate not run",
+        "content": {"bsa": {"daPath": "bsa/index", "url": "/bsa/", "preview": 200, "live": 200}, "index": {"daPath": "index", "url": "/", "preview": 200, "live": 200}},
+        "gateMain": ".bsa-content",
+        "provisional": {"note": "live vs local dev server (local code, preview content); not a verdict", "1440": {"contentDiff": "0 🔴 · 0 nothing-lost 🟡", "geometry": "landmark rects = prototype, docH 1898"}, "360": {"contentDiff": "0 🔴 · 0 nothing-lost 🟡", "geometry": "landmark rects = prototype, docH 3009"}},
+        "1440": null,
+        "360": null
+      }
+    }
+  }
+}

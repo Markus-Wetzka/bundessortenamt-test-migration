@@ -1,0 +1,22 @@
+{
+  "_provenance": { "writtenBy": "stardust:dynamics", "writtenAt": "2026-11-17T14:40:05Z" },
+  "method": "curated rows of stardust/dynamic-features.md (re-verified at rollout B2); interaction behaviour proven by motion-observe/motion-compare at recreate (3/3); replayed here on the aem.live origin",
+  "features": [
+    { "id": "hero-stage", "feature": "home stage tabs (3 panels)", "class": "CR", "pages": 2, "disposition": "rebuild-native", "reproducibility": "self", "status": "done",
+      "verifiedBy": "motion parity 3/3 at recreate (tab click toggles active + panel hidden); tablist with 3 tabs + 3 tabpanels on / and /bsa/",
+      "checks": [ { "type": "dom-count", "path": "/bsa/", "selector": ".stage [role=tab]", "min": 3 }, { "type": "dom-count", "path": "/", "selector": ".stage [role=tabpanel]", "min": 3 } ] },
+    { "id": "chrome-menu", "feature": "header main navigation (dropdowns, mobile drawer)", "class": "M", "pages": 2, "disposition": "rebuild-native", "reproducibility": "self", "status": "done",
+      "verifiedBy": "header contract chrome-compare: 24 states at 1440 / 14 at 390 paired; 1 open finding is a nameless toggle on both sides (owner decision, stardust/chrome/header-parity.json)",
+      "checks": [ { "type": "dom-count", "path": "/bsa/", "selector": "header .bsa-main-navigation-item", "min": 6 } ] },
+    { "id": "site-search", "feature": "header search form → source /bsa/suche", "class": "S", "pages": 2, "disposition": "link-to-source", "reproducibility": "self", "status": "done",
+      "verifiedBy": "GET form posts to the source search (a 2-page index would be an empty corpus)",
+      "checks": [ { "type": "dom-count", "path": "/bsa/", "selector": "form[action*='bundessortenamt.de/bsa/suche'] input.bsa-searchbox-input", "min": 1 } ] },
+    { "id": "news-teasers", "feature": "news listing (4 teasers)", "class": "L", "pages": 2, "disposition": "static-snapshot", "reproducibility": "self", "status": "done", "snapshot": "2026-11-17",
+      "verifiedBy": "4 teaser cards, links to source articles",
+      "checks": [ { "type": "dom-count", "path": "/bsa/", "selector": ".news-teaser a", "min": 4 } ] },
+    { "id": "page-errors", "feature": "no uncaught exceptions", "class": "X", "pages": 2, "disposition": "rebuild-native", "reproducibility": "self", "status": "done", "verifiedBy": "both pages",
+      "checks": [ { "type": "no-page-errors", "paths": ["/", "/bsa/"] } ] },
+    { "id": "locale-en", "feature": "English variant /bsa/en/", "class": "I18N", "pages": 2, "disposition": "decided-out", "reproducibility": "self", "status": "decided-out", "verifiedBy": "run scope fixed to 2 pages; meta link points to the source", "checks": [] },
+    { "id": "sign-in", "feature": "sign-in links (detector noise)", "class": "X", "pages": 0, "disposition": "decided-out", "reproducibility": "needs-backend", "status": "decided-out", "verifiedBy": "no sign-in on the captured pages", "checks": [] }
+  ]
+}

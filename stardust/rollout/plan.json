@@ -1,0 +1,65 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/plan",
+    "writtenAt": "2026-11-17T14:32:03.067Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-17T14:32:03.067Z",
+  "fragments": [],
+  "deliveryOrder": [
+    "bsa",
+    "index"
+  ],
+  "steps": [
+    {
+      "slug": "bsa",
+      "path": "/bsa",
+      "templateId": "bsa",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "stage",
+          "edsBlockName": "stage"
+        },
+        {
+          "id": "news-teaser",
+          "edsBlockName": "news-teaser"
+        },
+        {
+          "id": "shortcuts",
+          "edsBlockName": "shortcuts"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "templateId": "bsa",
+      "status": "pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "stage",
+          "edsBlockName": "stage",
+          "convertedBy": "bsa"
+        },
+        {
+          "id": "news-teaser",
+          "edsBlockName": "news-teaser",
+          "convertedBy": "bsa"
+        },
+        {
+          "id": "shortcuts",
+          "edsBlockName": "shortcuts",
+          "convertedBy": "bsa"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "frozenAt": "2026-11-17T14:30:02.372Z",
+  "root": ".",
+  "paths": [
+    "styles/",
+    "fonts/",
+    "blocks/header/",
+    "blocks/footer/",
+    "head.html",
+    "scripts/"
+  ],
+  "files": {
+    "blocks/footer/footer.css": "0d5ae812ca826f18dda4d6928362177ed29b685a3f42e4b685498f5e41f1a49b",
+    "blocks/footer/footer.js": "bc178cf388a5d954175fd1d9a86d4436fcf4836e93ee9f025d607eb7aae76216",
+    "blocks/header/header.css": "034a83fd8dd5535ece6584e9e6b5d11d7380b3b7271da99544744fe0c130dd07",
+    "blocks/header/header.js": "37ae279e55c74532e607e956f1a21e9d23134f983e9c622093ade750046691b6",
+    "fonts/BundesSansWeb-Bold.woff": "9b1f7840db366dd9a9be73e0deaba3d2ce652fa32c645901b1389718d00c799f",
+    "fonts/BundesSansWeb-BoldItalic.woff": "c6eca6aaefcca8507cd3c0c008c871c5fe32018ea684e1314e95f354686811ec",
+    "fonts/BundesSansWeb-Italic.woff": "53339ae940aa36be9076e669363f4f6415c1d1021885d3f53640f5f7e6ffe96e",
+    "fonts/BundesSansWeb-Regular.woff": "9a702e418704a282963fbcdb7e451ac20c476608480e2afa1c5136727496435e",
+    "fonts/BundesSerifWeb-Regular.woff": "4a85d1800f9da2a505d3f1f1e12269d09e3b49ef8123579acb01555c848f765b",
+    "fonts/LICENSING.md": "9f3c50f6f804de3d581389df5661a46ee24dddc3a8dda1cd7bd27a77adbc97d1",
+    "head.html": "0f963b6378ffa7c27479f25b3c4ddbe93c448e71e4d35b4e464eed7eb00f57c2",
+    "scripts/aem.js": "786e8019b14b4c0bee9df38a3162f129c04310d9d00e7a6dd326c7e5830c84ae",
+    "scripts/consent-check.js": "8fbaaef68843e00a19a3e131559411737a081fc058971cfafe2c191a5ba39beb",
+    "scripts/consented.js": "8a6e80585bf898985ae3fa0012dc370a19f4e366ca6922d92b80b319bcf281aa",
+    "scripts/martech.js": "9392dd834f6e64f051fa5fd1af42fb3f610515f07edbfec87c938fe5b2dd6487",
+    "scripts/scripts.js": "c0ff66881434d58ec9d4ba340b908a6c731cd48fe2b425b54a60809adee228b5",
+    "styles/fonts.css": "c3ded4875e884322267755bde7ad492678cb444267af6604b172418c7f5a4ce4",
+    "styles/lazy-styles.css": "391d6721991eb169fa04d7c71d9b597361d76c24ab8a3d5f1dcb47457d8ca2d6",
+    "styles/styles.css": "b59f7f997e2a38ba3c5878521537ee9e316c640ef420b3c20484b8f816fa43c4"
+  }
+}

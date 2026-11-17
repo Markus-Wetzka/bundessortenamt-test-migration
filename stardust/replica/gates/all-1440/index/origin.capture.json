@@ -1,0 +1,16 @@
+{
+  "writtenBy": "skills/replica/scripts/stitch-shot.mjs",
+  "url": "https://bundessortenamt.de/",
+  "width": 1440,
+  "vh": 900,
+  "height": 1898,
+  "chunks": 3,
+  "denialCheck": "ok",
+  "fontsFailed": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 1,
+    "late": 0
+  },
+  "at": "2026-11-17T14:35:19.048Z"
+}

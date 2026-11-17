@@ -1,0 +1,95 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics check",
+  "writtenAt": "2026-11-17T14:40:25.728Z",
+  "origin": "https://main--4f3d7fd3--aemcoder.aem.live",
+  "parity": "stardust/dynamics/parity.json",
+  "contract": "stardust/martech-contract.json"
+ },
+ "results": [
+  {
+   "feature": "home stage tabs (3 panels)",
+   "id": "hero-stage",
+   "class": "CR",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "3 × .stage [role=tab] (min 3)",
+   "thirdParty": "",
+   "ms": 2273,
+   "environmentLimit": null
+  },
+  {
+   "feature": "home stage tabs (3 panels)",
+   "id": "hero-stage",
+   "class": "CR",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "3 × .stage [role=tabpanel] (min 3)",
+   "thirdParty": "",
+   "ms": 1935,
+   "environmentLimit": null
+  },
+  {
+   "feature": "header main navigation (dropdowns, mobile drawer)",
+   "id": "chrome-menu",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "12 × header .bsa-main-navigation-item (min 6)",
+   "thirdParty": "",
+   "ms": 1902,
+   "environmentLimit": null
+  },
+  {
+   "feature": "header search form → source /bsa/suche",
+   "id": "site-search",
+   "class": "S",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × form[action*='bundessortenamt.de/bsa/suche'] input.bsa-searchbox-input (min 1)",
+   "thirdParty": "",
+   "ms": 1884,
+   "environmentLimit": null
+  },
+  {
+   "feature": "news listing (4 teasers)",
+   "id": "news-teasers",
+   "class": "L",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "4 × .news-teaser a (min 4)",
+   "thirdParty": "",
+   "ms": 1894,
+   "environmentLimit": null
+  },
+  {
+   "feature": "no uncaught exceptions",
+   "id": "page-errors",
+   "class": "X",
+   "status": "done",
+   "type": "no-page-errors",
+   "pass": true,
+   "detail": "none on 2 page(s)",
+   "thirdParty": "",
+   "ms": 3785,
+   "environmentLimit": null
+  },
+  {
+   "feature": "martech: consent + tag routing",
+   "id": "martech",
+   "class": "T",
+   "status": "scaffolded-off",
+   "type": "martech",
+   "pass": true,
+   "detail": "no tag host requested (0 gated · 0 cross-site host(s) blocked)",
+   "thirdParty": "",
+   "ms": 6151,
+   "environmentLimit": null
+  }
+ ]
+}

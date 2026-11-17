@@ -1,0 +1,101 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-17T14:31:23.599Z",
+    "readArtifacts": [
+      "stardust/migrated"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-17T14:40:43.691Z",
+  "pages": [
+    {
+      "slug": "bsa",
+      "path": "/bsa/",
+      "title": "Bundessortenamt: Start",
+      "templateId": "bsa",
+      "source": {
+        "migratedHtml": "stardust/migrated/bsa/index.html",
+        "metaJson": "stardust/migrated/bsa/_meta.json",
+        "sourceHash": "sha256:537712d37e3c5682aa93d9574eccb842530f657b2d9b6a62fc012037d37ac47c",
+        "sourceUrl": "https://www.bundessortenamt.de/bsa/"
+      },
+      "blocks": [
+        "stage",
+        "news-teaser",
+        "shortcuts"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--4f3d7fd3--aemcoder.aem.live/bsa/",
+        "deployedAt": "2026-11-17T14:34:42.816Z",
+        "verifiedAt": "2026-11-17T14:40:43.691Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.42,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 8,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T14:36:54.627Z"
+        }
+      }
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "title": "Bundessortenamt: Start",
+      "templateId": "bsa",
+      "source": {
+        "migratedHtml": "stardust/migrated/index.html",
+        "metaJson": "stardust/migrated/_meta.json",
+        "sourceHash": "sha256:36e9caa1e24da3a8edaa4e320f9aad14f454448b31c749145d2d8b35ad2bc587",
+        "sourceUrl": "https://bundessortenamt.de/"
+      },
+      "blocks": [
+        "stage",
+        "news-teaser",
+        "shortcuts"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--4f3d7fd3--aemcoder.aem.live/",
+        "deployedAt": "2026-11-17T14:36:04.879Z",
+        "verifiedAt": "2026-11-17T14:40:43.691Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.42,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 8,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-17T14:36:54.627Z"
+        }
+      }
+    }
+  ]
+}

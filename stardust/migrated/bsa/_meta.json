@@ -1,0 +1,352 @@
+{
+  "slug": "bsa",
+  "type": "landing",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "stage",
+    "news-teaser",
+    "shortcuts"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "frame",
+    "frame"
+  ],
+  "canonShas": {
+    "header": "877c271c6012",
+    "footer": "206edffe6102",
+    "css": "182b7f66cea7"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Bundessortenamt: Start",
+    "description": "Offizielle Internetseite des Bundessortenamtes (BSA); Bundesoberbehörde im Geschäftsbereich des Bundesministeriums für Ernährung und Landwirtschaft",
+    "canonical": null,
+    "lang": "de"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Bundessortenamt: Start",
+    "description": "Offizielle Internetseite des Bundessortenamtes (BSA); Bundesoberbehörde im Geschäftsbereich des Bundesministeriums für Ernährung und Landwirtschaft",
+    "url": "https://www.bundessortenamt.de/bsa/"
+  },
+  "migratedAt": "2026-11-17T14:31:00Z",
+  "designMdSha": "734c38db92ba",
+  "designJsonSha": "55ab84b85093",
+  "sourceCurrentSha": "dc68adbfb0d7",
+  "sourceProposedSha": "09bb5d6e46ae",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 20,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/bsa/en/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/presse-und-oeffentlichkeitsarbeit",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/das-bsa/wir-ueber-uns/kontakt",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/das-bsa/wir-ueber-uns/gebaerdensprache-video",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/das-bsa/wir-ueber-uns/leichte-sprache",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/das-bsa",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/das-bsa/wir-ueber-uns",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/das-bsa/aufgaben",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/das-bsa/organisation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/das-bsa/nationale-zusammenarbeit",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/das-bsa/internationale-zusammenarbeit",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/das-bsa/rechtliche-grundlagen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/das-bsa/emfa",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/das-bsa/adressen-anfahrt",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/das-bsa/karriere",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/sorten",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/sorten/sortenschutz",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/sorten/sortenzulassung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/sorten/datenbanken",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/sorten/beschreibung-der-neuzulassungen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/sorten/beschreibende-sortenlisten",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/sorten/blatt-fuer-sortenwesen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/saatgut",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/saatgut/nationale-angelegenheiten",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/saatgut/eu-und-internationale-angelegenheiten",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/saatgut/internationale-projekte",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/saatgut/statistiken-saatguterzeugung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/saatgut/ausnahmeregelungen-inverkehrbringen-von-saatgut",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/saatgut/oekologisches-heterogenes-material",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/saatgut/anmeldung-anerkennungsstellen-und-saatgutverkehrskontrollstellen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/pflanzengenetische-ressourcen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/pflanzengenetische-ressourcen/deutsche-genbank-zierpflanzen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/pflanzengenetische-ressourcen/deutsche-genbank-obst",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/pflanzengenetische-ressourcen/deutsche-genbank-reben",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/antragsteller",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/antragsteller/wichtige-bekanntmachungen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/antragsteller/antrags-und-vorlagetermine",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/antragsteller/antragsformulare",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/antragsteller/sonstige-formulare",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/antragsteller/hinweise-antragsteller",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/antragsteller/gebuehren",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/antragsteller/berichte-der-wertpruefung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/antragsteller/schutz-und-zulassungsurkunden",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/antragsteller/eignungspruefung-fuer-rasengraeser",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/antragsteller/vordrucke-oecd-saatgutsysteme",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/antragsteller/zugang-zu-nachkontrollergebnissen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/pruefungsansteller",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/pruefungsansteller/anbaulisten",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/pruefungsansteller/berichte-der-wertpruefung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/pruefungsansteller/piaf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/pruefungsansteller/richtlinien",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/pruefungsansteller/formulare",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/en/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/suche",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/presse-und-oeffentlichkeitsarbeit",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/das-bsa/wir-ueber-uns/kontakt",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/das-bsa/wir-ueber-uns/gebaerdensprache-video",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/das-bsa/wir-ueber-uns/leichte-sprache",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/sorten/sortenschutz",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/sorten/sortenzulassung",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/das-bsa/adressen-anfahrt",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/aktuell/die-beschreibende-sortenliste-futtergraeser-esparsette-klee-luzerne-2026-ist-erschienen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/aktuell/adr-rosen-2026-ein-ausgezeichnetes-dutzend",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/aktuell/die-beschreibende-sortenliste-getreide-mais-oel-und-faserpflanzen-leguminosen-rueben-zwischenfruechte-2026-ist-erschienen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/aktuell/am-27-juni-2026-ist-tag-der-offenen-tuer-in-hannover",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/presse-und-oeffentlichkeitsarbeit/pressemitteilungen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/das-bsa/karriere",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/form-sz",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/sorten/datenbanken",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/pflanzengenetische-ressourcen/deutsche-genbank-zierpflanzen/datenbanken-deutsche-genbank-zierpflanzen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/impressum",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/datenschutz",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/barrierefreiheit",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/bsa/sitemap",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "bsa/index.html",
+  "outputPathDefault": null,
+  "sidecar": "bsa/_meta.json",
+  "driverVersion": "1"
+}

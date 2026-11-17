@@ -1,0 +1,222 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:migrate",
+    "writtenAt": "2026-11-17T14:31:04Z",
+    "stardustVersion": "0.39.4"
+  },
+  "site": {
+    "originUrl": "https://www.bundessortenamt.de",
+    "deployUrl": null,
+    "extractedAt": "2026-11-17T13:17:48Z",
+    "pageCap": null,
+    "totalDiscovered": 2,
+    "crawled": 2,
+    "captureGaps": [
+      {
+        "root": "/bsa",
+        "slug": "bsa",
+        "linked": 64,
+        "uncaptured": [
+          "/bsa/aktuell/adr-rosen-2026-ein-ausgezeichnetes-dutzend",
+          "/bsa/aktuell/am-27-juni-2026-ist-tag-der-offenen-tuer-in-hannover",
+          "/bsa/aktuell/die-beschreibende-sortenliste-futtergraeser-esparsette-klee-luzerne-2026-ist-erschienen",
+          "/bsa/aktuell/die-beschreibende-sortenliste-getreide-mais-oel-und-faserpflanzen-leguminosen-rueben-zwischenfruechte-2026-ist-erschienen",
+          "/bsa/antragsteller",
+          "/bsa/antragsteller/antrags-und-vorlagetermine",
+          "/bsa/antragsteller/antragsformulare",
+          "/bsa/antragsteller/berichte-der-wertpruefung",
+          "/bsa/antragsteller/eignungspruefung-fuer-rasengraeser",
+          "/bsa/antragsteller/gebuehren",
+          "/bsa/antragsteller/hinweise-antragsteller",
+          "/bsa/antragsteller/schutz-und-zulassungsurkunden",
+          "/bsa/antragsteller/sonstige-formulare",
+          "/bsa/antragsteller/vordrucke-oecd-saatgutsysteme",
+          "/bsa/antragsteller/wichtige-bekanntmachungen",
+          "/bsa/antragsteller/zugang-zu-nachkontrollergebnissen",
+          "/bsa/barrierefreiheit",
+          "/bsa/das-bsa",
+          "/bsa/das-bsa/adressen-anfahrt",
+          "/bsa/das-bsa/aufgaben",
+          "/bsa/das-bsa/emfa",
+          "/bsa/das-bsa/internationale-zusammenarbeit",
+          "/bsa/das-bsa/karriere",
+          "/bsa/das-bsa/nationale-zusammenarbeit",
+          "/bsa/das-bsa/organisation",
+          "/bsa/das-bsa/rechtliche-grundlagen",
+          "/bsa/das-bsa/wir-ueber-uns",
+          "/bsa/das-bsa/wir-ueber-uns/gebaerdensprache-video",
+          "/bsa/das-bsa/wir-ueber-uns/kontakt",
+          "/bsa/das-bsa/wir-ueber-uns/leichte-sprache",
+          "/bsa/datenschutz",
+          "/bsa/en",
+          "/bsa/form-sz",
+          "/bsa/impressum",
+          "/bsa/pflanzengenetische-ressourcen",
+          "/bsa/pflanzengenetische-ressourcen/deutsche-genbank-obst",
+          "/bsa/pflanzengenetische-ressourcen/deutsche-genbank-reben",
+          "/bsa/pflanzengenetische-ressourcen/deutsche-genbank-zierpflanzen",
+          "/bsa/pflanzengenetische-ressourcen/deutsche-genbank-zierpflanzen/datenbanken-deutsche-genbank-zierpflanzen",
+          "/bsa/presse-und-oeffentlichkeitsarbeit",
+          "/bsa/presse-und-oeffentlichkeitsarbeit/pressemitteilungen",
+          "/bsa/pruefungsansteller",
+          "/bsa/pruefungsansteller/anbaulisten",
+          "/bsa/pruefungsansteller/berichte-der-wertpruefung",
+          "/bsa/pruefungsansteller/formulare",
+          "/bsa/pruefungsansteller/piaf",
+          "/bsa/pruefungsansteller/richtlinien",
+          "/bsa/saatgut",
+          "/bsa/saatgut/anmeldung-anerkennungsstellen-und-saatgutverkehrskontrollstellen",
+          "/bsa/saatgut/ausnahmeregelungen-inverkehrbringen-von-saatgut",
+          "/bsa/saatgut/eu-und-internationale-angelegenheiten",
+          "/bsa/saatgut/internationale-projekte",
+          "/bsa/saatgut/nationale-angelegenheiten",
+          "/bsa/saatgut/oekologisches-heterogenes-material",
+          "/bsa/saatgut/statistiken-saatguterzeugung",
+          "/bsa/sitemap",
+          "/bsa/sorten",
+          "/bsa/sorten/beschreibende-sortenlisten",
+          "/bsa/sorten/beschreibung-der-neuzulassungen",
+          "/bsa/sorten/blatt-fuer-sortenwesen",
+          "/bsa/sorten/datenbanken",
+          "/bsa/sorten/sortenschutz",
+          "/bsa/sorten/sortenzulassung",
+          "/bsa/suche"
+        ]
+      }
+    ],
+    "notes": "https://bundessortenamt.de/ is a meta-refresh stub (0s) to https://www.bundessortenamt.de/bsa/; both plan pages render the same home content (index duplicateOf bsa)."
+  },
+  "direction": null,
+  "handsOff": true,
+  "flow": "replica",
+  "flowChosenAt": "2026-11-17T13:17:20Z",
+  "flowSource": "user-phrase",
+  "pages": [
+    {
+      "slug": "index",
+      "url": "https://bundessortenamt.de/",
+      "title": "Bundessortenamt: Start",
+      "type": "landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T13:17:48Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-17T13:38:37Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-17T14:31:04Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "bsa",
+      "url": "https://www.bundessortenamt.de/bsa/",
+      "title": "Bundessortenamt: Start",
+      "type": "landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-17T13:17:48Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-17T13:38:37Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-17T13:38:37Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-17T13:39:17Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-17T14:31:04Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/bsa.json",
+      "prototypePath": "stardust/prototypes/bsa-proposed.html",
+      "migratedPath": null
+    }
+  ],
+  "migrate": {
+    "at": "2026-11-17T14:31:00Z",
+    "outputDir": "stardust/migrated/",
+    "selfContained": true,
+    "pageMap": [
+      {
+        "sourceUrl": "/",
+        "outputPath": "index.html",
+        "slug": "index",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/bsa/",
+        "outputPath": "bsa/index.html",
+        "slug": "bsa",
+        "outputPathDefault": null
+      }
+    ],
+    "totalAssetsBundled": 20,
+    "bundledAssets": [
+      "bsa.css",
+      "bsa.js",
+      "canon.css",
+      "csm_20260627_TDOT_Termin_27619de047.jpg",
+      "csm_ADR_Rosen_2026_b4b75c655a.jpg",
+      "csm_BSL_Getreide_2026_Deckblatt_893a699c00.jpg",
+      "csm_Buehne_Getreidefeld_reif_7b02d50ef7.jpg",
+      "csm_LI-In-Bug_19170b81c9.png",
+      "csm_Sortenschutz_Zierpflanzen_e3c98c3ee5.jpg",
+      "csm_bsl_futtergraeser_deckblatt_2026_ede6e10b42.jpg",
+      "csm_hasloch-trecker_4408f54a76.jpg",
+      "favicon.png",
+      "fonts/BundesSansWeb-Bold.woff",
+      "fonts/BundesSansWeb-BoldItalic.woff",
+      "fonts/BundesSansWeb-Italic.woff",
+      "fonts/BundesSansWeb-Regular.woff",
+      "fonts/BundesSerifWeb-Regular.woff",
+      "logo-bmleh.png",
+      "logo-bsa.svg",
+      "svg-sprite-sprite.svg"
+    ],
+    "pages": [
+      {
+        "slug": "bsa",
+        "file": "stardust/migrated/bsa/index.html",
+        "assetsBundled": 20
+      },
+      {
+        "slug": "index",
+        "file": "stardust/migrated/index.html",
+        "assetsBundled": 20
+      }
+    ],
+    "missingAssets": [],
+    "cleanedAssets": [],
+    "lastRun": {
+      "at": "2026-11-17T14:31:00Z",
+      "rendered": [
+        "index"
+      ],
+      "unchanged": [],
+      "refused": [],
+      "passthrough": []
+    }
+  }
+}

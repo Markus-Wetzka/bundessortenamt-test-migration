@@ -1,0 +1,16 @@
+{
+  "writtenBy": "skills/replica/scripts/stitch-shot.mjs",
+  "url": "https://www.bundessortenamt.de/bsa/",
+  "width": 360,
+  "vh": 900,
+  "height": 3009,
+  "chunks": 4,
+  "denialCheck": "ok",
+  "fontsFailed": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 1,
+    "late": 0
+  },
+  "at": "2026-11-17T14:34:00.032Z"
+}

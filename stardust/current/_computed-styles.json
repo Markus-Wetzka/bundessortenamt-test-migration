@@ -1,0 +1,1883 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-17T13:18:40.024Z",
+    "script": "style-census.mjs",
+    "readArtifacts": [
+      "https://www.bundessortenamt.de/bsa/"
+    ],
+    "widths": [
+      1440,
+      360
+    ],
+    "userAgent": "browser-default",
+    "synthesizedInputs": [],
+    "failed": []
+  },
+  "pages": {
+    "https://www.bundessortenamt.de/bsa/": {
+      "360": {
+        "title": "Bundessortenamt: Start",
+        "viewport": {
+          "width": 360,
+          "height": 900
+        },
+        "elements": {
+          "total": 318,
+          "visible": 117
+        },
+        "occluders": [],
+        "headings": [
+          {
+            "tag": "h3",
+            "text": "Sorten schützen-Sichert das geistige Ei…",
+            "selector": "#bsa-stage--label-1",
+            "fontFamily": "BundesSerifWeb, Georgia, \"Times New Roman\", serif",
+            "fontSize": "22px",
+            "fontWeight": "400",
+            "lineHeight": "28.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h3",
+            "text": "Sorten zulassen-So wird Saatgutqualität…",
+            "selector": "#bsa-stage--label-2",
+            "fontFamily": "BundesSerifWeb, Georgia, \"Times New Roman\", serif",
+            "fontSize": "22px",
+            "fontWeight": "400",
+            "lineHeight": "28.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h3",
+            "text": "Unsere Standorte-An diesen Orten prüfen…",
+            "selector": "#bsa-stage--label-3",
+            "fontFamily": "BundesSerifWeb, Georgia, \"Times New Roman\", serif",
+            "fontSize": "22px",
+            "fontWeight": "400",
+            "lineHeight": "28.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "tag": "h3",
+            "text": "Die Beschreibende Sortenliste Futtergrä…",
+            "selector": "header > h3",
+            "fontFamily": "BundesSerifWeb, Georgia, \"Times New Roman\", serif",
+            "fontSize": "22px",
+            "fontWeight": "400",
+            "lineHeight": "28.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(34, 34, 34)"
+          },
+          {
+            "tag": "h3",
+            "text": "ADR-Rosen 2026: Ein ausgezeichnetes Dut…",
+            "selector": "header > h3",
+            "fontFamily": "BundesSerifWeb, Georgia, \"Times New Roman\", serif",
+            "fontSize": "22px",
+            "fontWeight": "400",
+            "lineHeight": "28.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(34, 34, 34)"
+          },
+          {
+            "tag": "h3",
+            "text": "Die Beschreibende Sortenliste Getreide,…",
+            "selector": "header > h3",
+            "fontFamily": "BundesSerifWeb, Georgia, \"Times New Roman\", serif",
+            "fontSize": "22px",
+            "fontWeight": "400",
+            "lineHeight": "28.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(34, 34, 34)"
+          },
+          {
+            "tag": "h3",
+            "text": "Am 27. Juni 2026 ist Tag der offenen Tü…",
+            "selector": "header > h3",
+            "fontFamily": "BundesSerifWeb, Georgia, \"Times New Roman\", serif",
+            "fontSize": "22px",
+            "fontWeight": "400",
+            "lineHeight": "28.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(34, 34, 34)"
+          }
+        ],
+        "text": [
+          {
+            "tag": "p",
+            "text": "Bereits seit über 50 Jahren geben wir B…",
+            "selector": "#bsa-content > div:nth-of-type(1) > div > article:nth-of-type(1) > a > div > p:nth-of-type(1)",
+            "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+            "fontSize": "15px",
+            "fontWeight": "400",
+            "lineHeight": "22.0001px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(34, 34, 34)"
+          },
+          {
+            "tag": "p",
+            "text": "Zwölf Rosensorten wurden prämiert und t…",
+            "selector": "#bsa-content > div:nth-of-type(1) > div > article:nth-of-type(2) > a > div > p:nth-of-type(1)",
+            "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+            "fontSize": "15px",
+            "fontWeight": "400",
+            "lineHeight": "22.0001px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(34, 34, 34)"
+          },
+          {
+            "tag": "p",
+            "text": "Bereits seit über 50 Jahren geben wir B…",
+            "selector": "#bsa-content > div:nth-of-type(1) > div > article:nth-of-type(3) > a > div > p:nth-of-type(1)",
+            "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+            "fontSize": "15px",
+            "fontWeight": "400",
+            "lineHeight": "22.0001px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(34, 34, 34)"
+          },
+          {
+            "tag": "p",
+            "text": "Bald ist es soweit: das Bundessortenamt…",
+            "selector": "#bsa-content > div:nth-of-type(1) > div > article:nth-of-type(4) > a > div > p:nth-of-type(1)",
+            "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+            "fontSize": "15px",
+            "fontWeight": "400",
+            "lineHeight": "22.0001px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(34, 34, 34)"
+          },
+          {
+            "tag": "p",
+            "text": "zum Archiv der Beiträge",
+            "selector": "#bsa-content > div:nth-of-type(2) > div > div > p",
+            "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+            "fontSize": "15px",
+            "fontWeight": "400",
+            "lineHeight": "22.0001px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(34, 34, 34)"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Direkt zur Hauptnavigation",
+            "selector": "#bsa-skiplinks > ul > li:nth-of-type(2) > a",
+            "count": 2,
+            "backgroundColor": "rgb(55, 55, 55)",
+            "color": "rgb(255, 255, 255)",
+            "borderRadius": "0px",
+            "padding": "10px 20px",
+            "border": "0px none rgb(255, 255, 255)",
+            "borderColor": "rgb(255, 255, 255)",
+            "boxShadow": "none",
+            "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": null
+          },
+          {
+            "text": "Stellenangebote",
+            "selector": "nav > ul > li:nth-of-type(1) > a",
+            "count": 4,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(67, 98, 19)",
+            "borderRadius": "0px",
+            "padding": "10px",
+            "border": "",
+            "borderColor": "rgb(204, 204, 204)",
+            "boxShadow": "none",
+            "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "700",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": {
+              "backgroundColor": "rgb(242, 242, 242)",
+              "color": "rgb(34, 34, 34)",
+              "borderColor": "rgb(204, 204, 204)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          }
+        ],
+        "links": [
+          {
+            "text": "11.11.2026 Pressemitteilung Die Beschre…",
+            "selector": "#bsa-content > div:nth-of-type(1) > div > article:nth-of-type(1) > a",
+            "count": 4,
+            "color": "rgb(34, 34, 34)",
+            "textDecoration": "none",
+            "fontWeight": "400",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(34, 34, 34)",
+              "borderColor": "rgb(34, 34, 34)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          },
+          {
+            "text": "zum Archiv der Beiträge",
+            "selector": "#bsa-content > div:nth-of-type(2) > div > div > p > a",
+            "count": 1,
+            "color": "rgb(67, 98, 19)",
+            "textDecoration": "none",
+            "fontWeight": "700",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(102, 102, 102)",
+              "borderColor": "rgb(102, 102, 102)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          }
+        ],
+        "surfaces": [
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 20,
+              "y": 16,
+              "w": 320,
+              "h": 131
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(34, 34, 34)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+            "fontSize": "15px"
+          },
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 143,
+              "y": 684,
+              "w": 197,
+              "h": 172
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(34, 34, 34)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+            "fontSize": "15px"
+          },
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 143,
+              "y": 1234,
+              "w": 197,
+              "h": 86
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(34, 34, 34)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+            "fontSize": "15px"
+          },
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 143,
+              "y": 1500,
+              "w": 197,
+              "h": 229
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(34, 34, 34)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+            "fontSize": "15px"
+          },
+          {
+            "matched": "nav",
+            "selector": "nav",
+            "rect": {
+              "x": 20,
+              "y": 2569,
+              "w": 320,
+              "h": 181
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(34, 34, 34)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+            "fontSize": "16px"
+          },
+          {
+            "matched": "nav",
+            "selector": "#bsa-footer-navigation",
+            "rect": {
+              "x": 20,
+              "y": 2905,
+              "w": 320,
+              "h": 44
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(102, 102, 102)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+            "fontSize": "15px"
+          },
+          {
+            "matched": "main",
+            "selector": "#bsa-content",
+            "rect": {
+              "x": 20,
+              "y": 649,
+              "w": 320,
+              "h": 1715
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(34, 34, 34)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+            "fontSize": "15px"
+          },
+          {
+            "matched": "footer",
+            "selector": "footer",
+            "rect": {
+              "x": 143,
+              "y": 665,
+              "w": 197,
+              "h": 19
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(102, 102, 102)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+            "fontSize": "13px"
+          },
+          {
+            "matched": "footer",
+            "selector": "footer",
+            "rect": {
+              "x": 143,
+              "y": 1215,
+              "w": 197,
+              "h": 19
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(102, 102, 102)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+            "fontSize": "13px"
+          },
+          {
+            "matched": "footer",
+            "selector": "footer",
+            "rect": {
+              "x": 143,
+              "y": 1481,
+              "w": 197,
+              "h": 19
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(102, 102, 102)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+            "fontSize": "13px"
+          },
+          {
+            "matched": "footer",
+            "selector": "footer",
+            "rect": {
+              "x": 143,
+              "y": 2089,
+              "w": 197,
+              "h": 19
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(102, 102, 102)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+            "fontSize": "13px"
+          },
+          {
+            "matched": "[role=\"contentinfo\"]",
+            "selector": "#bsa-footer",
+            "rect": {
+              "x": 0,
+              "y": 2850,
+              "w": 360,
+              "h": 159
+            },
+            "backgroundColor": "rgb(242, 242, 242)",
+            "color": "rgb(102, 102, 102)",
+            "padding": "20px 0px",
+            "maxWidth": "100%",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+            "fontSize": "15px"
+          },
+          {
+            "matched": "main > *",
+            "selector": "#bsa-content > div:nth-of-type(1)",
+            "rect": {
+              "x": 20,
+              "y": 649,
+              "w": 320,
+              "h": 1689
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(34, 34, 34)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+            "fontSize": "15px"
+          },
+          {
+            "matched": "main > *",
+            "selector": "#bsa-content > div:nth-of-type(2)",
+            "rect": {
+              "x": 20,
+              "y": 2342,
+              "w": 320,
+              "h": 22
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(34, 34, 34)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+            "fontSize": "15px"
+          }
+        ],
+        "radii": [
+          {
+            "value": "3px",
+            "count": 1,
+            "area": 3582,
+            "sources": [
+              "header > button"
+            ]
+          }
+        ],
+        "shadows": [],
+        "gradients": [],
+        "bgColors": [
+          {
+            "value": "rgb(55, 55, 55)",
+            "count": 3,
+            "area": 2400,
+            "sources": [
+              "#bsa-skiplinks > ul > li:nth-of-type(1) > a",
+              "#bsa-skiplinks > ul > li:nth-of-type(2) > a",
+              "#bsa-skiplinks > ul > li:nth-of-type(3) > a"
+            ]
+          },
+          {
+            "value": "rgb(67, 98, 19)",
+            "count": 2,
+            "area": 208114,
+            "sources": [
+              "body > div > section",
+              "#bsa-stage--label-1"
+            ]
+          },
+          {
+            "value": "rgb(97, 79, 60)",
+            "count": 2,
+            "area": 66510,
+            "sources": [
+              "#bsa-stage--label-2",
+              "#bsa-stage--label-3"
+            ]
+          },
+          {
+            "value": "rgb(241, 241, 241)",
+            "count": 2,
+            "area": 4180,
+            "sources": [
+              "#bsa-stage--panel-1 > a > div",
+              "#bsa-stage--panel-1 > a > div > span"
+            ]
+          },
+          {
+            "value": "rgb(242, 242, 242)",
+            "count": 1,
+            "area": 57386,
+            "sources": [
+              "#bsa-footer"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 1,
+            "area": 3582,
+            "sources": [
+              "header > button"
+            ]
+          }
+        ],
+        "textColors": [
+          {
+            "value": "rgb(67, 98, 19)",
+            "count": 13,
+            "sources": [
+              "footer > p:nth-of-type(2)",
+              "#bsa-content > div:nth-of-type(1) > div > article:nth-of-type(1) > a > div > p:nth-of-type(2)",
+              "footer > p:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(102, 102, 102)",
+            "count": 9,
+            "sources": [
+              "footer > p:nth-of-type(1) > time",
+              "footer > p:nth-of-type(1) > time",
+              "footer > p:nth-of-type(1) > time"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 9,
+            "sources": [
+              "#bsa-skiplinks > ul > li:nth-of-type(1) > a",
+              "#bsa-skiplinks > ul > li:nth-of-type(2) > a",
+              "#bsa-skiplinks > ul > li:nth-of-type(3) > a"
+            ]
+          },
+          {
+            "value": "rgb(34, 34, 34)",
+            "count": 9,
+            "sources": [
+              "#bsa-stage--panel-1 > a > div > span",
+              "header > h3",
+              "#bsa-content > div:nth-of-type(1) > div > article:nth-of-type(1) > a > div > p:nth-of-type(1)"
+            ]
+          }
+        ],
+        "borderColors": [
+          {
+            "value": "rgb(204, 204, 204)",
+            "count": 5,
+            "sources": [
+              "header > button",
+              "nav > ul > li:nth-of-type(1) > a",
+              "nav > ul > li:nth-of-type(2) > a"
+            ]
+          },
+          {
+            "value": "rgb(102, 102, 102)",
+            "count": 3,
+            "sources": [
+              "#bsa-content > div:nth-of-type(1) > div > article:nth-of-type(2)",
+              "#bsa-content > div:nth-of-type(1) > div > article:nth-of-type(3)",
+              "#bsa-content > div:nth-of-type(1) > div > article:nth-of-type(4)"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 3,
+            "sources": [
+              "#bsa-stage--label-1",
+              "#bsa-stage--label-2",
+              "#bsa-stage--label-3"
+            ]
+          },
+          {
+            "value": "rgb(185, 72, 0)",
+            "count": 1,
+            "sources": [
+              "body > div"
+            ]
+          }
+        ],
+        "customProps": {},
+        "fonts": [
+          {
+            "family": "BundesSansWeb",
+            "weight": "400",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "BundesSansWeb",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "BundesSansWeb",
+            "weight": "700",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "BundesSansWeb",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "BundesSerifWeb",
+            "weight": "400",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "BundesSerifWeb",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          }
+        ],
+        "logoCandidates": [
+          {
+            "tag": "img",
+            "selector": "header > div:nth-of-type(2) > img",
+            "src": "https://www.bundessortenamt.de/bsa/typo3conf/ext/nn_bsa_base/Resources/Public/Images/logo-bsa.svg",
+            "inlineSvg": false,
+            "alt": "Logo Bundessortenamt",
+            "ariaLabel": null,
+            "class": "bsa-logo__image",
+            "id": null,
+            "href": null,
+            "inHomeLink": false,
+            "rect": {
+              "x": 20,
+              "y": 16,
+              "w": 180,
+              "h": 116
+            }
+          }
+        ],
+        "iconFont": null,
+        "consent": {
+          "dismissed": null
+        },
+        "finalUrl": "https://www.bundessortenamt.de/bsa/"
+      },
+      "1440": {
+        "title": "Bundessortenamt: Start",
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "elements": {
+          "total": 321,
+          "visible": 164
+        },
+        "occluders": [],
+        "headings": [
+          {
+            "tag": "h3",
+            "text": "Die Beschreibende Sortenliste Futtergrä…",
+            "selector": "header > h3",
+            "fontFamily": "BundesSerifWeb, Georgia, \"Times New Roman\", serif",
+            "fontSize": "22px",
+            "fontWeight": "400",
+            "lineHeight": "28.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(34, 34, 34)"
+          },
+          {
+            "tag": "h3",
+            "text": "ADR-Rosen 2026: Ein ausgezeichnetes Dut…",
+            "selector": "header > h3",
+            "fontFamily": "BundesSerifWeb, Georgia, \"Times New Roman\", serif",
+            "fontSize": "22px",
+            "fontWeight": "400",
+            "lineHeight": "28.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(34, 34, 34)"
+          },
+          {
+            "tag": "h3",
+            "text": "Die Beschreibende Sortenliste Getreide,…",
+            "selector": "header > h3",
+            "fontFamily": "BundesSerifWeb, Georgia, \"Times New Roman\", serif",
+            "fontSize": "22px",
+            "fontWeight": "400",
+            "lineHeight": "28.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(34, 34, 34)"
+          },
+          {
+            "tag": "h3",
+            "text": "Am 27. Juni 2026 ist Tag der offenen Tü…",
+            "selector": "header > h3",
+            "fontFamily": "BundesSerifWeb, Georgia, \"Times New Roman\", serif",
+            "fontSize": "22px",
+            "fontWeight": "400",
+            "lineHeight": "28.6px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(34, 34, 34)"
+          }
+        ],
+        "text": [
+          {
+            "tag": "p",
+            "text": "Bereits seit über 50 Jahren geben wir B…",
+            "selector": "#bsa-content > div:nth-of-type(1) > div > article:nth-of-type(1) > a > div > p:nth-of-type(1)",
+            "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+            "fontSize": "15px",
+            "fontWeight": "400",
+            "lineHeight": "22.0001px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(34, 34, 34)"
+          },
+          {
+            "tag": "p",
+            "text": "Zwölf Rosensorten wurden prämiert und t…",
+            "selector": "#bsa-content > div:nth-of-type(1) > div > article:nth-of-type(2) > a > div > p:nth-of-type(1)",
+            "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+            "fontSize": "15px",
+            "fontWeight": "400",
+            "lineHeight": "22.0001px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(34, 34, 34)"
+          },
+          {
+            "tag": "p",
+            "text": "Bereits seit über 50 Jahren geben wir B…",
+            "selector": "#bsa-content > div:nth-of-type(1) > div > article:nth-of-type(3) > a > div > p:nth-of-type(1)",
+            "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+            "fontSize": "15px",
+            "fontWeight": "400",
+            "lineHeight": "22.0001px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(34, 34, 34)"
+          },
+          {
+            "tag": "p",
+            "text": "Bald ist es soweit: das Bundessortenamt…",
+            "selector": "#bsa-content > div:nth-of-type(1) > div > article:nth-of-type(4) > a > div > p:nth-of-type(1)",
+            "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+            "fontSize": "15px",
+            "fontWeight": "400",
+            "lineHeight": "22.0001px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(34, 34, 34)"
+          },
+          {
+            "tag": "p",
+            "text": "zum Archiv der Beiträge",
+            "selector": "#bsa-content > div:nth-of-type(2) > div > div > p",
+            "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+            "fontSize": "15px",
+            "fontWeight": "400",
+            "lineHeight": "22.0001px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(34, 34, 34)"
+          }
+        ],
+        "buttons": [
+          {
+            "text": "Direkt zur Hauptnavigation",
+            "selector": "#bsa-skiplinks > ul > li:nth-of-type(2) > a",
+            "count": 2,
+            "backgroundColor": "rgb(55, 55, 55)",
+            "color": "rgb(255, 255, 255)",
+            "borderRadius": "0px",
+            "padding": "10px 20px",
+            "border": "0px none rgb(255, 255, 255)",
+            "borderColor": "rgb(255, 255, 255)",
+            "boxShadow": "none",
+            "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": null
+          },
+          {
+            "text": "Stellenangebote",
+            "selector": "nav > ul > li:nth-of-type(1) > a",
+            "count": 4,
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(67, 98, 19)",
+            "borderRadius": "0px",
+            "padding": "10px",
+            "border": "",
+            "borderColor": "rgb(204, 204, 204)",
+            "boxShadow": "none",
+            "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "700",
+            "textTransform": "none",
+            "letterSpacing": "normal",
+            "hover": {
+              "backgroundColor": "rgb(242, 242, 242)",
+              "color": "rgb(34, 34, 34)",
+              "borderColor": "rgb(204, 204, 204)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          }
+        ],
+        "links": [
+          {
+            "text": "11.11.2026 Pressemitteilung Die Beschre…",
+            "selector": "#bsa-content > div:nth-of-type(1) > div > article:nth-of-type(1) > a",
+            "count": 4,
+            "color": "rgb(34, 34, 34)",
+            "textDecoration": "none",
+            "fontWeight": "400",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(34, 34, 34)",
+              "borderColor": "rgb(34, 34, 34)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          },
+          {
+            "text": "zum Archiv der Beiträge",
+            "selector": "#bsa-content > div:nth-of-type(2) > div > div > p > a",
+            "count": 1,
+            "color": "rgb(67, 98, 19)",
+            "textDecoration": "none",
+            "fontWeight": "700",
+            "hover": {
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(102, 102, 102)",
+              "borderColor": "rgb(102, 102, 102)",
+              "boxShadow": "none",
+              "changed": true
+            }
+          }
+        ],
+        "surfaces": [
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 240,
+              "y": 16,
+              "w": 960,
+              "h": 208
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(34, 34, 34)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+            "fontSize": "15px"
+          },
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 484,
+              "y": 610,
+              "w": 391,
+              "h": 86
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(34, 34, 34)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+            "fontSize": "15px"
+          },
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 484,
+              "y": 942,
+              "w": 391,
+              "h": 57
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(34, 34, 34)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+            "fontSize": "15px"
+          },
+          {
+            "matched": "header",
+            "selector": "header",
+            "rect": {
+              "x": 484,
+              "y": 1157,
+              "w": 391,
+              "h": 114
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(34, 34, 34)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+            "fontSize": "15px"
+          },
+          {
+            "matched": "nav",
+            "selector": "nav",
+            "rect": {
+              "x": 739,
+              "y": 34,
+              "w": 463,
+              "h": 31
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(102, 102, 102)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "absolute",
+            "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+            "fontSize": "13px"
+          },
+          {
+            "matched": "nav",
+            "selector": "#bsa-main-navigation",
+            "rect": {
+              "x": 240,
+              "y": 156,
+              "w": 968,
+              "h": 68
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(76, 76, 76)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "relative",
+            "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+            "fontSize": "16px"
+          },
+          {
+            "matched": "nav",
+            "selector": "nav",
+            "rect": {
+              "x": 907,
+              "y": 717,
+              "w": 293,
+              "h": 181
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(34, 34, 34)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+            "fontSize": "16px"
+          },
+          {
+            "matched": "nav",
+            "selector": "#bsa-footer-navigation",
+            "rect": {
+              "x": 611,
+              "y": 1853,
+              "w": 347,
+              "h": 22
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(102, 102, 102)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+            "fontSize": "15px"
+          },
+          {
+            "matched": "main",
+            "selector": "#bsa-content",
+            "rect": {
+              "x": 240,
+              "y": 574,
+              "w": 635,
+              "h": 1157
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(34, 34, 34)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+            "fontSize": "15px"
+          },
+          {
+            "matched": "footer",
+            "selector": "footer",
+            "rect": {
+              "x": 484,
+              "y": 590,
+              "w": 391,
+              "h": 19
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(102, 102, 102)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+            "fontSize": "13px"
+          },
+          {
+            "matched": "footer",
+            "selector": "footer",
+            "rect": {
+              "x": 484,
+              "y": 923,
+              "w": 391,
+              "h": 19
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(102, 102, 102)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+            "fontSize": "13px"
+          },
+          {
+            "matched": "footer",
+            "selector": "footer",
+            "rect": {
+              "x": 484,
+              "y": 1138,
+              "w": 391,
+              "h": 19
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(102, 102, 102)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+            "fontSize": "13px"
+          },
+          {
+            "matched": "footer",
+            "selector": "footer",
+            "rect": {
+              "x": 484,
+              "y": 1499,
+              "w": 391,
+              "h": 19
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(102, 102, 102)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+            "fontSize": "13px"
+          },
+          {
+            "matched": "[role=\"contentinfo\"]",
+            "selector": "#bsa-footer",
+            "rect": {
+              "x": 0,
+              "y": 1831,
+              "w": 1440,
+              "h": 66
+            },
+            "backgroundColor": "rgb(242, 242, 242)",
+            "color": "rgb(102, 102, 102)",
+            "padding": "20px 0px",
+            "maxWidth": "100%",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+            "fontSize": "15px"
+          },
+          {
+            "matched": "main > *",
+            "selector": "#bsa-content > div:nth-of-type(1)",
+            "rect": {
+              "x": 240,
+              "y": 574,
+              "w": 635,
+              "h": 1123
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(34, 34, 34)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+            "fontSize": "15px"
+          },
+          {
+            "matched": "main > *",
+            "selector": "#bsa-content > div:nth-of-type(2)",
+            "rect": {
+              "x": 240,
+              "y": 1702,
+              "w": 635,
+              "h": 22
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(34, 34, 34)",
+            "padding": "0px",
+            "maxWidth": "none",
+            "borderRadius": "0px",
+            "boxShadow": "none",
+            "position": "static",
+            "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+            "fontSize": "15px"
+          }
+        ],
+        "radii": [],
+        "shadows": [],
+        "gradients": [],
+        "bgColors": [
+          {
+            "value": "rgb(55, 55, 55)",
+            "count": 3,
+            "area": 2400,
+            "sources": [
+              "#bsa-skiplinks > ul > li:nth-of-type(1) > a",
+              "#bsa-skiplinks > ul > li:nth-of-type(2) > a",
+              "#bsa-skiplinks > ul > li:nth-of-type(3) > a"
+            ]
+          },
+          {
+            "value": "rgb(67, 98, 19)",
+            "count": 2,
+            "area": 495476,
+            "sources": [
+              "body > div > section",
+              "#bsa-stage > ul > li:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(242, 242, 242)",
+            "count": 2,
+            "area": 104161,
+            "sources": [
+              "#bsa-searchbox",
+              "#bsa-footer"
+            ]
+          },
+          {
+            "value": "rgb(97, 79, 60)",
+            "count": 2,
+            "area": 69396,
+            "sources": [
+              "#bsa-stage > ul > li:nth-of-type(2)",
+              "#bsa-stage > ul > li:nth-of-type(3)"
+            ]
+          },
+          {
+            "value": "rgb(241, 241, 241)",
+            "count": 2,
+            "area": 6375,
+            "sources": [
+              "#bsa-stage--panel-1 > a > div",
+              "#bsa-stage--panel-1 > a > div > span"
+            ]
+          }
+        ],
+        "textColors": [
+          {
+            "value": "rgb(102, 102, 102)",
+            "count": 14,
+            "sources": [
+              "nav > ul > li:nth-of-type(1) > a",
+              "nav > ul > li:nth-of-type(2) > a",
+              "nav > ul > li:nth-of-type(3) > a"
+            ]
+          },
+          {
+            "value": "rgb(67, 98, 19)",
+            "count": 13,
+            "sources": [
+              "footer > p:nth-of-type(2)",
+              "#bsa-content > div:nth-of-type(1) > div > article:nth-of-type(1) > a > div > p:nth-of-type(2)",
+              "footer > p:nth-of-type(2)"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 9,
+            "sources": [
+              "#bsa-skiplinks > ul > li:nth-of-type(1) > a",
+              "#bsa-skiplinks > ul > li:nth-of-type(2) > a",
+              "#bsa-skiplinks > ul > li:nth-of-type(3) > a"
+            ]
+          },
+          {
+            "value": "rgb(34, 34, 34)",
+            "count": 9,
+            "sources": [
+              "#bsa-stage--panel-1 > a > div > span",
+              "header > h3",
+              "#bsa-content > div:nth-of-type(1) > div > article:nth-of-type(1) > a > div > p:nth-of-type(1)"
+            ]
+          },
+          {
+            "value": "rgb(76, 76, 76)",
+            "count": 6,
+            "sources": [
+              "#bsa-main-navigation > ul > li:nth-of-type(1) > a > span",
+              "#bsa-main-navigation > ul > li:nth-of-type(2) > a > span",
+              "#bsa-main-navigation > ul > li:nth-of-type(3) > a > span"
+            ]
+          }
+        ],
+        "borderColors": [
+          {
+            "value": "rgb(204, 204, 204)",
+            "count": 5,
+            "sources": [
+              "#bsa-searchbox",
+              "nav > ul > li:nth-of-type(1) > a",
+              "nav > ul > li:nth-of-type(2) > a"
+            ]
+          },
+          {
+            "value": "rgb(102, 102, 102)",
+            "count": 3,
+            "sources": [
+              "#bsa-content > div:nth-of-type(1) > div > article:nth-of-type(2)",
+              "#bsa-content > div:nth-of-type(1) > div > article:nth-of-type(3)",
+              "#bsa-content > div:nth-of-type(1) > div > article:nth-of-type(4)"
+            ]
+          },
+          {
+            "value": "rgb(255, 255, 255)",
+            "count": 2,
+            "sources": [
+              "#bsa-stage--label-2",
+              "#bsa-stage--label-3"
+            ]
+          },
+          {
+            "value": "rgb(185, 72, 0)",
+            "count": 1,
+            "sources": [
+              "body > div"
+            ]
+          }
+        ],
+        "customProps": {},
+        "fonts": [
+          {
+            "family": "BundesSansWeb",
+            "weight": "400",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "BundesSansWeb",
+            "weight": "400",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "BundesSansWeb",
+            "weight": "700",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "BundesSansWeb",
+            "weight": "700",
+            "style": "italic",
+            "status": "unloaded"
+          },
+          {
+            "family": "BundesSerifWeb",
+            "weight": "400",
+            "style": "normal",
+            "status": "loaded"
+          },
+          {
+            "family": "BundesSerifWeb",
+            "weight": "700",
+            "style": "normal",
+            "status": "unloaded"
+          }
+        ],
+        "logoCandidates": [
+          {
+            "tag": "img",
+            "selector": "header > div:nth-of-type(2) > img",
+            "src": "https://www.bundessortenamt.de/bsa/typo3conf/ext/nn_bsa_base/Resources/Public/Images/logo-bsa.svg",
+            "inlineSvg": false,
+            "alt": "Logo Bundessortenamt",
+            "ariaLabel": null,
+            "class": "bsa-logo__image",
+            "id": null,
+            "href": null,
+            "inHomeLink": false,
+            "rect": {
+              "x": 240,
+              "y": 16,
+              "w": 270,
+              "h": 174
+            }
+          }
+        ],
+        "iconFont": null,
+        "consent": {
+          "dismissed": null
+        },
+        "finalUrl": "https://www.bundessortenamt.de/bsa/"
+      }
+    }
+  },
+  "aggregate": {
+    "counts": {
+      "pages": 1,
+      "widths": [
+        360,
+        1440
+      ],
+      "measurements": 2
+    },
+    "colors": [
+      {
+        "hex": "#436213",
+        "values": [
+          "rgb(67, 98, 19)"
+        ],
+        "weight": 40,
+        "bgArea": 703590,
+        "by": {
+          "text": 26,
+          "button-text": 8,
+          "background": 4,
+          "link": 2
+        },
+        "roles": [
+          "background",
+          "text"
+        ],
+        "sources": [
+          {
+            "url": "https://www.bundessortenamt.de/bsa/",
+            "selector": "footer > p:nth-of-type(2)",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.bundessortenamt.de/bsa/",
+            "selector": "nav > ul > li:nth-of-type(1) > a",
+            "prop": "button-text"
+          },
+          {
+            "url": "https://www.bundessortenamt.de/bsa/",
+            "selector": "body > div > section",
+            "prop": "background"
+          },
+          {
+            "url": "https://www.bundessortenamt.de/bsa/",
+            "selector": "#bsa-content > div:nth-of-type(2) > div > div > p > a",
+            "prop": "link"
+          }
+        ]
+      },
+      {
+        "hex": "#222222",
+        "values": [
+          "rgb(34, 34, 34)"
+        ],
+        "weight": 34,
+        "by": {
+          "text": 18,
+          "link": 8,
+          "heading": 8
+        },
+        "roles": [
+          "accent",
+          "heading"
+        ],
+        "sources": [
+          {
+            "url": "https://www.bundessortenamt.de/bsa/",
+            "selector": "#bsa-stage--panel-1 > a > div > span",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.bundessortenamt.de/bsa/",
+            "selector": "#bsa-content > div:nth-of-type(1) > div > article:nth-of-type(1) > a",
+            "prop": "link"
+          },
+          {
+            "url": "https://www.bundessortenamt.de/bsa/",
+            "selector": "header > h3",
+            "prop": "heading"
+          }
+        ]
+      },
+      {
+        "hex": "#373737",
+        "values": [
+          "rgb(55, 55, 55)"
+        ],
+        "weight": 10,
+        "bgArea": 4800,
+        "by": {
+          "background": 6,
+          "button-background": 4
+        },
+        "roles": [
+          "primary"
+        ],
+        "sources": [
+          {
+            "url": "https://www.bundessortenamt.de/bsa/",
+            "selector": "#bsa-skiplinks > ul > li:nth-of-type(1) > a",
+            "prop": "background"
+          },
+          {
+            "url": "https://www.bundessortenamt.de/bsa/",
+            "selector": "#bsa-skiplinks > ul > li:nth-of-type(2) > a",
+            "prop": "button-background"
+          }
+        ]
+      },
+      {
+        "hex": "#cccccc",
+        "values": [
+          "rgb(204, 204, 204)"
+        ],
+        "weight": 10,
+        "by": {
+          "border": 10
+        },
+        "roles": [
+          "border"
+        ],
+        "sources": [
+          {
+            "url": "https://www.bundessortenamt.de/bsa/",
+            "selector": "#bsa-searchbox",
+            "prop": "border"
+          },
+          {
+            "url": "https://www.bundessortenamt.de/bsa/",
+            "selector": "header > button",
+            "prop": "border"
+          }
+        ]
+      },
+      {
+        "hex": "#f2f2f2",
+        "values": [
+          "rgb(242, 242, 242)",
+          "rgb(241, 241, 241)"
+        ],
+        "weight": 7,
+        "bgArea": 172102,
+        "by": {
+          "background": 7
+        },
+        "roles": [
+          "surface"
+        ],
+        "sources": [
+          {
+            "url": "https://www.bundessortenamt.de/bsa/",
+            "selector": "#bsa-searchbox",
+            "prop": "background"
+          },
+          {
+            "url": "https://www.bundessortenamt.de/bsa/",
+            "selector": "#bsa-stage--panel-1 > a > div",
+            "prop": "background"
+          },
+          {
+            "url": "https://www.bundessortenamt.de/bsa/",
+            "selector": "#bsa-footer",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#ffffff",
+        "values": [
+          "rgb(255, 255, 255)"
+        ],
+        "weight": 31,
+        "bgArea": 3582,
+        "by": {
+          "text": 18,
+          "border": 5,
+          "button-text": 4,
+          "background": 1,
+          "heading": 3
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.bundessortenamt.de/bsa/",
+            "selector": "#bsa-skiplinks > ul > li:nth-of-type(1) > a",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.bundessortenamt.de/bsa/",
+            "selector": "#bsa-stage--label-1",
+            "prop": "border"
+          },
+          {
+            "url": "https://www.bundessortenamt.de/bsa/",
+            "selector": "#bsa-stage--label-2",
+            "prop": "border"
+          },
+          {
+            "url": "https://www.bundessortenamt.de/bsa/",
+            "selector": "#bsa-skiplinks > ul > li:nth-of-type(2) > a",
+            "prop": "button-text"
+          },
+          {
+            "url": "https://www.bundessortenamt.de/bsa/",
+            "selector": "header > button",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#666666",
+        "values": [
+          "rgb(102, 102, 102)"
+        ],
+        "weight": 29,
+        "by": {
+          "text": 23,
+          "border": 6
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.bundessortenamt.de/bsa/",
+            "selector": "nav > ul > li:nth-of-type(1) > a",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.bundessortenamt.de/bsa/",
+            "selector": "footer > p:nth-of-type(1) > time",
+            "prop": "text"
+          },
+          {
+            "url": "https://www.bundessortenamt.de/bsa/",
+            "selector": "#bsa-content > div:nth-of-type(1) > div > article:nth-of-type(2)",
+            "prop": "border"
+          }
+        ]
+      },
+      {
+        "hex": "#4c4c4c",
+        "values": [
+          "rgb(76, 76, 76)"
+        ],
+        "weight": 6,
+        "by": {
+          "text": 6
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.bundessortenamt.de/bsa/",
+            "selector": "#bsa-main-navigation > ul > li:nth-of-type(1) > a > span",
+            "prop": "text"
+          }
+        ]
+      },
+      {
+        "hex": "#614f3c",
+        "values": [
+          "rgb(97, 79, 60)"
+        ],
+        "weight": 4,
+        "bgArea": 135906,
+        "by": {
+          "background": 4
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.bundessortenamt.de/bsa/",
+            "selector": "#bsa-stage > ul > li:nth-of-type(2)",
+            "prop": "background"
+          },
+          {
+            "url": "https://www.bundessortenamt.de/bsa/",
+            "selector": "#bsa-stage--label-2",
+            "prop": "background"
+          }
+        ]
+      },
+      {
+        "hex": "#b94800",
+        "values": [
+          "rgb(185, 72, 0)"
+        ],
+        "weight": 2,
+        "by": {
+          "border": 2
+        },
+        "roles": [],
+        "sources": [
+          {
+            "url": "https://www.bundessortenamt.de/bsa/",
+            "selector": "body > div",
+            "prop": "border"
+          }
+        ]
+      }
+    ],
+    "type": {
+      "families": [
+        {
+          "family": "BundesSansWeb",
+          "count": 22,
+          "headings": 0,
+          "text": 10,
+          "buttons": 12
+        },
+        {
+          "family": "BundesSerifWeb",
+          "count": 11,
+          "headings": 11,
+          "text": 0,
+          "buttons": 0
+        }
+      ],
+      "headingFamily": "BundesSerifWeb",
+      "bodyFamily": "BundesSansWeb",
+      "sizes": [
+        {
+          "px": 22,
+          "count": 11,
+          "headings": 11,
+          "text": 0,
+          "buttons": 0
+        },
+        {
+          "px": 16,
+          "count": 12,
+          "headings": 0,
+          "text": 0,
+          "buttons": 12
+        },
+        {
+          "px": 15,
+          "count": 10,
+          "headings": 0,
+          "text": 10,
+          "buttons": 0
+        }
+      ],
+      "weights": [
+        {
+          "weight": "400",
+          "count": 25,
+          "headings": 11,
+          "text": 10,
+          "buttons": 4
+        },
+        {
+          "weight": "700",
+          "count": 8,
+          "headings": 0,
+          "text": 0,
+          "buttons": 8
+        }
+      ],
+      "levels": {
+        "h3": {
+          "fontSize": 22,
+          "fontWeight": "400",
+          "count": 11,
+          "score": 72.97
+        }
+      }
+    },
+    "motifs": {
+      "radius": {
+        "mode": "3px",
+        "areaMode": "3px",
+        "pill": null,
+        "values": [
+          {
+            "value": "3px",
+            "count": 1,
+            "area": 3582,
+            "sources": [
+              {
+                "url": "https://www.bundessortenamt.de/bsa/",
+                "selector": "header > button"
+              }
+            ]
+          }
+        ]
+      },
+      "shadows": [],
+      "gradients": []
+    },
+    "hover": [
+      {
+        "kind": "button",
+        "from": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(67, 98, 19)"
+        },
+        "to": {
+          "backgroundColor": "rgb(242, 242, 242)",
+          "color": "rgb(34, 34, 34)"
+        },
+        "count": 2,
+        "sources": [
+          {
+            "url": "https://www.bundessortenamt.de/bsa/",
+            "selector": "nav > ul > li:nth-of-type(1) > a"
+          },
+          {
+            "url": "https://www.bundessortenamt.de/bsa/",
+            "selector": "nav > ul > li:nth-of-type(1) > a"
+          }
+        ]
+      },
+      {
+        "kind": "link",
+        "from": {
+          "color": "rgb(67, 98, 19)"
+        },
+        "to": {
+          "color": "rgb(102, 102, 102)"
+        },
+        "count": 2,
+        "sources": [
+          {
+            "url": "https://www.bundessortenamt.de/bsa/",
+            "selector": "#bsa-content > div:nth-of-type(2) > div > div > p > a"
+          },
+          {
+            "url": "https://www.bundessortenamt.de/bsa/",
+            "selector": "#bsa-content > div:nth-of-type(2) > div > div > p > a"
+          }
+        ]
+      }
+    ],
+    "logo": {
+      "source": "img",
+      "url": "https://www.bundessortenamt.de/bsa/",
+      "width": 1440,
+      "selector": "header > div:nth-of-type(2) > img",
+      "src": "https://www.bundessortenamt.de/bsa/typo3conf/ext/nn_bsa_base/Resources/Public/Images/logo-bsa.svg",
+      "alt": "Logo Bundessortenamt",
+      "rect": {
+        "x": 240,
+        "y": 16,
+        "w": 270,
+        "h": 174
+      },
+      "inHomeLink": false
+    },
+    "iconFont": null
+  }
+}

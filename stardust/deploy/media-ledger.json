@@ -1,0 +1,122 @@
+{
+  "media/chrome/csm_LI-In-Bug_19170b81c9.png": {
+    "status": "uploaded",
+    "file": "stardust/.work/chrome-media/csm_LI-In-Bug_19170b81c9.png",
+    "size": 964,
+    "sha256": "d99db11f265e5a17ad89d9517599a3006a7ca84d071acb0d2ff7cfecd685e3ab",
+    "contentType": "image/png",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/4f3d7fd3/media/chrome/csm_LI-In-Bug_19170b81c9.png",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-17T13:49:29.004Z"
+  },
+  "media/chrome/logo-bsa.svg": {
+    "status": "uploaded",
+    "file": "stardust/.work/chrome-media/logo-bsa.svg",
+    "size": 28824,
+    "sha256": "aa6e563befd36201e49a949dfc51609b5e1ad39f16fa7f13725beb9188bdbdb8",
+    "contentType": "image/svg+xml",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/4f3d7fd3/media/chrome/logo-bsa.svg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-17T13:49:29.665Z"
+  },
+  "media/bsa/csm_20260627_TDOT_Termin_27619de047.jpg": {
+    "status": "uploaded",
+    "file": "stardust/.work/bsa-media/csm_20260627_TDOT_Termin_27619de047.jpg",
+    "size": 13086,
+    "sha256": "9e0f3f182cb4d911e8196b373b0069956faa1e9d7c62f57da293538d7027345f",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/4f3d7fd3/media/bsa/csm_20260627_TDOT_Termin_27619de047.jpg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-17T14:05:27.322Z"
+  },
+  "media/bsa/csm_Buehne_Getreidefeld_reif_7b02d50ef7.jpg": {
+    "status": "uploaded",
+    "file": "stardust/.work/bsa-media/csm_Buehne_Getreidefeld_reif_7b02d50ef7.jpg",
+    "size": 102381,
+    "sha256": "7f2df3a5721900055b764ee7157bfa71d2cb3c7783c7c09ce6c72fa2dc44ab99",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/4f3d7fd3/media/bsa/csm_Buehne_Getreidefeld_reif_7b02d50ef7.jpg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-17T14:05:27.908Z"
+  },
+  "media/bsa/csm_ADR_Rosen_2026_b4b75c655a.jpg": {
+    "status": "uploaded",
+    "file": "stardust/.work/bsa-media/csm_ADR_Rosen_2026_b4b75c655a.jpg",
+    "size": 25812,
+    "sha256": "1f3f0abcd27e722e1a03c485281aece22009128a97ea5ab56949c08da89caa91",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/4f3d7fd3/media/bsa/csm_ADR_Rosen_2026_b4b75c655a.jpg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-17T14:05:27.964Z"
+  },
+  "media/bsa/csm_Sortenschutz_Zierpflanzen_e3c98c3ee5.jpg": {
+    "status": "uploaded",
+    "file": "stardust/.work/bsa-media/csm_Sortenschutz_Zierpflanzen_e3c98c3ee5.jpg",
+    "size": 112146,
+    "sha256": "6e0e8055dbffb9ffe05ac35c65484fa900c2fa3733a7d1d8a5d5a6e644bc2a3a",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/4f3d7fd3/media/bsa/csm_Sortenschutz_Zierpflanzen_e3c98c3ee5.jpg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-17T14:05:28.022Z"
+  },
+  "media/bsa/csm_BSL_Getreide_2026_Deckblatt_893a699c00.jpg": {
+    "status": "uploaded",
+    "file": "stardust/.work/bsa-media/csm_BSL_Getreide_2026_Deckblatt_893a699c00.jpg",
+    "size": 7152,
+    "sha256": "d9d602841251a8f7c4f9bf62dfd70602fb98c17beb31ea97bf7488ab67ad7e15",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/4f3d7fd3/media/bsa/csm_BSL_Getreide_2026_Deckblatt_893a699c00.jpg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-17T14:05:28.221Z"
+  },
+  "media/bsa/csm_bsl_futtergraeser_deckblatt_2026_ede6e10b42.jpg": {
+    "status": "uploaded",
+    "file": "stardust/.work/bsa-media/csm_bsl_futtergraeser_deckblatt_2026_ede6e10b42.jpg",
+    "size": 4796,
+    "sha256": "4ea7d536567a6b71a8bae89e59d88ffa97531cc3f2c8c6722b146fad7d87a6a5",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/4f3d7fd3/media/bsa/csm_bsl_futtergraeser_deckblatt_2026_ede6e10b42.jpg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-17T14:05:28.475Z"
+  },
+  "media/bsa/csm_hasloch-trecker_4408f54a76.jpg": {
+    "status": "uploaded",
+    "file": "stardust/.work/bsa-media/csm_hasloch-trecker_4408f54a76.jpg",
+    "size": 91062,
+    "sha256": "2834c86c7bce08be9c736037367148df595a784f47cc415e75fec6b48efb75c7",
+    "contentType": "image/jpeg",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/4f3d7fd3/media/bsa/csm_hasloch-trecker_4408f54a76.jpg",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-17T14:05:28.495Z"
+  },
+  "media/bsa/logo-bmleh.png": {
+    "status": "uploaded",
+    "file": "stardust/.work/bsa-media/logo-bmleh.png",
+    "size": 174757,
+    "sha256": "f604ab19a1bbaa7aa1ebbbddda7f0419e6338a176ecd919bef5010c73a72514e",
+    "contentType": "image/png",
+    "source": null,
+    "contentUrl": "https://content.da.live/aemcoder/4f3d7fd3/media/bsa/logo-bmleh.png",
+    "httpStatus": 201,
+    "attempts": 1,
+    "ts": "2026-11-17T14:05:28.626Z"
+  }
+}

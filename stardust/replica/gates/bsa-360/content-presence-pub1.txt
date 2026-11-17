@@ -1,0 +1,22 @@
+[live-session] waiting to pace live navigations to www.bundessortenamt.de (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+content-presence @ 360px (chrome) — origin https://www.bundessortenamt.de/bsa/ (docH 3009, 33 items, HTTP 200) vs served https://main--4f3d7fd3--aemcoder.aem.page/bsa/ (docH 3009, 34 items, HTTP 200)
+scope: main#bsa-content vs main#bsa-content (header/footer left to the chrome crop gate; --chrome to include)
+| band | heading | links O/E (+hidden) | buttons O/E (+hidden) | text O/E | images O/E | findings |
+|---|---|---|---|---|---|---|
+| 0 | (top) | 1/1 | 0/0 | 0/0 | 1/2 | - |
+| 1 | die beschreibende sortenliste futtergräs | 1/1 | 0/0 | 0/0 | 1/1 | - |
+| 2 | adr-rosen 2026: ein ausgezeichnetes dutz | 1/1 | 0/0 | 0/0 | 1/1 | - |
+| 3 | die beschreibende sortenliste getreide,  | 1/1 | 0/0 | 0/0 | 1/1 | - |
+| 4 | am 27. juni 2026 ist tag der offenen tür | 1/6 | 0/0 | 0/0 | 0/1 | EXTRA LINK |
+  🟡 EXTRA HEADING: served h3 "sorten schützen sichert das geistige eigentum an pflanzenzüchtungen" (y 147) has no origin heading
+  🟡 EXTRA HEADING: served h3 "sorten zulassen so wird saatgutqualität gesichert" (y 434) has no origin heading
+  🟡 EXTRA HEADING: served h3 "unsere standorte an diesen orten prüfen wir" (y 541) has no origin heading
+  🟡 EXTRA LINK: "bundesministerium für landwirtschaft, ernährung und heimat" served in band "am 27. juni 2026 ist tag der offenen tür in hannover", no origin link or button
+  🟡 EXTRA LINK: "stellenangebote" served in band "am 27. juni 2026 ist tag der offenen tür in hannover", no origin link or button
+  🟡 EXTRA LINK: "antragsformulare" served in band "am 27. juni 2026 ist tag der offenen tür in hannover", no origin link or button
+  🟡 EXTRA LINK: "sorteninformationen - zur datenbank" served in band "am 27. juni 2026 ist tag der offenen tür in hannover", no origin link or button
+  🟡 EXTRA LINK: "deutsche genbank zierpflanzen" served in band "am 27. juni 2026 ist tag der offenen tür in hannover", no origin link or button
+Content: MISSING 0 (headings 0, links 0) / HIDDEN 0 (headings 0, links 0) / control-state 0 / buttons missing 0 hidden 0 / moved 0 extra 5 / count deltas 0
+Findings: 8 (0 structural 🔴)
+Clipped (served side): 0 — origin side 0
+json → stardust/replica/gates/bsa-360/content-presence-pub1.json

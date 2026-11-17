@@ -1,0 +1,544 @@
+{
+  "url": "https://www.bundessortenamt.de/bsa/",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "bsa-banner",
+      "position": "relative",
+      "height": "208px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 5
+    },
+    {
+      "y": 0,
+      "cls": "bsa-banner",
+      "position": "relative",
+      "height": "208px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 5
+    },
+    {
+      "y": 998,
+      "cls": "bsa-banner",
+      "position": "relative",
+      "height": "208px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 5
+    },
+    {
+      "y": 998,
+      "cls": "bsa-banner",
+      "position": "relative",
+      "height": "208px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 5
+    },
+    {
+      "y": 800,
+      "cls": "bsa-banner",
+      "position": "relative",
+      "height": "208px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 5
+    },
+    {
+      "y": 500,
+      "cls": "bsa-banner",
+      "position": "relative",
+      "height": "208px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 5
+    },
+    {
+      "y": 300,
+      "cls": "bsa-banner",
+      "position": "relative",
+      "height": "208px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 5
+    },
+    {
+      "y": 200,
+      "cls": "bsa-banner",
+      "position": "relative",
+      "height": "208px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 5
+    },
+    {
+      "y": 150,
+      "cls": "bsa-banner",
+      "position": "relative",
+      "height": "208px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 5
+    },
+    {
+      "y": 120,
+      "cls": "bsa-banner",
+      "position": "relative",
+      "height": "208px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 5
+    },
+    {
+      "y": 90,
+      "cls": "bsa-banner",
+      "position": "relative",
+      "height": "208px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 5
+    },
+    {
+      "y": 60,
+      "cls": "bsa-banner",
+      "position": "relative",
+      "height": "208px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 5
+    },
+    {
+      "y": 30,
+      "cls": "bsa-banner",
+      "position": "relative",
+      "height": "208px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 5
+    },
+    {
+      "y": 0,
+      "cls": "bsa-banner",
+      "position": "relative",
+      "height": "208px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 5
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".bsa-stage__tab:nth-child(2)",
+      "frames": [
+        {
+          "t": 16150,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 16353.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 16554.800000000047,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 16757.700000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".bsa-stage__tab:nth-child(3)",
+      "frames": [
+        {
+          "t": 17766,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 17968.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 18171.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 18373.90000000014,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".bsa-main-navigation__item",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(76, 76, 76)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.bsa-main-navigation-item--page-17",
+            "transform": "none",
+            "color": "rgb(76, 76, 76)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.bsa-main-navigation__sub-item--page-81",
+            "transform": "none",
+            "color": "rgb(76, 76, 76)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.bsa-main-navigation__sub-item--page-131",
+            "transform": "none",
+            "color": "rgb(76, 76, 76)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.bsa-main-navigation__sub-item--page-82",
+            "transform": "none",
+            "color": "rgb(76, 76, 76)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.bsa-main-navigation__sub-item--page-84",
+            "transform": "none",
+            "color": "rgb(76, 76, 76)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(76, 76, 76)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.bsa-main-navigation-item--page-17",
+            "transform": "none",
+            "color": "rgb(76, 76, 76)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.bsa-main-navigation__sub-item--page-81",
+            "transform": "none",
+            "color": "rgb(76, 76, 76)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.bsa-main-navigation__sub-item--page-131",
+            "transform": "none",
+            "color": "rgb(76, 76, 76)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.bsa-main-navigation__sub-item--page-82",
+            "transform": "none",
+            "color": "rgb(76, 76, 76)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.bsa-main-navigation__sub-item--page-84",
+            "transform": "none",
+            "color": "rgb(76, 76, 76)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".bsa-teaser",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(34, 34, 34)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.bsa-teaser__link",
+            "transform": "none",
+            "color": "rgb(34, 34, 34)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "img.bsa-teaser__image",
+            "transform": "none",
+            "color": "rgb(34, 34, 34)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "h3.",
+            "transform": "none",
+            "color": "rgb(34, 34, 34)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "font-size 0.5s ease-in-out"
+          },
+          {
+            "el": "p.bsa-icon.bsa-icon--arrow-right",
+            "transform": "none",
+            "color": "rgb(67, 98, 19)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(34, 34, 34)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.bsa-teaser__link",
+            "transform": "none",
+            "color": "rgb(34, 34, 34)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "img.bsa-teaser__image",
+            "transform": "none",
+            "color": "rgb(34, 34, 34)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "h3.",
+            "transform": "none",
+            "color": "rgb(34, 34, 34)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "font-size 0.5s ease-in-out"
+          },
+          {
+            "el": "p.bsa-icon.bsa-icon--arrow-right",
+            "transform": "none",
+            "color": "rgb(67, 98, 19)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".bsa-shortcut-link",
+      "changed": [
+        "a.bsa-icon.bsa-icon--arrow-right.color",
+        "a.bsa-icon.bsa-icon--arrow-right.background"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(34, 34, 34)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.bsa-icon.bsa-icon--arrow-right",
+            "transform": "none",
+            "color": "rgb(67, 98, 19)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(34, 34, 34)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.bsa-icon.bsa-icon--arrow-right",
+            "transform": "none",
+            "color": "rgb(34, 34, 34)",
+            "background": "rgb(242, 242, 242)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [],
+    "classMutations": [
+      {
+        "added": [
+          "hidden"
+        ],
+        "el": "div.bsa-page > section.bsa-area.bsa-area--highlight > div.bsa-container > div.bsa-stage.js-bsa-stage.bsa-stage--initialised > div.bsa-stage__panel.hidden",
+        "y": 0
+      },
+      {
+        "added": [
+          "bsa-stage--active"
+        ],
+        "el": "section.bsa-area.bsa-area--highlight > div.bsa-container > div.bsa-stage.js-bsa-stage.bsa-stage--initialised > ul.bsa-stage__items.bsa-stage__tabs > li.bsa-stage__item.bsa-stage__tab.bsa-stage--active",
+        "y": 0
+      },
+      {
+        "added": [
+          "hidden"
+        ],
+        "el": "div.bsa-page > section.bsa-area.bsa-area--highlight > div.bsa-container > div.bsa-stage.js-bsa-stage.bsa-stage--initialised > div.bsa-stage__panel.hidden",
+        "y": 41
+      },
+      {
+        "added": [
+          "bsa-stage--active"
+        ],
+        "el": "section.bsa-area.bsa-area--highlight > div.bsa-container > div.bsa-stage.js-bsa-stage.bsa-stage--initialised > ul.bsa-stage__items.bsa-stage__tabs > li.bsa-stage__item.bsa-stage__tab.bsa-stage--active",
+        "y": 41
+      }
+    ]
+  }
+}

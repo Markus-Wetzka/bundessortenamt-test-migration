@@ -1,0 +1,391 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-17T13:17:48.383Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "bsa",
+  "url": "https://www.bundessortenamt.de/bsa/",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-11-17T13:17:48.383Z",
+  "finalUrl": "https://www.bundessortenamt.de/bsa/",
+  "title": "Bundessortenamt: Start",
+  "description": "Offizielle Internetseite des Bundessortenamtes (BSA); Bundesoberbehörde im Geschäftsbereich des Bundesministeriums für Ernährung und Landwirtschaft",
+  "og": {
+    "title": "Start - Bundessortenamt",
+    "description": "Offizielle Internetseite des Bundessortenamtes (BSA); Bundesoberbehörde im Geschäftsbereich des Bundesministeriums für Ernährung und Landwirtschaft",
+    "image": null,
+    "type": "website"
+  },
+  "headings": [
+    {
+      "tag": "h3",
+      "text": "Die Beschreibende Sortenliste Futtergräser, Esparsette, Klee, Luzerne 2026 ist erschienen"
+    },
+    {
+      "tag": "h3",
+      "text": "ADR-Rosen 2026: Ein ausgezeichnetes Dutzend"
+    },
+    {
+      "tag": "h3",
+      "text": "Die Beschreibende Sortenliste Getreide, Mais, Öl- und Faserpflanzen, Leguminosen, Rüben, Zwischenfrüchte 2026 ist erschienen"
+    },
+    {
+      "tag": "h3",
+      "text": "Am 27. Juni 2026 ist Tag der offenen Tür in Hannover"
+    }
+  ],
+  "body": [
+    "11.11.2026",
+    "Pressemitteilung",
+    "Bereits seit über 50 Jahren geben wir Beschreibende Sortenlisten mit wertvollen Informationen für Anbau, Beratung, Handel, Verbraucherinnen und Verbraucher heraus. Die neue Ausgabe der BSL Futtergräser, Esparsette, Klee, Luzerne 2026 kann nun als PDF heruntergeladen und als Druckversion bestellt…",
+    "Weiterlesen",
+    "09.11.2026",
+    "Aktuelles",
+    "Zwölf Rosensorten wurden prämiert und tragen nun das ADR-Gütezeichen",
+    "Weiterlesen",
+    "29.07.2026",
+    "Pressemitteilung",
+    "Bereits seit über 50 Jahren geben wir Beschreibende Sortenlisten mit wertvollen Informationen für Anbau, Beratung, Handel, Verbraucherinnen und Verbraucher heraus. Die neue Ausgabe der BSL Getreide, Mais, Öl- und Faserpflanzen, Leguminosen, Rüben, Zwischenfrüchte kann nun als PDF heruntergeladen…",
+    "Weiterlesen",
+    "22.06.2026",
+    "Pressemitteilung",
+    "Bald ist es soweit: das Bundessortenamt lädt herzlich zum Tag der offenen Tür ein!",
+    "Weiterlesen",
+    "zum Archiv der Beiträge"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Direkt zum Inhalt (Navigation überspringen)",
+      "href": "#bsa-content"
+    },
+    {
+      "label": "Direkt zur Hauptnavigation",
+      "href": "#bsa-main-navigation"
+    },
+    {
+      "label": "Direkt zum Seitenfuß",
+      "href": "#bsa-footer"
+    },
+    {
+      "label": "English",
+      "href": "/bsa/en/"
+    },
+    {
+      "label": "Presse",
+      "href": "/bsa/presse-und-oeffentlichkeitsarbeit"
+    },
+    {
+      "label": "Kontakt",
+      "href": "/bsa/das-bsa/wir-ueber-uns/kontakt"
+    },
+    {
+      "label": "Gebärdensprache",
+      "href": "/bsa/das-bsa/wir-ueber-uns/gebaerdensprache-video"
+    },
+    {
+      "label": "Leichte Sprache",
+      "href": "/bsa/das-bsa/wir-ueber-uns/leichte-sprache"
+    },
+    {
+      "label": "Suchen",
+      "href": null
+    },
+    {
+      "label": "Das BSA open",
+      "href": "/bsa/das-bsa"
+    },
+    {
+      "label": "open",
+      "href": null
+    },
+    {
+      "label": "Sorten open",
+      "href": "/bsa/sorten"
+    },
+    {
+      "label": "open",
+      "href": null
+    },
+    {
+      "label": "Saatgut open",
+      "href": "/bsa/saatgut"
+    },
+    {
+      "label": "open",
+      "href": null
+    },
+    {
+      "label": "Pflanzengenetische Ressourcen open",
+      "href": "/bsa/pflanzengenetische-ressourcen"
+    },
+    {
+      "label": "open",
+      "href": null
+    },
+    {
+      "label": "Antrag­steller open",
+      "href": "/bsa/antragsteller"
+    },
+    {
+      "label": "open",
+      "href": null
+    },
+    {
+      "label": "Prüfungs­ansteller open",
+      "href": "/bsa/pruefungsansteller"
+    },
+    {
+      "label": "open",
+      "href": null
+    },
+    {
+      "label": "Weiterlesen",
+      "href": "/bsa/sorten/sortenschutz"
+    },
+    {
+      "label": "11.11.2026 Pressemitteilung Die Beschreibende Sortenliste Futtergräser, Esparsette, Klee, Luzerne 2026 ist erschienen Bereits seit über 50 Jahren geben wir Beschreibende Sortenlisten mit wertvollen Informationen für Anbau, Beratung, Handel, Verbraucherinnen und Verbraucher heraus. Die neue Ausgabe der BSL Futtergräser, Esparsette, Klee, Luzerne 2026 kann nun als PDF heruntergeladen und als Druckversion bestellt… Weiterlesen",
+      "href": "/bsa/aktuell/die-beschreibende-sortenliste-futtergraeser-esparsette-klee-luzerne-2026-ist-erschienen"
+    },
+    {
+      "label": "09.11.2026 Aktuelles ADR-Rosen 2026: Ein ausgezeichnetes Dutzend Zwölf Rosensorten wurden prämiert und tragen nun das ADR-Gütezeichen Weiterlesen",
+      "href": "/bsa/aktuell/adr-rosen-2026-ein-ausgezeichnetes-dutzend"
+    },
+    {
+      "label": "29.07.2026 Pressemitteilung Die Beschreibende Sortenliste Getreide, Mais, Öl- und Faserpflanzen, Leguminosen, Rüben, Zwischenfrüchte 2026 ist erschienen Bereits seit über 50 Jahren geben wir Beschreibende Sortenlisten mit wertvollen Informationen für Anbau, Beratung, Handel, Verbraucherinnen und Verbraucher heraus. Die neue Ausgabe der BSL Getreide, Mais, Öl- und Faserpflanzen, Leguminosen, Rüben, Zwischenfrüchte kann nun als PDF heruntergeladen… Weiterlesen",
+      "href": "/bsa/aktuell/die-beschreibende-sortenliste-getreide-mais-oel-und-faserpflanzen-leguminosen-rueben-zwischenfruechte-2026-ist-erschienen"
+    },
+    {
+      "label": "22.06.2026 Pressemitteilung Am 27. Juni 2026 ist Tag der offenen Tür in Hannover Bald ist es soweit: das Bundessortenamt lädt herzlich zum Tag der offenen Tür ein! Weiterlesen",
+      "href": "/bsa/aktuell/am-27-juni-2026-ist-tag-der-offenen-tuer-in-hannover"
+    },
+    {
+      "label": "zum Archiv der Beiträge",
+      "href": "/bsa/presse-und-oeffentlichkeitsarbeit/pressemitteilungen"
+    },
+    {
+      "label": "Stellenangebote",
+      "href": "/bsa/das-bsa/karriere"
+    },
+    {
+      "label": "Antragsformulare",
+      "href": "/bsa/form-sz"
+    },
+    {
+      "label": "Sorteninformationen - zur Datenbank",
+      "href": "/bsa/sorten/datenbanken"
+    },
+    {
+      "label": "Deutsche Genbank Zierpflanzen",
+      "href": "/bsa/pflanzengenetische-ressourcen/deutsche-genbank-zierpflanzen/datenbanken-deutsche-genbank-zierpflanzen"
+    },
+    {
+      "label": "Impressum",
+      "href": "/bsa/impressum"
+    },
+    {
+      "label": "Datenschutz",
+      "href": "/bsa/datenschutz"
+    },
+    {
+      "label": "Barrierefreiheit",
+      "href": "/bsa/barrierefreiheit"
+    },
+    {
+      "label": "Sitemap",
+      "href": "/bsa/sitemap"
+    }
+  ],
+  "links": [
+    "https://www.bundessortenamt.de/bsa/#bsa-content",
+    "https://www.bundessortenamt.de/bsa/#bsa-main-navigation",
+    "https://www.bundessortenamt.de/bsa/#bsa-footer",
+    "https://www.bundessortenamt.de/bsa/en/",
+    "https://www.bundessortenamt.de/bsa/presse-und-oeffentlichkeitsarbeit",
+    "https://www.bundessortenamt.de/bsa/das-bsa/wir-ueber-uns/kontakt",
+    "https://www.bundessortenamt.de/bsa/das-bsa/wir-ueber-uns/gebaerdensprache-video",
+    "https://www.bundessortenamt.de/bsa/das-bsa/wir-ueber-uns/leichte-sprache",
+    "https://www.bundessortenamt.de/bsa/das-bsa",
+    "https://www.bundessortenamt.de/bsa/das-bsa/wir-ueber-uns",
+    "https://www.bundessortenamt.de/bsa/das-bsa/aufgaben",
+    "https://www.bundessortenamt.de/bsa/das-bsa/organisation",
+    "https://www.bundessortenamt.de/bsa/das-bsa/nationale-zusammenarbeit",
+    "https://www.bundessortenamt.de/bsa/das-bsa/internationale-zusammenarbeit",
+    "https://www.bundessortenamt.de/bsa/das-bsa/rechtliche-grundlagen",
+    "https://www.bundessortenamt.de/bsa/das-bsa/emfa",
+    "https://www.bundessortenamt.de/bsa/das-bsa/adressen-anfahrt",
+    "https://www.bundessortenamt.de/bsa/das-bsa/karriere",
+    "https://www.bundessortenamt.de/bsa/sorten",
+    "https://www.bundessortenamt.de/bsa/sorten/sortenschutz",
+    "https://www.bundessortenamt.de/bsa/sorten/sortenzulassung",
+    "https://www.bundessortenamt.de/bsa/sorten/datenbanken",
+    "https://www.bundessortenamt.de/bsa/sorten/beschreibung-der-neuzulassungen",
+    "https://www.bundessortenamt.de/bsa/sorten/beschreibende-sortenlisten",
+    "https://www.bundessortenamt.de/bsa/sorten/blatt-fuer-sortenwesen",
+    "https://www.bundessortenamt.de/bsa/saatgut",
+    "https://www.bundessortenamt.de/bsa/saatgut/nationale-angelegenheiten",
+    "https://www.bundessortenamt.de/bsa/saatgut/eu-und-internationale-angelegenheiten",
+    "https://www.bundessortenamt.de/bsa/saatgut/internationale-projekte",
+    "https://www.bundessortenamt.de/bsa/saatgut/statistiken-saatguterzeugung",
+    "https://www.bundessortenamt.de/bsa/saatgut/ausnahmeregelungen-inverkehrbringen-von-saatgut",
+    "https://www.bundessortenamt.de/bsa/saatgut/oekologisches-heterogenes-material",
+    "https://www.bundessortenamt.de/bsa/saatgut/anmeldung-anerkennungsstellen-und-saatgutverkehrskontrollstellen",
+    "https://www.bundessortenamt.de/bsa/pflanzengenetische-ressourcen",
+    "https://www.bundessortenamt.de/bsa/pflanzengenetische-ressourcen/deutsche-genbank-zierpflanzen",
+    "https://www.bundessortenamt.de/bsa/pflanzengenetische-ressourcen/deutsche-genbank-obst",
+    "https://www.bundessortenamt.de/bsa/pflanzengenetische-ressourcen/deutsche-genbank-reben",
+    "https://www.bundessortenamt.de/bsa/antragsteller",
+    "https://www.bundessortenamt.de/bsa/antragsteller/wichtige-bekanntmachungen",
+    "https://www.bundessortenamt.de/bsa/antragsteller/antrags-und-vorlagetermine",
+    "https://www.bundessortenamt.de/bsa/antragsteller/antragsformulare",
+    "https://www.bundessortenamt.de/bsa/antragsteller/sonstige-formulare",
+    "https://www.bundessortenamt.de/bsa/antragsteller/hinweise-antragsteller",
+    "https://www.bundessortenamt.de/bsa/antragsteller/gebuehren",
+    "https://www.bundessortenamt.de/bsa/antragsteller/berichte-der-wertpruefung",
+    "https://www.bundessortenamt.de/bsa/antragsteller/schutz-und-zulassungsurkunden",
+    "https://www.bundessortenamt.de/bsa/antragsteller/eignungspruefung-fuer-rasengraeser",
+    "https://www.bundessortenamt.de/bsa/antragsteller/vordrucke-oecd-saatgutsysteme",
+    "https://www.bundessortenamt.de/bsa/antragsteller/zugang-zu-nachkontrollergebnissen",
+    "https://www.bundessortenamt.de/bsa/pruefungsansteller",
+    "https://www.bundessortenamt.de/bsa/pruefungsansteller/anbaulisten",
+    "https://www.bundessortenamt.de/bsa/pruefungsansteller/berichte-der-wertpruefung",
+    "https://www.bundessortenamt.de/bsa/pruefungsansteller/piaf",
+    "https://www.bundessortenamt.de/bsa/pruefungsansteller/richtlinien",
+    "https://www.bundessortenamt.de/bsa/pruefungsansteller/formulare",
+    "https://www.bundessortenamt.de/bsa/suche",
+    "https://www.bundessortenamt.de/bsa/aktuell/die-beschreibende-sortenliste-futtergraeser-esparsette-klee-luzerne-2026-ist-erschienen",
+    "https://www.bundessortenamt.de/bsa/aktuell/adr-rosen-2026-ein-ausgezeichnetes-dutzend",
+    "https://www.bundessortenamt.de/bsa/aktuell/die-beschreibende-sortenliste-getreide-mais-oel-und-faserpflanzen-leguminosen-rueben-zwischenfruechte-2026-ist-erschienen",
+    "https://www.bundessortenamt.de/bsa/aktuell/am-27-juni-2026-ist-tag-der-offenen-tuer-in-hannover",
+    "https://www.bundessortenamt.de/bsa/presse-und-oeffentlichkeitsarbeit/pressemitteilungen",
+    "https://www.bmel.de/",
+    "https://www.bundessortenamt.de/bsa/form-sz",
+    "https://www.bundessortenamt.de/bsa/pflanzengenetische-ressourcen/deutsche-genbank-zierpflanzen/datenbanken-deutsche-genbank-zierpflanzen",
+    "https://www.bundessortenamt.de/bsa/impressum",
+    "https://www.bundessortenamt.de/bsa/datenschutz",
+    "https://www.bundessortenamt.de/bsa/barrierefreiheit",
+    "https://www.bundessortenamt.de/bsa/sitemap",
+    "https://www.linkedin.com/company/bundessortenamt/"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.bundessortenamt.de/bsa/typo3conf/ext/nn_bsa_base/Resources/Public/Images/logo-bsa.svg",
+        "alt": "Logo Bundessortenamt",
+        "w": 161,
+        "h": 104
+      },
+      {
+        "src": "https://www.bundessortenamt.de/bsa/media/_processed_/4/6/csm_Sortenschutz_Zierpflanzen_e3c98c3ee5.jpg",
+        "alt": "Pflanzen aus der Registerprüfung der Beet- und Balkonpflanzen in Hannover",
+        "w": 704,
+        "h": 355
+      },
+      {
+        "src": "https://www.bundessortenamt.de/bsa/media/_processed_/c/b/csm_Buehne_Getreidefeld_reif_7b02d50ef7.jpg",
+        "alt": "Reifes Getreidefeld",
+        "w": 704,
+        "h": 355
+      },
+      {
+        "src": "https://www.bundessortenamt.de/bsa/media/_processed_/1/1/csm_hasloch-trecker_4408f54a76.jpg",
+        "alt": "Aussaat an der Prüfstelle Hassloch",
+        "w": 704,
+        "h": 355
+      },
+      {
+        "src": "https://www.bundessortenamt.de/bsa/media/_processed_/f/2/csm_bsl_futtergraeser_deckblatt_2026_ede6e10b42.jpg",
+        "alt": "",
+        "w": 202,
+        "h": 152
+      },
+      {
+        "src": "https://www.bundessortenamt.de/bsa/media/_processed_/d/1/csm_ADR_Rosen_2026_b4b75c655a.jpg",
+        "alt": "",
+        "w": 228,
+        "h": 152
+      },
+      {
+        "src": "https://www.bundessortenamt.de/bsa/media/_processed_/6/a/csm_BSL_Getreide_2026_Deckblatt_893a699c00.jpg",
+        "alt": "",
+        "w": 203,
+        "h": 152
+      },
+      {
+        "src": "https://www.bundessortenamt.de/bsa/media/_processed_/2/8/csm_20260627_TDOT_Termin_27619de047.jpg",
+        "alt": "",
+        "w": 228,
+        "h": 152
+      },
+      {
+        "src": "https://www.bundessortenamt.de/bsa/media/logo-bmleh.png",
+        "alt": "Bundesministerium für Landwirtschaft, Ernährung und Heimat",
+        "w": 4109,
+        "h": 2000
+      },
+      {
+        "src": "https://www.bundessortenamt.de/bsa/typo3temp/assets/_processed_/4/6/csm_LI-In-Bug_19170b81c9.png",
+        "alt": "LinkedIn",
+        "w": 28,
+        "h": 24
+      }
+    ],
+    "allImgCount": 10,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 4,
+    "mainTextLen": 1236,
+    "realImageCount": 10,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage",
+    "pageSize": {
+      "w": 1440,
+      "h": 1898
+    }
+  },
+  "dynamic": {
+    "endpoints": [],
+    "thirdPartyScriptHosts": [],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [],
+    "frameworkHints": [],
+    "forms": [
+      {
+        "action": "https://www.bundessortenamt.de/bsa/suche",
+        "hasAction": true,
+        "method": "post",
+        "sameOrigin": true,
+        "fieldCount": 1,
+        "fieldNames": [
+          "tx_indexedsearch_pi2[search][sword]"
+        ],
+        "search": false
+      }
+    ],
+    "ariaLiveRegions": 0,
+    "triggers": [],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 0,
+      "thirdPartyEndpoints": 0,
+      "thirdPartyScriptHosts": 0,
+      "inlineDataBlobs": 0,
+      "forms": 1,
+      "searchForms": 0,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/bsa.png",
+  "renderedHtml": "pages/bsa.html"
+}

@@ -1,0 +1,294 @@
+[live-session] waiting to pace live navigations to www.bundessortenamt.de (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 671 ms
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/bsa-1440/vdiff-iter1/
+
+build red flags (advisory): 
+  • HEADING FACE ×4: "Times New Roman" → "Liberation Serif" on every differing heading (source → build). A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 1157,
+  "textLen": 1272,
+  "images": [
+   {
+    "src": "logo-bsa.svg",
+    "natural": "161x104",
+    "rendered": "270x174",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "csm_Sortenschutz_Zierpflanzen_e3c98c3ee5.jpg",
+    "natural": "704x355",
+    "rendered": "635x320",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "csm_Buehne_Getreidefeld_reif_7b02d50ef7.jpg",
+    "natural": "704x355",
+    "rendered": "635x320",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "csm_hasloch-trecker_4408f54a76.jpg",
+    "natural": "704x355",
+    "rendered": "635x320",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "csm_bsl_futtergraeser_deckblatt_2026_ede6e10b42.jpg",
+    "natural": "202x152",
+    "rendered": "228x171",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "csm_ADR_Rosen_2026_b4b75c655a.jpg",
+    "natural": "228x152",
+    "rendered": "228x152",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "csm_BSL_Getreide_2026_Deckblatt_893a699c00.jpg",
+    "natural": "203x152",
+    "rendered": "228x171",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "csm_20260627_TDOT_Termin_27619de047.jpg",
+    "natural": "228x152",
+    "rendered": "228x152",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "logo-bmleh.png",
+    "natural": "4109x2000",
+    "rendered": "293x143",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "csm_LI-In-Bug_19170b81c9.png",
+    "natural": "28x24",
+    "rendered": "28x24",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h3",
+    "text": "Die Beschreibende Sortenliste Fu",
+    "color": "rgb(34, 34, 34)",
+    "fontSize": "22px",
+    "family": "Times New Roman",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "ADR-Rosen 2026: Ein ausgezeichne",
+    "color": "rgb(34, 34, 34)",
+    "fontSize": "22px",
+    "family": "Times New Roman",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Die Beschreibende Sortenliste Ge",
+    "color": "rgb(34, 34, 34)",
+    "fontSize": "22px",
+    "family": "Times New Roman",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Am 27. Juni 2026 ist Tag der off",
+    "color": "rgb(34, 34, 34)",
+    "fontSize": "22px",
+    "family": "Times New Roman",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Pressemitteilung",
+    "color": "rgb(67, 98, 19)"
+   },
+   {
+    "text": "Aktuelles",
+    "color": "rgb(67, 98, 19)"
+   },
+   {
+    "text": "Pressemitteilung",
+    "color": "rgb(67, 98, 19)"
+   },
+   {
+    "text": "Pressemitteilung",
+    "color": "rgb(67, 98, 19)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": []
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 1399,
+  "textLen": 1256,
+  "images": [
+   {
+    "src": "logo-bsa.svg",
+    "natural": "161x104",
+    "rendered": "270x174",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "csm_Sortenschutz_Zierpflanzen_e3c98c3ee5.jpg",
+    "natural": "704x355",
+    "rendered": "635x320",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "csm_Buehne_Getreidefeld_reif_7b02d50ef7.jpg",
+    "natural": "704x355",
+    "rendered": "635x320",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "csm_hasloch-trecker_4408f54a76.jpg",
+    "natural": "704x355",
+    "rendered": "635x320",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "csm_bsl_futtergraeser_deckblatt_2026_ede6e10b42.jpg",
+    "natural": "202x152",
+    "rendered": "228x171",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "csm_ADR_Rosen_2026_b4b75c655a.jpg",
+    "natural": "228x152",
+    "rendered": "228x152",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "csm_BSL_Getreide_2026_Deckblatt_893a699c00.jpg",
+    "natural": "203x152",
+    "rendered": "228x171",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "csm_20260627_TDOT_Termin_27619de047.jpg",
+    "natural": "228x152",
+    "rendered": "228x152",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "logo-bmleh.png",
+    "natural": "4109x2000",
+    "rendered": "293x143",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "csm_LI-In-Bug_19170b81c9.png",
+    "natural": "28x24",
+    "rendered": "28x24",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h3",
+    "text": "Die Beschreibende Sortenliste Fu",
+    "color": "rgb(34, 34, 34)",
+    "fontSize": "22px",
+    "family": "Liberation Serif",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "ADR-Rosen 2026: Ein ausgezeichne",
+    "color": "rgb(34, 34, 34)",
+    "fontSize": "22px",
+    "family": "Liberation Serif",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Die Beschreibende Sortenliste Ge",
+    "color": "rgb(34, 34, 34)",
+    "fontSize": "22px",
+    "family": "Liberation Serif",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Am 27. Juni 2026 ist Tag der off",
+    "color": "rgb(34, 34, 34)",
+    "fontSize": "22px",
+    "family": "Liberation Serif",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Pressemitteilung",
+    "color": "rgb(67, 98, 19)"
+   },
+   {
+    "text": "Aktuelles",
+    "color": "rgb(67, 98, 19)"
+   },
+   {
+    "text": "Pressemitteilung",
+    "color": "rgb(67, 98, 19)"
+   },
+   {
+    "text": "Pressemitteilung",
+    "color": "rgb(67, 98, 19)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": []
+ }
+}

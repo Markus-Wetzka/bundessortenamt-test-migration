@@ -1,0 +1,173 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics detect",
+  "writtenAt": "2026-11-17T14:32:41.809Z",
+  "settleMs": 5000,
+  "width": 1440,
+  "urls": [
+   "https://www.bundessortenamt.de/bsa/"
+  ]
+ },
+ "pages": {
+  "/bsa/": {
+   "url": "https://www.bundessortenamt.de/bsa/",
+   "status": 200,
+   "host": "www.bundessortenamt.de",
+   "title": "Bundessortenamt: Start",
+   "forms": [
+    {
+     "name": "",
+     "action": "https://www.bundessortenamt.de/bsa/suche",
+     "method": "post",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:tx_indexedsearch_pi2[search][sword]"
+     ],
+     "hidden": [
+      "tx_indexedsearch_pi2[action]",
+      "tx_indexedsearch_pi2[controller]",
+      "tx_indexedsearch_pi2[search][ext]",
+      "tx_indexedsearch_pi2[search][results]",
+      "tx_indexedsearch_pi2[search][_sections]",
+      "tx_indexedsearch_pi2[search][languageUid]",
+      "tx_indexedsearch_pi2[search][defaultOperand]",
+      "tx_indexedsearch_pi2[search][sortOrder]",
+      "tx_indexedsearch_pi2[search][searchType]"
+     ],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [],
+   "dialogs": [],
+   "dialogCount": 0,
+   "media": [],
+   "iframes": [],
+   "mounts": [],
+   "auth": [
+    "https://www.bundessortenamt.de/bsa/#bsa-content",
+    "https://www.bundessortenamt.de/bsa/#bsa-main-navigation",
+    "https://www.bundessortenamt.de/bsa/#bsa-footer",
+    "https://www.bundessortenamt.de/bsa/en/",
+    "https://www.bundessortenamt.de/bsa/presse-und-oeffentlichkeitsarbeit",
+    "https://www.bundessortenamt.de/bsa/das-bsa/wir-ueber-uns/kontakt",
+    "https://www.bundessortenamt.de/bsa/das-bsa/wir-ueber-uns/gebaerdensprache-video",
+    "https://www.bundessortenamt.de/bsa/das-bsa/wir-ueber-uns/leichte-sprache"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "de",
+    "hreflang": [
+     "de-DE",
+     "en-US",
+     "x-default"
+    ],
+    "switcher": []
+   },
+   "cms": {},
+   "framework": null,
+   "globals": [],
+   "clientRendered": [
+    {
+     "cls": "bsa-stage js-bsa-stage bsa-stage--initialised",
+     "attrs": [],
+     "text": "Sorten schützen-Sichert das geistige Eigentum an Pflanzenzüc"
+    }
+   ],
+   "listingCandidates": [
+    {
+     "cls": "news",
+     "cards": 4,
+     "sameSite": 4,
+     "hasDate": true
+    }
+   ],
+   "inlineScripts": 0,
+   "inlineFetch": false,
+   "mainText": 1236,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "www.bundessortenamt.de": 22
+   },
+   "thirdPartyHosts": [],
+   "scripts": [
+    "https://www.bundessortenamt.de/bsa/assets/js/head.js",
+    "https://www.bundessortenamt.de/bsa/assets/js/libs.js",
+    "https://www.bundessortenamt.de/bsa/assets/js/app.js"
+   ],
+   "firstPartyApi": [],
+   "thirdPartyXhr": [],
+   "postBodies": [],
+   "textAtLoad": 1236,
+   "mainEmptyAtLoad": false
+  }
+ },
+ "findings": [
+  {
+   "id": "cr-client-rendered-slot-bsa-stage-js-bsa-stage-bsa-stage-ini",
+   "class": "CR",
+   "feature": "client-rendered slot bsa-stage js-bsa-stage bsa-stage--initialised",
+   "hint": "client-rendered",
+   "evidence": [
+    "Sorten schützen-Sichert das geistige Eigentum an Pflanzenzüc"
+   ],
+   "pages": [
+    "/bsa/"
+   ]
+  },
+  {
+   "id": "i18n-locale-variants-de-de-en-us-x-default",
+   "class": "I18N",
+   "feature": "locale variants de-DE,en-US,x-default",
+   "hint": "locale",
+   "evidence": [],
+   "pages": [
+    "/bsa/"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-news-4-cards",
+   "class": "L",
+   "feature": "listing candidate news (4 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/bsa/"
+   ]
+  },
+  {
+   "id": "s-site-search-form-bsa-suche",
+   "class": "S",
+   "feature": "site search form → /bsa/suche",
+   "hint": "search",
+   "evidence": [
+    "text:tx_indexedsearch_pi2[search][sword]"
+   ],
+   "pages": [
+    "/bsa/"
+   ]
+  },
+  {
+   "id": "x-sign-in-account-links",
+   "class": "X",
+   "feature": "sign-in / account links",
+   "hint": "decided-out",
+   "evidence": [
+    "https://www.bundessortenamt.de/bsa/#bsa-content",
+    "https://www.bundessortenamt.de/bsa/#bsa-main-navigation",
+    "https://www.bundessortenamt.de/bsa/#bsa-footer",
+    "https://www.bundessortenamt.de/bsa/en/"
+   ],
+   "pages": [
+    "/bsa/"
+   ]
+  }
+ ]
+}

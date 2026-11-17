@@ -1,273 +1,429 @@
-/* header and nav layout */
-header .nav-wrapper {
-  background-color: var(--background-color);
-  width: 100%;
-  z-index: 2;
-  position: fixed;
-}
+/* Bundessortenamt header — values from stardust/prototypes/canon.css (mobile-first). */
+/* stylelint-disable no-descending-specificity -- rule order mirrors the approved canon cascade */
 
-header nav {
-  box-sizing: border-box;
-  display: grid;
-  grid-template:
-    'hamburger brand tools' var(--nav-height)
-    'sections sections sections' 1fr / auto 1fr auto;
-  align-items: center;
-  gap: 0 24px;
-  margin: auto;
-  max-width: 1248px;
-  height: var(--nav-height);
-  padding: 0 24px;
-  font-family: var(--body-font-family);
-}
-
-header nav[aria-expanded='true'] {
-  grid-template:
-    'hamburger brand' var(--nav-height)
-    'sections sections' 1fr
-    'tools tools' var(--nav-height) / auto 1fr;
-  overflow-y: auto;
-  min-height: 100dvh;
-}
-
-@media (width >= 900px) {
-  header .nav-wrapper {
-    position: relative;
-  }
-
-  header nav {
-    display: flex;
-    justify-content: space-between;
-    gap: 0 32px;
-    max-width: 1264px;
-    padding: 0 32px;
-  }
-}
-
-header nav p {
-  margin: 0;
-  line-height: 1;
-}
-
-header nav a:any-link {
-  color: currentcolor;
-}
-
-/* hamburger */
-header nav .nav-hamburger {
-  grid-area: hamburger;
-  height: 22px;
-  display: flex;
-  align-items: center;
-}
-
-header nav .nav-hamburger button {
-  height: 22px;
-  margin: 0;
-  border: 0;
-  border-radius: 0;
-  padding: 0;
-  background-color: var(--background-color);
-  color: inherit;
-  overflow: initial;
-  text-overflow: initial;
-  white-space: initial;
-}
-
-header nav .nav-hamburger-icon,
-header nav .nav-hamburger-icon::before,
-header nav .nav-hamburger-icon::after {
-  box-sizing: border-box;
-  display: block;
-  position: relative;
-  width: 20px;
-}
-
-header nav .nav-hamburger-icon::before,
-header nav .nav-hamburger-icon::after {
-  content: '';
-  position: absolute;
-  background: currentcolor;
-}
-
-header nav[aria-expanded='false'] .nav-hamburger-icon,
-header nav[aria-expanded='false'] .nav-hamburger-icon::before,
-header nav[aria-expanded='false'] .nav-hamburger-icon::after {
-  height: 2px;
-  border-radius: 2px;
-  background: currentcolor;
-}
-
-header nav[aria-expanded='false'] .nav-hamburger-icon::before {
-  top: -6px;
-}
-
-header nav[aria-expanded='false'] .nav-hamburger-icon::after {
-  top: 6px;
-}
-
-header nav[aria-expanded='true'] .nav-hamburger-icon {
-  height: 22px;
-}
-
-header nav[aria-expanded='true'] .nav-hamburger-icon::before,
-header nav[aria-expanded='true'] .nav-hamburger-icon::after {
-  top: 3px;
-  left: 1px;
-  transform: rotate(45deg);
-  transform-origin: 2px 1px;
-  width: 24px;
-  height: 2px;
-  border-radius: 2px;
-}
-
-header nav[aria-expanded='true'] .nav-hamburger-icon::after {
-  top: unset;
-  bottom: 3px;
-  transform: rotate(-45deg);
-}
-
-@media (width >= 900px) {
-  header nav .nav-hamburger {
-    display: none;
-    visibility: hidden;
-  }
-}
-
-/* brand */
-header .nav-brand {
-  grid-area: brand;
-  flex-basis: 128px;
-  font-size: var(--heading-font-size-s);
-  font-weight: 700;
-  line-height: 1;
-}
-
-header nav .nav-brand img {
-  width: 128px;
+/* once decorated, the banner sizes the header (the open mobile menu grows it) */
+body > header:has(.bsa-banner) {
   height: auto;
 }
 
-/* sections */
-header nav .nav-sections {
-  grid-area: sections;
-  flex: 1 1 auto;
-  display: none;
-  visibility: hidden;
-}
-
-header nav[aria-expanded='true'] .nav-sections {
-  display: block;
-  visibility: visible;
-  align-self: start;
-}
-
-header nav .nav-sections ul {
-  list-style: none;
-  padding-left: 0;
-  font-size: var(--body-font-size-s);
-}
-
-header nav .nav-sections ul > li {
-  font-weight: 500;
-}
-
-header nav .nav-sections .nav-drop > button {
-  all: unset;
-  display: inline-block;
+.header .bsa-banner {
   position: relative;
-  padding-right: 16px;
-  cursor: pointer;
+  float: left;
+  width: 100%;
 }
 
-header nav .nav-sections .nav-drop > button::after {
-  content: '';
-  position: absolute;
-  top: 0.5em;
-  right: 2px;
-  transform: rotate(135deg);
-  width: 6px;
-  height: 6px;
-  border: 2px solid currentcolor;
-  border-radius: 0 1px 0 0;
-  border-width: 2px 2px 0 0;
+.header .bsa-banner ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-header nav .nav-sections .nav-drop > button[aria-expanded='true']::after {
-  top: unset;
-  bottom: 0.5em;
-  transform: rotate(315deg);
+.header .bsa-banner a {
+  color: inherit;
+  text-decoration: none;
 }
 
-header nav .nav-sections .nav-drop > button:focus-visible {
-  outline: 2px solid currentcolor;
-  outline-offset: 2px;
+/* skip links */
+.header .bsa-skiplinks {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  font-size: 16px;
 }
 
-header nav .nav-sections ul > li > ul {
+.header .bsa-banner .bsa-skiplinks a {
+  display: block;
+  min-width: 40%;
+  margin: -40px 0 0;
+  padding: 10px 20px;
+  background: #373737;
+  color: #fff;
+  text-decoration: none;
+  transition: margin 0.5s ease-out, background 0.5s linear;
+}
+
+.header .bsa-banner .bsa-skiplinks a:focus {
+  background: var(--bsa-text);
   margin-top: 0;
 }
 
-header nav .nav-sections ul > li > ul > li {
-  font-weight: 400;
+/* meta navigation */
+.header .bsa-meta-navigation {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 18px;
+  margin-right: -2px;
+  text-align: right;
+  font-size: 13px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: var(--bsa-muted);
 }
 
-header nav .nav-sections .nav-drop > button[aria-expanded='false'] + ul {
+.header .bsa-meta-navigation-item {
+  display: inline-block;
+  margin-right: -4px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.header .bsa-meta-navigation-item a {
+  display: block;
+  margin-top: -18px;
+  padding: 18px 6px;
+  text-align: right;
+}
+
+.header .bsa-meta-navigation-item a:hover,
+.header .bsa-meta-navigation-item a:focus {
+  color: #000;
+  background: var(--bsa-surface);
+  text-decoration: underline;
+}
+
+.header .bsa-meta-navigation-item a.bsa-icon-hand {
+  padding-left: 0;
+  margin-left: 6px;
+  padding-bottom: 13px;
+}
+
+.header .bsa-meta-navigation-item a.bsa-icon-book {
+  padding-left: 0;
+  margin-left: 5px;
+  padding-bottom: 13px;
+}
+
+.header .bsa-meta-navigation-item a.bsa-icon-hand::before,
+.header .bsa-meta-navigation-item a.bsa-icon-book::before {
+  margin-left: -1px;
+  padding-left: 5px;
+  border-left: 1px solid var(--bsa-muted);
+}
+
+.header .bsa-meta-navigation-item a.bsa-icon-hand::before {
+  padding-right: 24px;
+}
+
+.header .bsa-meta-navigation-item a.bsa-icon-book::before {
+  padding-right: 20px;
+}
+
+/* authored :hand: / :book: markers — the sprite ::before paints the icon */
+.header .bsa-banner a .icon {
   display: none;
 }
 
-@media (width >= 900px) {
-  header nav .nav-sections {
-    display: block;
-    visibility: visible;
-    white-space: nowrap;
-  }
-
-  header nav .nav-sections ul {
-    display: flex;
-    gap: 24px;
-    margin: 0;
-  }
-
-  header nav .nav-sections .default-content-wrapper > ul > li {
-    flex: 0 1 auto;
-    position: relative;
-  }
-
-  header nav .nav-sections .default-content-wrapper > ul > li > ul {
-    display: none;
-    position: relative;
-  }
-
-  header nav .nav-sections .default-content-wrapper > ul > li > button[aria-expanded='true'] + ul {
-    display: block;
-    position: absolute;
-    left: -24px;
-    width: 200px;
-    top: 150%;
-    padding: 16px;
-    background-color: var(--light-color);
-    white-space: initial;
-  }
-
-  header nav .nav-sections .default-content-wrapper > ul > li > ul::before {
-    content: '';
-    position: absolute;
-    top: -8px;
-    left: 16px;
-    width: 0;
-    height: 0;
-    border-left: 8px solid transparent;
-    border-right: 8px solid transparent;
-    border-bottom: 8px solid var(--light-color);
-  }
-
-  header nav .nav-sections .default-content-wrapper > ul > li > ul > li {
-    padding: 8px 0;
-  }
+/* logo */
+.header .bsa-logo {
+  display: inline-block;
+  width: 28.125%;
+  min-width: 180px;
+  max-width: 270px;
+  min-height: 110px;
+  max-height: 165px;
+  margin-bottom: 1em;
 }
 
-/* tools */
-header nav .nav-tools {
-  grid-area: tools;
+.header .bsa-logo p {
+  margin: 0;
+}
+
+/* the page h1 adopted into the logo stays visually hidden */
+.header .bsa-logo h1 {
+  border: 0;
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.header .bsa-logo img {
+  width: 100%;
+  height: auto;
+}
+
+/* search box */
+.header .bsa-searchbox {
+  display: none;
+  background: var(--bsa-surface);
+  border: 1px solid var(--bsa-border);
+}
+
+.header .bsa-searchbox form {
+  margin: 0;
+}
+
+.header .bsa-searchbox-input {
+  width: 190px;
+  height: 35px;
+  margin-right: -4px;
+  padding: 0 10px;
+  border: 0;
+  background: transparent;
+}
+
+.header .bsa-searchbox-input::placeholder {
+  color: #474747;
+}
+
+.header .bsa-searchbox-input:focus {
+  border: 1px solid #5e7d2e;
+  outline: 1px solid #5e7d2e;
+  background-color: #fff;
+  color: var(--bsa-text);
+}
+
+.header .bsa-searchbox-button {
+  width: 35px;
+  height: 35px;
+  border: 0;
+  background: transparent;
+}
+
+/* main navigation — mobile drawer (base) */
+.header .bsa-main-navigation {
+  margin: 0 -20px;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.header .bsa-main-navigation em {
+  font-style: normal;
+}
+
+.header .bsa-main-navigation br {
+  display: none;
+}
+
+.header .bsa-main-navigation-sub {
+  display: none;
+  background-color: #eee;
+}
+
+.header .bsa-main-navigation-item-open .bsa-main-navigation-sub {
+  display: block;
+}
+
+.header .bsa-main-navigation-item > a,
+.header .bsa-main-navigation-sub-item > a {
+  position: relative;
+  display: block;
+  padding: 10px 20px 14px;
+  border-style: solid;
+  border-color: var(--bsa-border);
+  border-width: 1px 0;
+  color: var(--bsa-text);
+}
+
+.header .bsa-main-navigation-item + .bsa-main-navigation-item > a,
+.header .bsa-main-navigation-sub-item:first-child > a {
+  border-top: 0;
+}
+
+.header .bsa-main-navigation-item-meta {
+  font-family: var(--bsa-sans);
+}
+
+.header .bsa-main-navigation-item-meta > a {
+  background: #efefef;
+  padding: 6px 20px 8px;
+  font-size: 14px;
+}
+
+.header .bsa-main-navigation-expand-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  display: block;
+  width: 42px;
+  height: 100%;
+  background: transparent;
+  border: 0;
+  border-left: 1px solid var(--bsa-border);
+  color: var(--bsa-muted);
+}
+
+.header .bsa-main-navigation-expand-button::after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 16px;
+  border: 5px solid transparent;
+  border-top-color: inherit;
+}
+
+.header .bsa-main-navigation-item-open .bsa-main-navigation-expand-button {
+  height: 102%;
+  background: var(--bsa-surface);
+  border-bottom: 1px solid var(--bsa-surface);
+}
+
+.header .bsa-main-navigation-sub-item > a {
+  background: var(--bsa-surface);
+  padding-left: 40px;
+  border-left: 4px solid var(--bsa-border);
+}
+
+.header .bsa-main-navigation-toggle-button {
+  position: absolute;
+  top: 44px;
+  right: 0;
+  min-width: 42px;
+  min-height: 42px;
+  padding: 0 13px;
+  background: #fff;
+  border: 1px solid var(--bsa-border);
+  border-radius: 3px;
+  font-weight: 700;
+}
+
+.header .bsa-main-navigation-toggle-button:hover,
+.header .bsa-main-navigation-toggle-button:focus {
+  background: var(--bsa-surface);
+}
+
+.header .bsa-main-navigation-toggle-button::after {
+  content: "Menü \00a0\2630";
+}
+
+/* desktop: meta row, search box, hover dropdowns */
+@media (width >= 768px) {
+  .header .bsa-meta-navigation {
+    display: block;
+  }
+
+  .header .bsa-banner-mr {
+    position: absolute;
+    top: 65px;
+    right: 0;
+  }
+
+  .header .bsa-searchbox {
+    display: block;
+  }
+
+  .header .bsa-main-navigation {
+    position: relative;
+    z-index: 3;
+    margin: -40px -8px 0 0;
+    color: var(--bsa-nav-text);
+    text-align: right;
+  }
+
+  .header .bsa-main-navigation br {
+    display: revert;
+  }
+
+  .header .bsa-main-navigation-item {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .header .bsa-main-navigation-item > a,
+  .header .bsa-main-navigation-sub-item > a {
+    position: static;
+    border: 0;
+    color: inherit;
+    background: none;
+  }
+
+  .header .bsa-main-navigation-item > a {
+    display: block;
+    height: 68px;
+    padding: 10px 8px 20px;
+  }
+
+  .header .bsa-main-navigation-item > a > span {
+    display: inline;
+    margin-right: -4px;
+  }
+
+  .header .bsa-main-navigation-item > a:hover,
+  .header .bsa-main-navigation-item > a:focus {
+    text-decoration: underline;
+  }
+
+  .header .bsa-main-navigation-item-has-submenu:hover > a::after,
+  .header .bsa-main-navigation-item-open > a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    display: block;
+    margin-left: -10px;
+    margin-bottom: -20px;
+    border: 10px solid transparent;
+    border-top-color: #fff;
+  }
+
+  .header .bsa-main-navigation-item-meta {
+    display: none;
+  }
+
+  .header .bsa-main-navigation-expand-button,
+  .header .bsa-main-navigation-item-open .bsa-main-navigation-expand-button {
+    position: static;
+    z-index: auto;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+    background: transparent;
+    border: 0;
+    color: inherit;
+    opacity: 0.8;
+  }
+
+  .header .bsa-main-navigation-expand-button::after {
+    position: static;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .header .bsa-main-navigation-expand-button:hover {
+    background: transparent;
+    cursor: default;
+  }
+
+  .header .bsa-main-navigation-sub {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 240px;
+    margin: 0 0 0 -120px;
+    padding: 20px 0 0;
+    background: none;
+  }
+
+  .header .bsa-main-navigation-sub ul {
+    padding: 10px 4px;
+    font-size: 15px;
+    background: #fff;
+    border: 1px solid var(--bsa-border);
+    box-shadow: 0 2px 3px rgb(0 0 0 / 10%), 10px 20px 30px 10px rgb(50 50 50 / 40%);
+  }
+
+  .header .bsa-main-navigation-item:hover .bsa-main-navigation-sub {
+    display: block;
+  }
+
+  .header .bsa-main-navigation-sub-item > a {
+    display: block;
+    padding: 5px 5px 7px 10px;
+  }
+
+  .header .bsa-main-navigation-sub-item > a:hover,
+  .header .bsa-main-navigation-sub-item > a:focus {
+    background: var(--bsa-green);
+    color: #fff;
+  }
 }

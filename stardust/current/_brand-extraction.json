@@ -1,0 +1,21 @@
+{
+  "_provenance": {"writtenBy": "stardust:extract", "writtenAt": "2026-11-17T13:40:00Z", "sources": ["_computed-styles.json", "assets/css/critical.css", "pages/bsa.json"], "notes": "Single distinct page (index is a meta-refresh to bsa); aggregation scope = 1 page."},
+  "origins": [{"origin": "https://www.bundessortenamt.de", "role": "primary", "pages": ["bsa", "index"]}],
+  "logo": {"path": "assets/logo.svg", "source": "img.bsa-logo__image", "url": "https://www.bundessortenamt.de/bsa/typo3conf/ext/nn_bsa_base/Resources/Public/Images/logo-bsa.svg", "alt": "Logo Bundessortenamt"},
+  "favicon": {"path": "assets/favicon.png", "url": "https://www.bundessortenamt.de/bsa/assets/img/favicons/favicon-32x32.png"},
+  "palette": [
+    {"role": "primary", "hex": "#436213", "source": "_computed-styles.json aggregate.colors[0] (links)"},
+    {"role": "text", "hex": "#222222", "source": "critical.css html{color}"},
+    {"role": "surface", "hex": "#f2f2f2", "source": "aggregate.colors[4]"},
+    {"role": "background", "hex": "#ffffff", "source": "aggregate.colors[5]"},
+    {"role": "border", "hex": "#cccccc", "source": "aggregate.colors[3]"},
+    {"role": "secondary", "hex": "#614f3c", "source": "aggregate.colors[8] (hero teaser panels)"},
+    {"role": "accent", "hex": "#b94800", "source": "critical.css .bsa-page{border-top}"}
+  ],
+  "type": {"families": ["BundesSansWeb", "BundesSerifWeb"], "heading": "BundesSansWeb", "body": "BundesSansWeb", "scaleAudit": {"kind": "ad-hoc", "sizes": [13.5, 15, 16, 22]},
+    "files": [{"path": "assets/fonts/BundesSansWeb-Regular.woff", "licensed": true}, {"path": "assets/fonts/BundesSansWeb-Bold.woff", "licensed": true}, {"path": "assets/fonts/BundesSansWeb-Italic.woff", "licensed": true}, {"path": "assets/fonts/BundesSansWeb-BoldItalic.woff", "licensed": true}, {"path": "assets/fonts/BundesSerifWeb-Regular.woff", "licensed": true}]},
+  "motifs": {"radius": "3px", "shadows": [], "gradients": [], "patterns": ["hero-with-image", "teaser panel stack", "news card", "arrow link list"]},
+  "voice": {"heroHeadline": "Sichert das geistige Eigentum an Pflanzenzüchtungen", "ctas": ["Weiterlesen", "zum Archiv der Beiträge"], "heroImage": "hero slider photo (greenhouse with flowering plants)", "heroMedium": null},
+  "iconFont": null,
+  "systemComponents": [{"name": "site-header", "selector": "header.bsa-banner"}, {"name": "site-footer", "selector": "#bsa-footer"}]
+}

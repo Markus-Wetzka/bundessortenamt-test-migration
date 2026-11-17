@@ -1,0 +1,27 @@
+{
+ "tool": "chrome-compare",
+ "at": "2026-11-17T14:50:05.700Z",
+ "source": "https://www.bundessortenamt.de/bsa/",
+ "build": "https://main--4f3d7fd3--aemcoder.aem.live/bsa/",
+ "profile": "replica",
+ "bar": 0.02,
+ "widths": [
+  390,
+  1440
+ ],
+ "counts": {
+  "error": 1,
+  "warn": 0,
+  "decided": 0
+ },
+ "findings": [
+  {
+   "key": "control-missing@390 menu",
+   "width": 390,
+   "path": "menu",
+   "id": "control-missing",
+   "severity": "error",
+   "detail": "the source menu control opens on click; the build has no control named \"\""
+  }
+ ]
+}

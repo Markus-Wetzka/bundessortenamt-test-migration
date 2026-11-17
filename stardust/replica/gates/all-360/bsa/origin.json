@@ -1,0 +1,9 @@
+{
+  "instrument": "stitch-live",
+  "url": "https://www.bundessortenamt.de/bsa/",
+  "log": [
+    "stitched stardust/replica/gates/all-360/bsa/origin.png: 360x3009 from 4 chunks"
+  ],
+  "fontsFailed": [],
+  "at": "2026-11-17T14:34:00.149Z"
+}

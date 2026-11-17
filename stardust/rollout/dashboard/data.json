@@ -1,0 +1,81 @@
+{
+  "generatedAt": "2026-11-17T14:44:16.690Z",
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://bundessortenamt.de/",
+    "liveHost": "main--4f3d7fd3--aemcoder.aem.live"
+  },
+  "stageCount": {
+    "identified": 2,
+    "prototyped": 2,
+    "deployed": 2,
+    "optimised": 0
+  },
+  "stageExclusive": {
+    "identified": 0,
+    "prototyped": 0,
+    "deployed": 2,
+    "optimised": 0
+  },
+  "pages": [
+    {
+      "slug": "index",
+      "path": "/",
+      "stage": "deployed",
+      "templateId": "bsa",
+      "isTemplate": false,
+      "openFindings": 3
+    },
+    {
+      "slug": "bsa",
+      "path": "/bsa",
+      "stage": "deployed",
+      "templateId": "bsa",
+      "isTemplate": true,
+      "openFindings": 3
+    }
+  ],
+  "templates": [
+    {
+      "id": "bsa",
+      "archetype": "bsa",
+      "pageCount": 2,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 2,
+        "optimised": 0
+      }
+    }
+  ],
+  "blocks": {
+    "total": 3,
+    "converted": 3
+  },
+  "quality": {
+    "overall": 100,
+    "dimensions": {
+      "brand-tensions": null,
+      "design-ux": null,
+      "accessibility": null,
+      "seo": null,
+      "content-conversion": null,
+      "ai-search": 100,
+      "cross-page": 100
+    },
+    "severity": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 0
+    },
+    "history": [
+      100
+    ]
+  },
+  "findings": {
+    "byFixability": {
+      "out-of-scope": 4
+    },
+    "byAutofix": {}
+  }
+}

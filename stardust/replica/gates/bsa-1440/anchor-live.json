@@ -1,0 +1,18 @@
+{
+  "key": {
+    "url": "https://www.bundessortenamt.de/bsa/",
+    "width": 1440,
+    "main": "main"
+  },
+  "probedAt": "2026-11-17T13:34:08.026Z",
+  "data": {
+    "doc": 1898,
+    "rootMissing": false,
+    "rootWrapsChrome": true,
+    "sections": [],
+    "footer": [
+      590,
+      19
+    ]
+  }
+}

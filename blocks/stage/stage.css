@@ -1,0 +1,247 @@
+/* stage — values from stardust/prototypes/bsa.css (.bsa-area--highlight, .bsa-stage). */
+
+/* the full-bleed green band (prototype section.bsa-area--highlight) */
+main > .section.stage-container {
+  background: var(--bsa-green);
+  margin-bottom: 2em;
+}
+
+/* the page h1 and the "Top Meldungen" h2 are visually hidden, as on the source */
+main > .section.stage-container .default-content-wrapper :is(h1, h2) {
+  border: 0;
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+main > .section.stage-container > .stage-wrapper {
+  padding: 0;
+}
+
+@media (width >= 960px) {
+  main > .section.stage-container > .stage-wrapper {
+    padding: 0 var(--gutter);
+  }
+}
+
+.stage {
+  position: relative;
+  z-index: 2;
+  line-height: 1.1;
+  font-family: var(--bsa-serif);
+  color: #fff;
+}
+
+.stage ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.stage a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.stage em {
+  font-style: normal;
+}
+
+.stage .stage-tabs {
+  display: block;
+}
+
+.stage .stage-tab {
+  list-style: none;
+  position: relative;
+  padding-right: 47px;
+  background: var(--bsa-panel);
+}
+
+.stage .stage-tab:hover,
+.stage .stage-tab:focus,
+.stage .stage-tab.stage-active {
+  cursor: pointer;
+  background: var(--bsa-green);
+}
+
+.stage .stage-tab:focus {
+  outline: 0;
+  box-shadow: 0 0 3px 2px var(--bsa-focus);
+  z-index: 3;
+}
+
+.stage .stage-tab::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  display: block;
+  width: 15px;
+  height: 15px;
+  margin-top: -10px;
+  border: 0 solid #fff;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  transform: rotate(-45deg);
+  transform-origin: 66.66% 66.66%;
+  transition: transform 0.3s ease-out;
+}
+
+.stage .stage-tab.stage-active::after {
+  transform: rotate(45deg);
+}
+
+.stage .stage-label {
+  display: block;
+  margin: 0;
+  padding: 15px 10px;
+  color: #fff;
+  border-top: 1px solid #fff;
+}
+
+/* the authored label paragraph takes the wrapper's type (span on desktop, h3 on mobile) */
+.stage .stage-label p {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+.stage .stage-label em {
+  display: block;
+  font-family: var(--bsa-sans);
+  font-size: 0.6em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.stage .stage-panel {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 50%;
+  transition: padding-bottom 0.3s ease-out;
+}
+
+.stage .stage-panel.stage-panel-inactive {
+  padding-bottom: 0;
+}
+
+.stage .stage-panel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: auto;
+}
+
+.stage .stage-box {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  max-width: 60%;
+  margin: 0 0 2% 2%;
+  padding: 0 1.5%;
+  background-color: #f1f1f1;
+  font-family: var(--bsa-sans);
+  font-size: 0.8em;
+  color: var(--bsa-text);
+}
+
+.stage .stage-link {
+  display: inline-block;
+  margin-top: 0;
+  padding: 3px 0;
+  color: var(--bsa-text);
+  background-color: #f1f1f1;
+}
+
+.stage .stage-link p {
+  display: inline;
+  margin: 0;
+}
+
+.stage .stage-link::before {
+  margin-right: 5px;
+}
+
+.stage a:hover .stage-link,
+.stage a:focus .stage-link {
+  text-decoration: underline;
+}
+
+/* desktop: image left (66%), three stacked tabs right (34%) */
+.stage.stage-big {
+  font-size: 2vw;
+  padding: 0 0 33.333%;
+}
+
+.stage.stage-big .stage-panel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+  width: 66.1017%;
+  padding-bottom: 0;
+}
+
+.stage.stage-big .stage-panel a {
+  position: absolute;
+  inset: 0;
+}
+
+.stage.stage-big .stage-tabs {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 6;
+  width: 33.8983%;
+}
+
+.stage.stage-big .stage-tab {
+  position: relative;
+  z-index: 2;
+  display: block;
+  padding-bottom: 32.7684%;
+}
+
+.stage.stage-big .stage-tab::after {
+  display: none;
+}
+
+.stage.stage-big .stage-tab.stage-active::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  display: block;
+  margin-top: -18px;
+  margin-left: -36px;
+  border: 18px solid transparent;
+  border-right-color: var(--bsa-green);
+}
+
+.stage.stage-big .stage-label {
+  position: absolute;
+  inset: 0;
+  z-index: 6;
+  padding: 5%;
+}
+
+/* only the desktop tab list drops the first rule (on mobile the source keeps it) */
+.stage.stage-big .stage-tab-first .stage-label {
+  border-top: 0;
+}
+
+@media (width >= 1025px) {
+  .stage.stage-big {
+    font-size: 21px;
+  }
+}

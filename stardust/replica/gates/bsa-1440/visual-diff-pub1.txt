@@ -1,0 +1,363 @@
+[live-session] waiting to pace live navigations to www.bundessortenamt.de (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 602 ms
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/bsa-1440/vdiff-pub1/
+
+build red flags (advisory): none
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 1157,
+  "textLen": 1272,
+  "images": [
+   {
+    "src": "logo-bsa.svg",
+    "natural": "161x104",
+    "rendered": "270x174",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "csm_Sortenschutz_Zierpflanzen_e3c98c3ee5.jpg",
+    "natural": "704x355",
+    "rendered": "635x320",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "csm_Buehne_Getreidefeld_reif_7b02d50ef7.jpg",
+    "natural": "704x355",
+    "rendered": "635x320",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "csm_hasloch-trecker_4408f54a76.jpg",
+    "natural": "704x355",
+    "rendered": "635x320",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "csm_bsl_futtergraeser_deckblatt_2026_ede6e10b42.jpg",
+    "natural": "202x152",
+    "rendered": "228x171",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "csm_ADR_Rosen_2026_b4b75c655a.jpg",
+    "natural": "228x152",
+    "rendered": "228x152",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "csm_BSL_Getreide_2026_Deckblatt_893a699c00.jpg",
+    "natural": "203x152",
+    "rendered": "228x171",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "csm_20260627_TDOT_Termin_27619de047.jpg",
+    "natural": "228x152",
+    "rendered": "228x152",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "logo-bmleh.png",
+    "natural": "4109x2000",
+    "rendered": "293x143",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "csm_LI-In-Bug_19170b81c9.png",
+    "natural": "28x24",
+    "rendered": "28x24",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h3",
+    "text": "Die Beschreibende Sortenliste Fu",
+    "color": "rgb(34, 34, 34)",
+    "fontSize": "22px",
+    "family": "Times New Roman",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "ADR-Rosen 2026: Ein ausgezeichne",
+    "color": "rgb(34, 34, 34)",
+    "fontSize": "22px",
+    "family": "Times New Roman",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Die Beschreibende Sortenliste Ge",
+    "color": "rgb(34, 34, 34)",
+    "fontSize": "22px",
+    "family": "Times New Roman",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Am 27. Juni 2026 ist Tag der off",
+    "color": "rgb(34, 34, 34)",
+    "fontSize": "22px",
+    "family": "Times New Roman",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Pressemitteilung",
+    "color": "rgb(67, 98, 19)"
+   },
+   {
+    "text": "Aktuelles",
+    "color": "rgb(67, 98, 19)"
+   },
+   {
+    "text": "Pressemitteilung",
+    "color": "rgb(67, 98, 19)"
+   },
+   {
+    "text": "Pressemitteilung",
+    "color": "rgb(67, 98, 19)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": []
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 1507,
+  "textLen": 1602,
+  "images": [
+   {
+    "src": "hand.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "book.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1f540572935025a66dd1f359424443287bfd8ef43.svg?width=2000&format=webply&optimize=medium",
+    "natural": "161x104",
+    "rendered": "270x174",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hand.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "book.svg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_13c24309d6181ad30a020b83ad1e8837188daa1d3.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "704x355",
+    "rendered": "635x320",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1fd6291c41b1e5750a282e5fcd470d6075520afb5.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "704x355",
+    "rendered": "635x320",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_16cfd0f56c1fe4d2c0964f7ae7916de182050582b.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "704x355",
+    "rendered": "635x320",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_15327fe61807682eab0d58e165459ac6c4ac3633b.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "202x152",
+    "rendered": "228x171",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_10a3a62e5bb3f30c9aab8fc8e4daef55dfd3ca95f.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "228x152",
+    "rendered": "228x152",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_158130427b69215a6ad30268b4bbd5a53f623924a.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "203x152",
+    "rendered": "228x171",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1cd46a3de9f7c5aedeb7c57103839afc44d8c09f6.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "228x152",
+    "rendered": "228x152",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_18ee5b7c5f3526c4598793cd50f200ec55250b2d1.png?width=2000&format=webply&optimize=medium",
+    "natural": "2000x973",
+    "rendered": "293x142",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_14157e218efafd35fc6fc3b870a16a4d3e02eabd4.png?width=2000&format=webply&optimize=medium",
+    "natural": "28x24",
+    "rendered": "28x24",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h2",
+    "text": "Top Meldungen",
+    "color": "rgb(34, 34, 34)",
+    "fontSize": "26px",
+    "family": "Times New Roman",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Die Beschreibende Sortenliste Fu",
+    "color": "rgb(34, 34, 34)",
+    "fontSize": "22px",
+    "family": "Times New Roman",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "ADR-Rosen 2026: Ein ausgezeichne",
+    "color": "rgb(34, 34, 34)",
+    "fontSize": "22px",
+    "family": "Times New Roman",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Die Beschreibende Sortenliste Ge",
+    "color": "rgb(34, 34, 34)",
+    "fontSize": "22px",
+    "family": "Times New Roman",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Am 27. Juni 2026 ist Tag der off",
+    "color": "rgb(34, 34, 34)",
+    "fontSize": "22px",
+    "family": "Times New Roman",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Schnellzugriff",
+    "color": "rgb(34, 34, 34)",
+    "fontSize": "26px",
+    "family": "Times New Roman",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "11.11.2026",
+    "color": "rgb(102, 102, 102)"
+   },
+   {
+    "text": "Pressemitteilung",
+    "color": "rgb(67, 98, 19)"
+   },
+   {
+    "text": "09.11.2026",
+    "color": "rgb(102, 102, 102)"
+   },
+   {
+    "text": "Aktuelles",
+    "color": "rgb(67, 98, 19)"
+   },
+   {
+    "text": "29.07.2026",
+    "color": "rgb(102, 102, 102)"
+   },
+   {
+    "text": "Pressemitteilung",
+    "color": "rgb(67, 98, 19)"
+   },
+   {
+    "text": "22.06.2026",
+    "color": "rgb(102, 102, 102)"
+   },
+   {
+    "text": "Pressemitteilung",
+    "color": "rgb(67, 98, 19)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "stage",
+    "width": 960,
+    "left": 240
+   }
+  ]
+ }
+}

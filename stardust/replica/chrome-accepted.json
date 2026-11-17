@@ -1,0 +1,3 @@
+{ "accepted": [
+  { "probe": "chrome-parity", "kind": "REGION STYLE", "root": "header", "reason": "Effective backdrop only: .bsa-banner is transparent on both sides (measure.mjs); the build body declares #fff (EDS boilerplate --background-color) where the source leaves the default white canvas. Same painted pixels (pixel gate 0.20%/0.42%)." }
+] }

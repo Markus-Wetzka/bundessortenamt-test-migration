@@ -1,0 +1,158 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-17T13:35:00Z",
+    "sources": [
+      "stardust/current/_computed-styles.json",
+      "stardust/current/assets/css/critical.css"
+    ]
+  },
+  "colors": {
+    "primary": "#436213",
+    "text": "#222222",
+    "text-strong": "#373737",
+    "text-muted": "#666666",
+    "text-alt": "#4c4c4c",
+    "border": "#cccccc",
+    "surface": "#f2f2f2",
+    "background": "#ffffff",
+    "teaser-panel": "#614f3c",
+    "accent-top-rule": "#b94800"
+  },
+  "typography": {
+    "body": {
+      "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+      "fontSize": "15px",
+      "lineHeight": "1.46667",
+      "mobileFontSize": "13.5px"
+    },
+    "h3": {
+      "fontFamily": "BundesSansWeb, Helvetica, Arial, sans-serif",
+      "fontSize": "22px",
+      "fontWeight": "400"
+    },
+    "serif": {
+      "fontFamily": "BundesSerifWeb, Georgia, Times New Roman, serif"
+    }
+  },
+  "rounded": {
+    "default": "3px"
+  },
+  "spacing": {
+    "container": "1000px",
+    "gutter": "20px"
+  },
+  "components": {
+    "pageTopRule": "4px solid #b94800"
+  },
+  "extensions": {
+    "componentStyle": [
+      "flat",
+      "hairline #ccc dividers",
+      "green text links with chevron"
+    ],
+    "motifs": {
+      "radius": "3px",
+      "shadows": [],
+      "gradients": []
+    },
+    "voice": {
+      "heroHeadline": "Sichert das geistige Eigentum an Pflanzenzüchtungen",
+      "ctas": [
+        "Weiterlesen",
+        "zum Archiv der Beiträge"
+      ]
+    },
+    "fonts": {
+      "licensed": true,
+      "families": [
+        "BundesSansWeb",
+        "BundesSerifWeb"
+      ],
+      "note": "German federal corporate-design fonts; captured as evidence only, never rehosted"
+    },
+    "modules": [
+      {
+        "name": "hero-slider",
+        "status": "candidate",
+        "instances": [
+          "bsa",
+          "index"
+        ]
+      },
+      {
+        "name": "news-teaser",
+        "status": "candidate",
+        "instances": [
+          "bsa",
+          "index"
+        ]
+      },
+      {
+        "name": "sidebar-links",
+        "status": "candidate",
+        "instances": [
+          "bsa",
+          "index"
+        ]
+      }
+    ],
+    "breakpoints": {
+      "containerMaxWidth": "635px",
+      "probeWidth": 2560,
+      "shellMaxWidth": "1000px",
+      "caps": [
+        {
+          "kind": "shell",
+          "px": 1000,
+          "via": "max-width",
+          "selector": "body.bsa-style-2.bsa-layout-pagets__home > div.bsa-page > div.bsa-container",
+          "pages": [
+            "https://www.bundessortenamt.de/bsa/"
+          ]
+        },
+        {
+          "kind": "content",
+          "px": 635,
+          "via": "fixed",
+          "selector": "#bsa-content",
+          "pages": [
+            "https://www.bundessortenamt.de/bsa/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 391,
+          "via": "fixed",
+          "selector": "div.news > article.bsa-teaser.bsa-teaser--with-image > a.bsa-teaser__link > div.bsa-teaser__text",
+          "pages": [
+            "https://www.bundessortenamt.de/bsa/"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "https://www.bundessortenamt.de/bsa/",
+          "section": 0,
+          "selector": "#bsa-content > div.frame.frame-default",
+          "px": 391
+        },
+        {
+          "url": "https://www.bundessortenamt.de/bsa/",
+          "section": 1,
+          "selector": "#bsa-content > div.frame.frame-default",
+          "px": null
+        }
+      ],
+      "capRegister": [],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-11-17T13:19:55.430Z",
+        "baseWidth": 1440,
+        "urls": [
+          "https://www.bundessortenamt.de/bsa/"
+        ]
+      }
+    }
+  }
+}

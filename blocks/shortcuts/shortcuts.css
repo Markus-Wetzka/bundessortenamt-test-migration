@@ -1,0 +1,107 @@
+/* shortcuts — values from stardust/prototypes/bsa.css (.bsa-marginal, .bsa-shortcut-links). */
+
+/* sidebar column (section style "bsa-marginal" = the source's aside.bsa-marginal) */
+main > .section.bsa-marginal {
+  margin-top: 50px;
+}
+
+@media (width >= 768px) {
+  main > .section.bsa-marginal {
+    float: right;
+    margin-top: 0;
+    width: calc(min(100% - 40px, 960px) * 32.2034 / 100);
+    margin-right: max(20px, (100% - 960px) / 2);
+    padding-left: calc(min(100% - 40px, 960px) * 1.6949 / 100);
+  }
+
+  main > .section.bsa-marginal > div {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* contain the two floated columns */
+  main:has(> .section.bsa-marginal)::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+.shortcuts .shortcuts-logo {
+  display: block;
+}
+
+.shortcuts .shortcuts-logo p {
+  margin: 0;
+}
+
+.shortcuts .shortcuts-logo img {
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.shortcuts .shortcuts-title :is(h2, h3) {
+  border: 0;
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.shortcuts .shortcuts-links {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.shortcuts .shortcuts-links ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.shortcuts .shortcuts-links li {
+  margin-bottom: -1px;
+}
+
+.shortcuts .shortcuts-links li p {
+  margin: 0;
+}
+
+.shortcuts .shortcuts-links li a {
+  position: relative;
+  display: block;
+  padding: 10px;
+  border-style: dotted;
+  border-color: var(--bsa-border);
+  border-width: 1px 0;
+  color: var(--bsa-green);
+  text-align: left;
+  text-decoration: none;
+}
+
+/* arrow icon + the word space the source has between icon and label */
+.shortcuts .shortcuts-links li a::before {
+  content: "";
+  position: relative;
+  top: -2px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 18px;
+  height: 18px;
+  margin-right: 0.2075em;
+  background-image: url("../../icons/svg-sprite-sprite.svg");
+  background-size: 286px 266px;
+  background-position: -54px -54px;
+}
+
+.shortcuts .shortcuts-links li a:hover,
+.shortcuts .shortcuts-links li a:focus {
+  z-index: 2;
+  color: var(--bsa-text);
+  background: var(--bsa-surface);
+}

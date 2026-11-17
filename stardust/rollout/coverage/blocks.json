@@ -1,0 +1,76 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-11-17T14:32:03.017Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-17T14:32:07.747Z",
+  "blocks": [
+    {
+      "id": "news-teaser",
+      "label": "news-teaser",
+      "kind": "module",
+      "signature": "module:news-teaser",
+      "source": null,
+      "usedByTemplates": [
+        "bsa"
+      ],
+      "usedByPages": [
+        "bsa",
+        "index"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "news-teaser",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "shortcuts",
+      "label": "shortcuts",
+      "kind": "module",
+      "signature": "module:shortcuts",
+      "source": null,
+      "usedByTemplates": [
+        "bsa"
+      ],
+      "usedByPages": [
+        "bsa",
+        "index"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "shortcuts",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "stage",
+      "label": "stage",
+      "kind": "module",
+      "signature": "module:stage",
+      "source": null,
+      "usedByTemplates": [
+        "bsa"
+      ],
+      "usedByPages": [
+        "bsa",
+        "index"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "stage",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    }
+  ]
+}

@@ -1,20 +1,81 @@
-footer {
-  background-color: var(--light-color);
-  font-size: var(--body-font-size-xs);
+/* Bundessortenamt footer — values from stardust/prototypes/canon.css. */
+
+/* the footer band itself (prototype footer.bsa-footer.bsa-area) */
+body > footer {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-top: 100px;
+  padding: 20px 0;
+  color: var(--bsa-muted);
+  background: var(--bsa-surface);
 }
 
-footer .footer > div {
-  margin: auto;
-  max-width: 1200px;
-  padding: 40px 24px 24px;
+.footer .footer-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
 }
 
-footer .footer p {
+.footer .footer-flex::after {
+  display: none;
+}
+
+.footer a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer .bsa-footer-col {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.footer .footer-reset {
+  width: auto;
   margin: 0;
 }
 
-@media (width >= 900px) {
-  footer .footer > div {
-    padding: 40px 32px 24px;
-  }
+.footer .bsa-footer-col p {
+  margin: 0;
+}
+
+.footer .bsa-footer-col-c img {
+  width: 28px;
+  height: 24px;
+}
+
+/* the source footer nav carries no column classes — no column widths here */
+.footer .bsa-footer-navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer .bsa-footer-navigation-item {
+  display: inline-block;
+  margin-right: -4px;
+}
+
+.footer .bsa-footer-navigation-item a {
+  display: inline-block;
+  margin: -20px 0;
+  padding: 10px 0;
+}
+
+.footer .bsa-footer-navigation-item a:hover,
+.footer .bsa-footer-navigation-item a:focus {
+  color: var(--bsa-green);
+  text-decoration: underline;
+}
+
+.footer .bsa-footer-navigation-item + .bsa-footer-navigation-item::before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 0.9em;
+  margin: -2px 12px 0;
+  border-left: 1px solid var(--bsa-border);
 }

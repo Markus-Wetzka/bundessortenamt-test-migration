@@ -1,0 +1,26 @@
+[live-session] waiting to pace live navigations to main--4f3d7fd3--aemcoder.aem.page (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 84 ms
+content-presence @ 1440px (chrome) — origin https://www.bundessortenamt.de/bsa/ (docH 1898, 58 items, HTTP 200) vs served https://main--4f3d7fd3--aemcoder.aem.page/bsa/ (docH 1898, 58 items, HTTP 200)
+scope: main#bsa-content vs main#bsa-content (header/footer left to the chrome crop gate; --chrome to include)
+| band | heading | links O/E (+hidden) | buttons O/E (+hidden) | text O/E | images O/E | findings |
+|---|---|---|---|---|---|---|
+| 0 | (top) | 0/13 | 0/0 | 0/0 | 0/8 | EXTRA LINK, COUNT IMAGES |
+  🟡 EXTRA HEADING: served h3 "die beschreibende sortenliste futtergräser, esparsette, klee, luzerne 2026 ist erschienen" (y 610) has no origin heading
+  🟡 EXTRA HEADING: served h3 "adr-rosen 2026: ein ausgezeichnetes dutzend" (y 942) has no origin heading
+  🟡 EXTRA HEADING: served h3 "die beschreibende sortenliste getreide, mais, öl- und faserpflanzen, leguminosen, rüben, zwischenfrüchte 2026 ist erschi" (y 1157) has no origin heading
+  🟡 EXTRA HEADING: served h3 "am 27. juni 2026 ist tag der offenen tür in hannover" (y 1518) has no origin heading
+  🟡 EXTRA LINK: ×3 "weiterlesen" served in band "(top)", no origin link or button
+  🟡 EXTRA LINK: "11.11.2026 pressemitteilung die beschreibende sortenliste futtergräser, esparset" served in band "(top)", no origin link or button
+  🟡 EXTRA LINK: "09.11.2026 aktuelles adr-rosen 2026: ein ausgezeichnetes dutzend zwölf rosensort" served in band "(top)", no origin link or button
+  🟡 EXTRA LINK: "29.07.2026 pressemitteilung die beschreibende sortenliste getreide, mais, öl- un" served in band "(top)", no origin link or button
+  🟡 EXTRA LINK: "22.06.2026 pressemitteilung am 27. juni 2026 ist tag der offenen tür in hannover" served in band "(top)", no origin link or button
+  🟡 EXTRA LINK: "zum archiv der beiträge" served in band "(top)", no origin link or button
+  🟡 EXTRA LINK: "bundesministerium für landwirtschaft, ernährung und heimat" served in band "(top)", no origin link or button
+  🟡 EXTRA LINK: "stellenangebote" served in band "(top)", no origin link or button
+  🟡 EXTRA LINK: "antragsformulare" served in band "(top)", no origin link or button
+  🟡 EXTRA LINK: "sorteninformationen - zur datenbank" served in band "(top)", no origin link or button
+  🟡 EXTRA LINK: "deutsche genbank zierpflanzen" served in band "(top)", no origin link or button
+  🟡 COUNT IMAGES: band "(top)": 0 origin → 8 served visible
+Content: MISSING 0 (headings 0, links 0) / HIDDEN 0 (headings 0, links 0) / control-state 0 / buttons missing 0 hidden 0 / moved 0 extra 13 / count deltas 1
+Findings: 16 (0 structural 🔴)
+Clipped (served side): 0 — origin side 0
+json → stardust/replica/gates/bsa-1440/content-presence-pub1.json

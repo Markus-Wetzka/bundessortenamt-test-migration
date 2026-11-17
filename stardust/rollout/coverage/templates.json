@@ -1,0 +1,33 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-17T14:31:23.599Z",
+    "readArtifacts": [
+      "stardust/migrated"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-17T14:40:43.691Z",
+  "templates": [
+    {
+      "id": "bsa",
+      "representativeSlug": "bsa",
+      "pages": [
+        "bsa",
+        "index"
+      ],
+      "pageCount": 2,
+      "blocks": [
+        "news-teaser",
+        "shortcuts",
+        "stage"
+      ],
+      "delivery": {
+        "verified": 2,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    }
+  ]
+}

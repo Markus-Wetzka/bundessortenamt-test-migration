@@ -1,0 +1,2174 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-17T14:36:46.789Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.bundessortenamt.de/bsa/",
+  "at": "2026-11-17T14:36:30.125Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 3009,
+  "root": "main#bsa-content",
+  "items": [
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "header.bsa-banner > div.bsa-logo > img.bsa-logo__image",
+    "x": 20,
+    "y": 16,
+    "w": 180,
+    "h": 116,
+    "text": "logo bundessortenamt",
+    "file": "logo-bsa"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.bsa-container > header.bsa-banner > button.bsa-main-navigation__toggle-button",
+    "x": 255,
+    "y": 60,
+    "w": 85,
+    "h": 42,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.bsa-container > header.bsa-banner > button.bsa-main-navigation__toggle-button",
+    "x": 255,
+    "y": 60,
+    "w": 85,
+    "h": 42,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.bsa-container > div#bsa-stage > h3#bsa-stage--label-1",
+    "x": 0,
+    "y": 147,
+    "w": 360,
+    "h": 107,
+    "level": 3,
+    "text": "sorten schützen sichert das geistige eigentum an pflanzenzüchtungen"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#bsa-stage--panel-1 > a > img.bsa-stage__image",
+    "x": 0,
+    "y": 254,
+    "w": 360,
+    "h": 182,
+    "text": "pflanzen aus der registerprüfung der beet- und balkonpflanze",
+    "file": "csm_Sortenschutz_Zierpflanzen_e3c98c3ee5"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.bsa-container > div#bsa-stage > h3#bsa-stage--label-2",
+    "x": 0,
+    "y": 434,
+    "w": 360,
+    "h": 107,
+    "level": 3,
+    "text": "sorten zulassen so wird saatgutqualität gesichert"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.bsa-container > div#bsa-stage > h3#bsa-stage--label-3",
+    "x": 0,
+    "y": 541,
+    "w": 360,
+    "h": 78,
+    "level": 3,
+    "text": "unsere standorte an diesen orten prüfen wir"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news > article.bsa-teaser.bsa-teaser--with-image > a.bsa-teaser__link",
+    "x": 10,
+    "y": 661,
+    "w": 340,
+    "h": 524,
+    "text": "11.11.2026 pressemitteilung die beschreibende sortenliste futtergräser, esparset",
+    "href": "/bsa/aktuell/die-beschreibende-sortenliste-futtergraeser-esparsette-klee-luzerne-2026-ist-erschienen"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article.bsa-teaser.bsa-teaser--with-image > a.bsa-teaser__link > img.bsa-teaser__image",
+    "x": 20,
+    "y": 671,
+    "w": 115,
+    "h": 86,
+    "text": "",
+    "file": "csm_bsl_futtergraeser_deckblatt_2026_ede"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.bsa-teaser__link > header.bsa-teaser__header > h3",
+    "x": 143,
+    "y": 684,
+    "w": 197,
+    "h": 172,
+    "level": 3,
+    "text": "die beschreibende sortenliste futtergräser, esparsette, klee, luzerne 2026 ist erschienen"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news > article.bsa-teaser.bsa-teaser--with-image > a.bsa-teaser__link",
+    "x": 10,
+    "y": 1211,
+    "w": 340,
+    "h": 240,
+    "text": "09.11.2026 aktuelles adr-rosen 2026: ein ausgezeichnetes dutzend zwölf rosensort",
+    "href": "/bsa/aktuell/adr-rosen-2026-ein-ausgezeichnetes-dutzend"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article.bsa-teaser.bsa-teaser--with-image > a.bsa-teaser__link > img.bsa-teaser__image",
+    "x": 20,
+    "y": 1221,
+    "w": 115,
+    "h": 77,
+    "text": "",
+    "file": "csm_ADR_Rosen_2026_b4b75c655a"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.bsa-teaser__link > header.bsa-teaser__header > h3",
+    "x": 143,
+    "y": 1234,
+    "w": 197,
+    "h": 86,
+    "level": 3,
+    "text": "adr-rosen 2026: ein ausgezeichnetes dutzend"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news > article.bsa-teaser.bsa-teaser--with-image > a.bsa-teaser__link",
+    "x": 10,
+    "y": 1477,
+    "w": 340,
+    "h": 581,
+    "text": "29.07.2026 pressemitteilung die beschreibende sortenliste getreide, mais, öl- un",
+    "href": "/bsa/aktuell/die-beschreibende-sortenliste-getreide-mais-oel-und-faserpflanzen-leguminosen-rueben-zwischenfruechte-2026-ist-erschienen"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article.bsa-teaser.bsa-teaser--with-image > a.bsa-teaser__link > img.bsa-teaser__image",
+    "x": 20,
+    "y": 1487,
+    "w": 115,
+    "h": 86,
+    "text": "",
+    "file": "csm_BSL_Getreide_2026_Deckblatt_893a699c"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.bsa-teaser__link > header.bsa-teaser__header > h3",
+    "x": 143,
+    "y": 1500,
+    "w": 197,
+    "h": 229,
+    "level": 3,
+    "text": "die beschreibende sortenliste getreide, mais, öl- und faserpflanzen, leguminosen, rüben, zwischenfrüchte 2026 ist erschi"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news > article.bsa-teaser.bsa-teaser--with-image > a.bsa-teaser__link",
+    "x": 10,
+    "y": 2085,
+    "w": 340,
+    "h": 240,
+    "text": "22.06.2026 pressemitteilung am 27. juni 2026 ist tag der offenen tür in hannover",
+    "href": "/bsa/aktuell/am-27-juni-2026-ist-tag-der-offenen-tuer-in-hannover"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article.bsa-teaser.bsa-teaser--with-image > a.bsa-teaser__link > img.bsa-teaser__image",
+    "x": 20,
+    "y": 2095,
+    "w": 115,
+    "h": 77,
+    "text": "",
+    "file": "csm_20260627_TDOT_Termin_27619de047"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.bsa-teaser__link > header.bsa-teaser__header > h3",
+    "x": 143,
+    "y": 2108,
+    "w": 197,
+    "h": 86,
+    "level": 3,
+    "text": "am 27. juni 2026 ist tag der offenen tür in hannover"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ce-bodytext > p > a",
+    "x": 20,
+    "y": 2342,
+    "w": 149,
+    "h": 22,
+    "text": "zum archiv der beiträge",
+    "href": "/bsa/presse-und-oeffentlichkeitsarbeit/pressemitteilungen"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div#c196 > footer.bsa-logo-footer > a",
+    "x": 20,
+    "y": 2477,
+    "w": 320,
+    "h": 22,
+    "text": "bundesministerium für landwirtschaft, ernährung und heimat",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "footer.bsa-logo-footer > a > img",
+    "x": 20,
+    "y": 2414,
+    "w": 320,
+    "h": 156,
+    "text": "bundesministerium für landwirtschaft, ernährung und heimat",
+    "file": "logo-bmleh"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.bsa-shortcut-link > a.bsa-icon.bsa-icon--arrow-right",
+    "x": 20,
+    "y": 2569,
+    "w": 320,
+    "h": 46,
+    "text": "stellenangebote",
+    "href": "/bsa/das-bsa/karriere"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.bsa-shortcut-link > a.bsa-icon.bsa-icon--arrow-right",
+    "x": 20,
+    "y": 2615,
+    "w": 320,
+    "h": 46,
+    "text": "antragsformulare",
+    "href": "/bsa/form-sz"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.bsa-shortcut-link > a.bsa-icon.bsa-icon--arrow-right",
+    "x": 20,
+    "y": 2660,
+    "w": 320,
+    "h": 46,
+    "text": "sorteninformationen - zur datenbank",
+    "href": "/bsa/sorten/datenbanken"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.bsa-shortcut-link > a.bsa-icon.bsa-icon--arrow-right",
+    "x": 20,
+    "y": 2705,
+    "w": 320,
+    "h": 46,
+    "text": "deutsche genbank zierpflanzen",
+    "href": "/bsa/pflanzengenetische-ressourcen/deutsche-genbank-zierpflanzen/datenbanken-deutsche-genbank-zierpflanzen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "footer#bsa-footer > div.bsa-container.footer-flex > small.bsa-footer__col.bsa-footer__col--a",
+    "x": 20,
+    "y": 2870,
+    "w": 157,
+    "h": 22,
+    "text": "© 2020 Bundessortenamt"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.bsa-footer-navigation__item > a",
+    "x": 20,
+    "y": 2895,
+    "w": 69,
+    "h": 42,
+    "text": "impressum",
+    "href": "/bsa/impressum"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.bsa-footer-navigation__item > a",
+    "x": 110,
+    "y": 2895,
+    "w": 77,
+    "h": 42,
+    "text": "datenschutz",
+    "href": "/bsa/datenschutz"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.bsa-footer-navigation__item > a",
+    "x": 208,
+    "y": 2895,
+    "w": 92,
+    "h": 42,
+    "text": "barrierefreiheit",
+    "href": "/bsa/barrierefreiheit"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.bsa-footer-navigation__item > a",
+    "x": 45,
+    "y": 2917,
+    "w": 50,
+    "h": 42,
+    "text": "sitemap",
+    "href": "/bsa/sitemap"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.bsa-container.footer-flex > div.bsa-footer__col.bsa-footer__col--c > a",
+    "x": 20,
+    "y": 2963,
+    "w": 28,
+    "h": 22,
+    "text": "linkedin",
+    "href": "/company/bundessortenamt/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.bsa-footer__col.bsa-footer__col--c > a > img",
+    "x": 20,
+    "y": 2965,
+    "w": 28,
+    "h": 24,
+    "text": "linkedin",
+    "file": "csm_LI-In-Bug_19170b81c9"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 39,
+    "controls": 19,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--4f3d7fd3--aemcoder.aem.live/bsa/",
+  "at": "2026-11-17T14:36:46.705Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 3009,
+  "root": "main#bsa-content",
+  "items": [
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.bsa-logo > picture > img",
+    "x": 20,
+    "y": 16,
+    "w": 180,
+    "h": 116,
+    "text": "logo bundessortenamt",
+    "file": "media_1f540572935025a66dd1f359424443287b"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.bsa-container > div.bsa-banner > button.bsa-main-navigation-toggle-button",
+    "x": 255,
+    "y": 60,
+    "w": 85,
+    "h": 42,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.bsa-container > div.bsa-banner > button.bsa-main-navigation-toggle-button",
+    "x": 255,
+    "y": 60,
+    "w": 85,
+    "h": 42,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stage-wrapper > div.stage.block > li.stage-tab.stage-tab-first",
+    "x": 0,
+    "y": 147,
+    "w": 360,
+    "h": 107,
+    "label": "tab selected",
+    "value": "sorten schützen sichert das geistige eigentum an pflanzenzüc",
+    "via": "aria-selected"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stage.block > li.stage-tab.stage-tab-first > h3#stage-label-1",
+    "x": 0,
+    "y": 147,
+    "w": 313,
+    "h": 107,
+    "level": 3,
+    "text": "sorten schützen sichert das geistige eigentum an pflanzenzüchtungen"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 0,
+    "y": 254,
+    "w": 360,
+    "h": 182,
+    "text": "pflanzen aus der registerprüfung der beet- und balkonpflanze",
+    "file": "media_13c24309d6181ad30a020b83ad1e883718"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stage.block > li.stage-tab > h3#stage-label-2",
+    "x": 0,
+    "y": 434,
+    "w": 313,
+    "h": 107,
+    "level": 3,
+    "text": "sorten zulassen so wird saatgutqualität gesichert"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stage.block > li.stage-tab > h3#stage-label-3",
+    "x": 0,
+    "y": 541,
+    "w": 313,
+    "h": 78,
+    "level": 3,
+    "text": "unsere standorte an diesen orten prüfen wir"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-teaser.block > article.news-teaser-item.news-teaser-with-image > a.news-teaser-link",
+    "x": 10,
+    "y": 661,
+    "w": 340,
+    "h": 524,
+    "text": "11.11.2026 pressemitteilung die beschreibende sortenliste futtergräser, esparset",
+    "href": "/bsa/aktuell/die-beschreibende-sortenliste-futtergraeser-esparsette-klee-luzerne-2026-ist-erschienen"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-teaser-image > picture > img",
+    "x": 20,
+    "y": 671,
+    "w": 115,
+    "h": 86,
+    "text": "",
+    "file": "media_15327fe61807682eab0d58e165459ac6c4"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.news-teaser-link > div.news-teaser-header > h3#die-beschreibende-sortenliste-futtergräser-esparsette-klee-luzerne-2026-ist-erschienen",
+    "x": 143,
+    "y": 684,
+    "w": 197,
+    "h": 172,
+    "level": 3,
+    "text": "die beschreibende sortenliste futtergräser, esparsette, klee, luzerne 2026 ist erschienen"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-teaser.block > article.news-teaser-item.news-teaser-with-image > a.news-teaser-link",
+    "x": 10,
+    "y": 1211,
+    "w": 340,
+    "h": 240,
+    "text": "09.11.2026 aktuelles adr-rosen 2026: ein ausgezeichnetes dutzend zwölf rosensort",
+    "href": "/bsa/aktuell/adr-rosen-2026-ein-ausgezeichnetes-dutzend"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-teaser-image > picture > img",
+    "x": 20,
+    "y": 1221,
+    "w": 115,
+    "h": 77,
+    "text": "",
+    "file": "media_10a3a62e5bb3f30c9aab8fc8e4daef55df"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.news-teaser-link > div.news-teaser-header > h3#adr-rosen-2026-ein-ausgezeichnetes-dutzend",
+    "x": 143,
+    "y": 1234,
+    "w": 197,
+    "h": 86,
+    "level": 3,
+    "text": "adr-rosen 2026: ein ausgezeichnetes dutzend"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-teaser.block > article.news-teaser-item.news-teaser-with-image > a.news-teaser-link",
+    "x": 10,
+    "y": 1477,
+    "w": 340,
+    "h": 581,
+    "text": "29.07.2026 pressemitteilung die beschreibende sortenliste getreide, mais, öl- un",
+    "href": "/bsa/aktuell/die-beschreibende-sortenliste-getreide-mais-oel-und-faserpflanzen-leguminosen-rueben-zwischenfruechte-2026-ist-erschienen"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-teaser-image > picture > img",
+    "x": 20,
+    "y": 1487,
+    "w": 115,
+    "h": 86,
+    "text": "",
+    "file": "media_158130427b69215a6ad30268b4bbd5a53f"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.news-teaser-link > div.news-teaser-header > h3#die-beschreibende-sortenliste-getreide-mais-öl--und-faserpflanzen-leguminosen-rüben-zwischenfrüchte-2026-ist-erschienen",
+    "x": 143,
+    "y": 1500,
+    "w": 197,
+    "h": 229,
+    "level": 3,
+    "text": "die beschreibende sortenliste getreide, mais, öl- und faserpflanzen, leguminosen, rüben, zwischenfrüchte 2026 ist erschi"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-teaser.block > article.news-teaser-item.news-teaser-with-image > a.news-teaser-link",
+    "x": 10,
+    "y": 2085,
+    "w": 340,
+    "h": 240,
+    "text": "22.06.2026 pressemitteilung am 27. juni 2026 ist tag der offenen tür in hannover",
+    "href": "/bsa/aktuell/am-27-juni-2026-ist-tag-der-offenen-tuer-in-hannover"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-teaser-image > picture > img",
+    "x": 20,
+    "y": 2095,
+    "w": 115,
+    "h": 77,
+    "text": "",
+    "file": "media_1cd46a3de9f7c5aedeb7c57103839afc44"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.news-teaser-link > div.news-teaser-header > h3#am-27-juni-2026-ist-tag-der-offenen-tür-in-hannover",
+    "x": 143,
+    "y": 2108,
+    "w": 197,
+    "h": 86,
+    "level": 3,
+    "text": "am 27. juni 2026 ist tag der offenen tür in hannover"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > a",
+    "x": 20,
+    "y": 2342,
+    "w": 149,
+    "h": 22,
+    "text": "zum archiv der beiträge",
+    "href": "/bsa/presse-und-oeffentlichkeitsarbeit/pressemitteilungen"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.shortcuts-logo > p > a",
+    "x": 20,
+    "y": 2477,
+    "w": 320,
+    "h": 22,
+    "text": "bundesministerium für landwirtschaft, ernährung und heimat",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 20,
+    "y": 2414,
+    "w": 320,
+    "h": 156,
+    "text": "bundesministerium für landwirtschaft, ernährung und heimat",
+    "file": "media_18ee5b7c5f3526c4598793cd50f200ec55"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 20,
+    "y": 2569,
+    "w": 320,
+    "h": 46,
+    "text": "stellenangebote",
+    "href": "/bsa/das-bsa/karriere"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 20,
+    "y": 2615,
+    "w": 320,
+    "h": 46,
+    "text": "antragsformulare",
+    "href": "/bsa/form-sz"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 20,
+    "y": 2660,
+    "w": 320,
+    "h": 46,
+    "text": "sorteninformationen - zur datenbank",
+    "href": "/bsa/sorten/datenbanken"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 20,
+    "y": 2705,
+    "w": 320,
+    "h": 46,
+    "text": "deutsche genbank zierpflanzen",
+    "href": "/bsa/pflanzengenetische-ressourcen/deutsche-genbank-zierpflanzen/datenbanken-deutsche-genbank-zierpflanzen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.bsa-container.footer-flex > div.bsa-footer-col.bsa-footer-col-a > p",
+    "x": 20,
+    "y": 2870,
+    "w": 157,
+    "h": 22,
+    "text": "© 2020 Bundessortenamt"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.bsa-footer-navigation-item > a",
+    "x": 20,
+    "y": 2895,
+    "w": 69,
+    "h": 42,
+    "text": "impressum",
+    "href": "/bsa/impressum"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.bsa-footer-navigation-item > a",
+    "x": 110,
+    "y": 2895,
+    "w": 77,
+    "h": 42,
+    "text": "datenschutz",
+    "href": "/bsa/datenschutz"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.bsa-footer-navigation-item > a",
+    "x": 208,
+    "y": 2895,
+    "w": 92,
+    "h": 42,
+    "text": "barrierefreiheit",
+    "href": "/bsa/barrierefreiheit"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li.bsa-footer-navigation-item > a",
+    "x": 45,
+    "y": 2917,
+    "w": 50,
+    "h": 42,
+    "text": "sitemap",
+    "href": "/bsa/sitemap"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.bsa-footer-col.bsa-footer-col-c > p > a",
+    "x": 20,
+    "y": 2963,
+    "w": 28,
+    "h": 22,
+    "text": "linkedin",
+    "href": "/company/bundessortenamt/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 20,
+    "y": 2965,
+    "w": 28,
+    "h": 24,
+    "text": "linkedin",
+    "file": "media_14157e218efafd35fc6fc3b870a16a4d3e"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 39,
+    "controls": 19,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "die beschreibende sortenliste futtergräser, esparsette, klee, luzerne 2026 ist erschienen",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "adr-rosen 2026: ein ausgezeichnetes dutzend",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "die beschreibende sortenliste getreide, mais, öl- und faserpflanzen, leguminosen, rüben, zwischenfrüchte 2026 ist erschi",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "am 27. juni 2026 ist tag der offenen tür in hannover",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 6,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK"
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"sorten schützen sichert das geistige eigentum an pflanzenzüchtungen\" (y 147) has no origin heading",
+   "text": "sorten schützen sichert das geistige eigentum an pflanzenzüchtungen"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"sorten zulassen so wird saatgutqualität gesichert\" (y 434) has no origin heading",
+   "text": "sorten zulassen so wird saatgutqualität gesichert"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"unsere standorte an diesen orten prüfen wir\" (y 541) has no origin heading",
+   "text": "unsere standorte an diesen orten prüfen wir"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"bundesministerium für landwirtschaft, ernährung und heimat\" served in band \"am 27. juni 2026 ist tag der offenen tür in hannover\", no origin link or button",
+   "band": 4,
+   "n": 1,
+   "text": "bundesministerium für landwirtschaft, ernährung und heimat"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"stellenangebote\" served in band \"am 27. juni 2026 ist tag der offenen tür in hannover\", no origin link or button",
+   "band": 4,
+   "n": 1,
+   "text": "stellenangebote"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"antragsformulare\" served in band \"am 27. juni 2026 ist tag der offenen tür in hannover\", no origin link or button",
+   "band": 4,
+   "n": 1,
+   "text": "antragsformulare"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"sorteninformationen - zur datenbank\" served in band \"am 27. juni 2026 ist tag der offenen tür in hannover\", no origin link or button",
+   "band": 4,
+   "n": 1,
+   "text": "sorteninformationen - zur datenbank"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"deutsche genbank zierpflanzen\" served in band \"am 27. juni 2026 ist tag der offenen tür in hannover\", no origin link or button",
+   "band": 4,
+   "n": 1,
+   "text": "deutsche genbank zierpflanzen"
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 3,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 5,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 8,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 10,
+    "y": 162,
+    "w": 114,
+    "h": 19
+   },
+   {
+    "x": 10,
+    "y": 180,
+    "w": 302,
+    "h": 31
+   },
+   {
+    "x": 10,
+    "y": 208,
+    "w": 193,
+    "h": 31
+   },
+   {
+    "x": 36,
+    "y": 404,
+    "w": 58,
+    "h": 17
+   },
+   {
+    "x": 10,
+    "y": 449,
+    "w": 111,
+    "h": 19
+   },
+   {
+    "x": 10,
+    "y": 466,
+    "w": 218,
+    "h": 31
+   },
+   {
+    "x": 10,
+    "y": 495,
+    "w": 85,
+    "h": 31
+   },
+   {
+    "x": 10,
+    "y": 556,
+    "w": 121,
+    "h": 19
+   },
+   {
+    "x": 10,
+    "y": 573,
+    "w": 256,
+    "h": 31
+   },
+   {
+    "x": 143,
+    "y": 665,
+    "w": 58,
+    "h": 19
+   },
+   {
+    "x": 211,
+    "y": 665,
+    "w": 119,
+    "h": 19
+   },
+   {
+    "x": 143,
+    "y": 682,
+    "w": 174,
+    "h": 31
+   },
+   {
+    "x": 143,
+    "y": 711,
+    "w": 101,
+    "h": 31
+   },
+   {
+    "x": 143,
+    "y": 739,
+    "w": 118,
+    "h": 31
+   },
+   {
+    "x": 143,
+    "y": 768,
+    "w": 150,
+    "h": 31
+   },
+   {
+    "x": 143,
+    "y": 797,
+    "w": 152,
+    "h": 31
+   },
+   {
+    "x": 143,
+    "y": 825,
+    "w": 102,
+    "h": 31
+   },
+   {
+    "x": 143,
+    "y": 865,
+    "w": 160,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 887,
+    "w": 153,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 909,
+    "w": 166,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 931,
+    "w": 156,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 953,
+    "w": 109,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 975,
+    "w": 136,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 997,
+    "w": 179,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 1019,
+    "w": 183,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 1041,
+    "w": 186,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 1063,
+    "w": 107,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 1085,
+    "w": 148,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 1107,
+    "w": 141,
+    "h": 22
+   },
+   {
+    "x": 161,
+    "y": 1144,
+    "w": 78,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 1215,
+    "w": 58,
+    "h": 19
+   },
+   {
+    "x": 211,
+    "y": 1215,
+    "w": 66,
+    "h": 19
+   },
+   {
+    "x": 143,
+    "y": 1232,
+    "w": 163,
+    "h": 31
+   },
+   {
+    "x": 143,
+    "y": 1261,
+    "w": 187,
+    "h": 31
+   },
+   {
+    "x": 143,
+    "y": 1289,
+    "w": 81,
+    "h": 31
+   },
+   {
+    "x": 143,
+    "y": 1330,
+    "w": 165,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 1352,
+    "w": 174,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 1374,
+    "w": 110,
+    "h": 22
+   },
+   {
+    "x": 161,
+    "y": 1411,
+    "w": 78,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 1481,
+    "w": 58,
+    "h": 19
+   },
+   {
+    "x": 211,
+    "y": 1481,
+    "w": 119,
+    "h": 19
+   },
+   {
+    "x": 143,
+    "y": 1498,
+    "w": 174,
+    "h": 31
+   },
+   {
+    "x": 143,
+    "y": 1527,
+    "w": 189,
+    "h": 31
+   },
+   {
+    "x": 143,
+    "y": 1556,
+    "w": 125,
+    "h": 31
+   },
+   {
+    "x": 143,
+    "y": 1584,
+    "w": 133,
+    "h": 31
+   },
+   {
+    "x": 143,
+    "y": 1613,
+    "w": 132,
+    "h": 31
+   },
+   {
+    "x": 143,
+    "y": 1641,
+    "w": 65,
+    "h": 31
+   },
+   {
+    "x": 143,
+    "y": 1670,
+    "w": 158,
+    "h": 31
+   },
+   {
+    "x": 143,
+    "y": 1699,
+    "w": 178,
+    "h": 31
+   },
+   {
+    "x": 143,
+    "y": 1739,
+    "w": 160,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 1761,
+    "w": 153,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 1783,
+    "w": 166,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 1805,
+    "w": 156,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 1827,
+    "w": 109,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 1849,
+    "w": 136,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 1871,
+    "w": 179,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 1893,
+    "w": 196,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 1915,
+    "w": 139,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 1937,
+    "w": 131,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 1959,
+    "w": 182,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 1981,
+    "w": 142,
+    "h": 22
+   },
+   {
+    "x": 161,
+    "y": 2018,
+    "w": 78,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 2089,
+    "w": 58,
+    "h": 19
+   },
+   {
+    "x": 211,
+    "y": 2089,
+    "w": 119,
+    "h": 19
+   },
+   {
+    "x": 143,
+    "y": 2106,
+    "w": 183,
+    "h": 31
+   },
+   {
+    "x": 143,
+    "y": 2134,
+    "w": 183,
+    "h": 31
+   },
+   {
+    "x": 143,
+    "y": 2163,
+    "w": 118,
+    "h": 31
+   },
+   {
+    "x": 143,
+    "y": 2203,
+    "w": 133,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 2225,
+    "w": 187,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 2247,
+    "w": 173,
+    "h": 22
+   },
+   {
+    "x": 161,
+    "y": 2284,
+    "w": 78,
+    "h": 22
+   },
+   {
+    "x": 20,
+    "y": 2342,
+    "w": 149,
+    "h": 22
+   },
+   {
+    "x": 51,
+    "y": 2580,
+    "w": 109,
+    "h": 23
+   },
+   {
+    "x": 51,
+    "y": 2626,
+    "w": 119,
+    "h": 23
+   },
+   {
+    "x": 51,
+    "y": 2671,
+    "w": 251,
+    "h": 23
+   },
+   {
+    "x": 51,
+    "y": 2716,
+    "w": 214,
+    "h": 23
+   },
+   {
+    "x": 20,
+    "y": 2870,
+    "w": 157,
+    "h": 22
+   },
+   {
+    "x": 20,
+    "y": 2905,
+    "w": 69,
+    "h": 22
+   },
+   {
+    "x": 110,
+    "y": 2905,
+    "w": 77,
+    "h": 22
+   },
+   {
+    "x": 208,
+    "y": 2905,
+    "w": 92,
+    "h": 22
+   },
+   {
+    "x": 45,
+    "y": 2927,
+    "w": 50,
+    "h": 22
+   }
+  ],
+  "eds": [
+   {
+    "x": 10,
+    "y": 162,
+    "w": 114,
+    "h": 19
+   },
+   {
+    "x": 10,
+    "y": 180,
+    "w": 274,
+    "h": 31
+   },
+   {
+    "x": 10,
+    "y": 208,
+    "w": 221,
+    "h": 31
+   },
+   {
+    "x": 36,
+    "y": 404,
+    "w": 58,
+    "h": 17
+   },
+   {
+    "x": 10,
+    "y": 449,
+    "w": 111,
+    "h": 19
+   },
+   {
+    "x": 10,
+    "y": 466,
+    "w": 218,
+    "h": 31
+   },
+   {
+    "x": 10,
+    "y": 495,
+    "w": 85,
+    "h": 31
+   },
+   {
+    "x": 10,
+    "y": 556,
+    "w": 121,
+    "h": 19
+   },
+   {
+    "x": 10,
+    "y": 573,
+    "w": 256,
+    "h": 31
+   },
+   {
+    "x": 143,
+    "y": 665,
+    "w": 58,
+    "h": 19
+   },
+   {
+    "x": 211,
+    "y": 665,
+    "w": 119,
+    "h": 19
+   },
+   {
+    "x": 143,
+    "y": 682,
+    "w": 174,
+    "h": 31
+   },
+   {
+    "x": 143,
+    "y": 711,
+    "w": 101,
+    "h": 31
+   },
+   {
+    "x": 143,
+    "y": 739,
+    "w": 118,
+    "h": 31
+   },
+   {
+    "x": 143,
+    "y": 768,
+    "w": 150,
+    "h": 31
+   },
+   {
+    "x": 143,
+    "y": 797,
+    "w": 152,
+    "h": 31
+   },
+   {
+    "x": 143,
+    "y": 825,
+    "w": 102,
+    "h": 31
+   },
+   {
+    "x": 143,
+    "y": 865,
+    "w": 160,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 887,
+    "w": 153,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 909,
+    "w": 166,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 931,
+    "w": 156,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 953,
+    "w": 109,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 975,
+    "w": 136,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 997,
+    "w": 179,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 1019,
+    "w": 183,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 1041,
+    "w": 186,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 1063,
+    "w": 107,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 1085,
+    "w": 148,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 1107,
+    "w": 141,
+    "h": 22
+   },
+   {
+    "x": 161,
+    "y": 1144,
+    "w": 75,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 1215,
+    "w": 58,
+    "h": 19
+   },
+   {
+    "x": 211,
+    "y": 1215,
+    "w": 66,
+    "h": 19
+   },
+   {
+    "x": 143,
+    "y": 1232,
+    "w": 163,
+    "h": 31
+   },
+   {
+    "x": 143,
+    "y": 1261,
+    "w": 187,
+    "h": 31
+   },
+   {
+    "x": 143,
+    "y": 1289,
+    "w": 81,
+    "h": 31
+   },
+   {
+    "x": 143,
+    "y": 1330,
+    "w": 165,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 1352,
+    "w": 174,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 1374,
+    "w": 110,
+    "h": 22
+   },
+   {
+    "x": 161,
+    "y": 1411,
+    "w": 75,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 1481,
+    "w": 58,
+    "h": 19
+   },
+   {
+    "x": 211,
+    "y": 1481,
+    "w": 119,
+    "h": 19
+   },
+   {
+    "x": 143,
+    "y": 1498,
+    "w": 174,
+    "h": 31
+   },
+   {
+    "x": 143,
+    "y": 1527,
+    "w": 189,
+    "h": 31
+   },
+   {
+    "x": 143,
+    "y": 1556,
+    "w": 125,
+    "h": 31
+   },
+   {
+    "x": 143,
+    "y": 1584,
+    "w": 133,
+    "h": 31
+   },
+   {
+    "x": 143,
+    "y": 1613,
+    "w": 132,
+    "h": 31
+   },
+   {
+    "x": 143,
+    "y": 1641,
+    "w": 65,
+    "h": 31
+   },
+   {
+    "x": 143,
+    "y": 1670,
+    "w": 158,
+    "h": 31
+   },
+   {
+    "x": 143,
+    "y": 1699,
+    "w": 178,
+    "h": 31
+   },
+   {
+    "x": 143,
+    "y": 1739,
+    "w": 160,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 1761,
+    "w": 153,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 1783,
+    "w": 166,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 1805,
+    "w": 156,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 1827,
+    "w": 109,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 1849,
+    "w": 136,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 1871,
+    "w": 179,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 1893,
+    "w": 196,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 1915,
+    "w": 139,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 1937,
+    "w": 131,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 1959,
+    "w": 182,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 1981,
+    "w": 142,
+    "h": 22
+   },
+   {
+    "x": 161,
+    "y": 2018,
+    "w": 75,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 2089,
+    "w": 58,
+    "h": 19
+   },
+   {
+    "x": 211,
+    "y": 2089,
+    "w": 119,
+    "h": 19
+   },
+   {
+    "x": 143,
+    "y": 2106,
+    "w": 183,
+    "h": 31
+   },
+   {
+    "x": 143,
+    "y": 2134,
+    "w": 183,
+    "h": 31
+   },
+   {
+    "x": 143,
+    "y": 2163,
+    "w": 118,
+    "h": 31
+   },
+   {
+    "x": 143,
+    "y": 2203,
+    "w": 133,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 2225,
+    "w": 187,
+    "h": 22
+   },
+   {
+    "x": 143,
+    "y": 2247,
+    "w": 173,
+    "h": 22
+   },
+   {
+    "x": 161,
+    "y": 2284,
+    "w": 75,
+    "h": 22
+   },
+   {
+    "x": 20,
+    "y": 2342,
+    "w": 149,
+    "h": 22
+   },
+   {
+    "x": 51,
+    "y": 2580,
+    "w": 109,
+    "h": 23
+   },
+   {
+    "x": 51,
+    "y": 2626,
+    "w": 119,
+    "h": 23
+   },
+   {
+    "x": 51,
+    "y": 2671,
+    "w": 251,
+    "h": 23
+   },
+   {
+    "x": 51,
+    "y": 2716,
+    "w": 214,
+    "h": 23
+   },
+   {
+    "x": 20,
+    "y": 2870,
+    "w": 157,
+    "h": 22
+   },
+   {
+    "x": 20,
+    "y": 2905,
+    "w": 69,
+    "h": 22
+   },
+   {
+    "x": 110,
+    "y": 2905,
+    "w": 77,
+    "h": 22
+   },
+   {
+    "x": 208,
+    "y": 2905,
+    "w": 92,
+    "h": 22
+   },
+   {
+    "x": 45,
+    "y": 2927,
+    "w": 50,
+    "h": 22
+   }
+  ]
+ }
+}

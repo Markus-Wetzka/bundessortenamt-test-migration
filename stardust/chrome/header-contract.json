@@ -1,0 +1,3149 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://www.bundessortenamt.de/bsa/",
+ "at": "2026-11-17T13:20:33.280Z",
+ "shots": "stardust/.work/chrome/header-contract",
+ "widths": {
+  "390": {
+   "root": "body>div>div:nth-of-type(1)>header",
+   "controls": [
+    {
+     "name": "",
+     "key": "",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>div>div:nth-of-type(1)>header>button",
+     "expanded": "false",
+     "rect": [
+      285,
+      60,
+      85,
+      42
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 8,
+       "panel": {
+        "links": [
+         {
+          "text": "Das BSA open",
+          "href": "https://www.bundessortenamt.de/bsa/das-bsa"
+         },
+         {
+          "text": "Sorten open",
+          "href": "https://www.bundessortenamt.de/bsa/sorten"
+         },
+         {
+          "text": "Saatgut open",
+          "href": "https://www.bundessortenamt.de/bsa/saatgut"
+         },
+         {
+          "text": "Pflanzengenetische Ressourcen open",
+          "href": "https://www.bundessortenamt.de/bsa/pflanzengenetische-ressourcen"
+         },
+         {
+          "text": "Antrag­steller open",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller"
+         },
+         {
+          "text": "Prüfungs­ansteller open",
+          "href": "https://www.bundessortenamt.de/bsa/pruefungsansteller"
+         },
+         {
+          "text": "English",
+          "href": "https://www.bundessortenamt.de/bsa/en/"
+         },
+         {
+          "text": "Suchen",
+          "href": "https://www.bundessortenamt.de/bsa/suche"
+         },
+         {
+          "text": "Presse",
+          "href": "https://www.bundessortenamt.de/bsa/presse-und-oeffentlichkeitsarbeit"
+         },
+         {
+          "text": "Kontakt",
+          "href": "https://www.bundessortenamt.de/bsa/das-bsa/wir-ueber-uns/kontakt"
+         },
+         {
+          "text": "Gebärdensprache",
+          "href": "https://www.bundessortenamt.de/bsa/das-bsa/wir-ueber-uns/gebaerdensprache-video"
+         },
+         {
+          "text": "Leichte Sprache",
+          "href": "https://www.bundessortenamt.de/bsa/das-bsa/wir-ueber-uns/leichte-sprache"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "open",
+         "open",
+         "open",
+         "open",
+         "open",
+         "open"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         147,
+         390,
+         463
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "390-001-toggle-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 8,
+       "panel": {
+        "links": [
+         {
+          "text": "Das BSA open",
+          "href": "https://www.bundessortenamt.de/bsa/das-bsa"
+         },
+         {
+          "text": "Sorten open",
+          "href": "https://www.bundessortenamt.de/bsa/sorten"
+         },
+         {
+          "text": "Saatgut open",
+          "href": "https://www.bundessortenamt.de/bsa/saatgut"
+         },
+         {
+          "text": "Pflanzengenetische Ressourcen open",
+          "href": "https://www.bundessortenamt.de/bsa/pflanzengenetische-ressourcen"
+         },
+         {
+          "text": "Antrag­steller open",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller"
+         },
+         {
+          "text": "Prüfungs­ansteller open",
+          "href": "https://www.bundessortenamt.de/bsa/pruefungsansteller"
+         },
+         {
+          "text": "English",
+          "href": "https://www.bundessortenamt.de/bsa/en/"
+         },
+         {
+          "text": "Suchen",
+          "href": "https://www.bundessortenamt.de/bsa/suche"
+         },
+         {
+          "text": "Presse",
+          "href": "https://www.bundessortenamt.de/bsa/presse-und-oeffentlichkeitsarbeit"
+         },
+         {
+          "text": "Kontakt",
+          "href": "https://www.bundessortenamt.de/bsa/das-bsa/wir-ueber-uns/kontakt"
+         },
+         {
+          "text": "Gebärdensprache",
+          "href": "https://www.bundessortenamt.de/bsa/das-bsa/wir-ueber-uns/gebaerdensprache-video"
+         },
+         {
+          "text": "Leichte Sprache",
+          "href": "https://www.bundessortenamt.de/bsa/das-bsa/wir-ueber-uns/leichte-sprache"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "open",
+         "open",
+         "open",
+         "open",
+         "open",
+         "open"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         147,
+         390,
+         463
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "390-002-toggle-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": null,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Das BSA open",
+       "key": "das bsa open",
+       "role": "link",
+       "kind": "link",
+       "sel": "#bsa-main-navigation>ul>li:nth-of-type(1)>a",
+       "href": "https://www.bundessortenamt.de/bsa/das-bsa",
+       "expanded": null,
+       "rect": [
+        0,
+        147,
+        390,
+        45
+       ],
+       "actions": {}
+      },
+      {
+       "name": "open",
+       "key": "open",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#bsa-main-navigation>ul>li:nth-of-type(1)>a>button",
+       "expanded": "false",
+       "rect": [
+        348,
+        148,
+        42,
+        43
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Wir über uns",
+            "href": "https://www.bundessortenamt.de/bsa/das-bsa/wir-ueber-uns"
+           },
+           {
+            "text": "Aufgaben",
+            "href": "https://www.bundessortenamt.de/bsa/das-bsa/aufgaben"
+           },
+           {
+            "text": "Organisation",
+            "href": "https://www.bundessortenamt.de/bsa/das-bsa/organisation"
+           },
+           {
+            "text": "Nationale Zusammenarbeit",
+            "href": "https://www.bundessortenamt.de/bsa/das-bsa/nationale-zusammenarbeit"
+           },
+           {
+            "text": "Internationale Zusammenarbeit",
+            "href": "https://www.bundessortenamt.de/bsa/das-bsa/internationale-zusammenarbeit"
+           },
+           {
+            "text": "Rechtliche Grundlagen",
+            "href": "https://www.bundessortenamt.de/bsa/das-bsa/rechtliche-grundlagen"
+           },
+           {
+            "text": "Europäisches Medienfreiheitsgesetz",
+            "href": "https://www.bundessortenamt.de/bsa/das-bsa/emfa"
+           },
+           {
+            "text": "Adressen / Anfahrt",
+            "href": "https://www.bundessortenamt.de/bsa/das-bsa/adressen-anfahrt"
+           },
+           {
+            "text": "Karriere",
+            "href": "https://www.bundessortenamt.de/bsa/das-bsa/karriere"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           192,
+           390,
+           398
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "max-height",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "opacity",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          }
+         ],
+         "shot": "390-003-open-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Wir über uns",
+            "href": "https://www.bundessortenamt.de/bsa/das-bsa/wir-ueber-uns"
+           },
+           {
+            "text": "Aufgaben",
+            "href": "https://www.bundessortenamt.de/bsa/das-bsa/aufgaben"
+           },
+           {
+            "text": "Organisation",
+            "href": "https://www.bundessortenamt.de/bsa/das-bsa/organisation"
+           },
+           {
+            "text": "Nationale Zusammenarbeit",
+            "href": "https://www.bundessortenamt.de/bsa/das-bsa/nationale-zusammenarbeit"
+           },
+           {
+            "text": "Internationale Zusammenarbeit",
+            "href": "https://www.bundessortenamt.de/bsa/das-bsa/internationale-zusammenarbeit"
+           },
+           {
+            "text": "Rechtliche Grundlagen",
+            "href": "https://www.bundessortenamt.de/bsa/das-bsa/rechtliche-grundlagen"
+           },
+           {
+            "text": "Europäisches Medienfreiheitsgesetz",
+            "href": "https://www.bundessortenamt.de/bsa/das-bsa/emfa"
+           },
+           {
+            "text": "Adressen / Anfahrt",
+            "href": "https://www.bundessortenamt.de/bsa/das-bsa/adressen-anfahrt"
+           },
+           {
+            "text": "Karriere",
+            "href": "https://www.bundessortenamt.de/bsa/das-bsa/karriere"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           192,
+           390,
+           398
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "max-height",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "opacity",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          }
+         ],
+         "shot": "390-004-open-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Sorten open",
+       "key": "sorten open",
+       "role": "link",
+       "kind": "link",
+       "sel": "#bsa-main-navigation>ul>li:nth-of-type(2)>a",
+       "href": "https://www.bundessortenamt.de/bsa/sorten",
+       "expanded": null,
+       "rect": [
+        0,
+        192,
+        390,
+        44
+       ],
+       "actions": {}
+      },
+      {
+       "name": "open",
+       "key": "open",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#bsa-main-navigation>ul>li:nth-of-type(2)>a>button",
+       "expanded": "false",
+       "rect": [
+        348,
+        192,
+        42,
+        43
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Sortenschutz",
+            "href": "https://www.bundessortenamt.de/bsa/sorten/sortenschutz"
+           },
+           {
+            "text": "Sortenzulassung",
+            "href": "https://www.bundessortenamt.de/bsa/sorten/sortenzulassung"
+           },
+           {
+            "text": "Sorten-Datenbanken",
+            "href": "https://www.bundessortenamt.de/bsa/sorten/datenbanken"
+           },
+           {
+            "text": "Beschreibung der Neuzulassungen",
+            "href": "https://www.bundessortenamt.de/bsa/sorten/beschreibung-der-neuzulassungen"
+           },
+           {
+            "text": "Beschreibende Sortenlisten",
+            "href": "https://www.bundessortenamt.de/bsa/sorten/beschreibende-sortenlisten"
+           },
+           {
+            "text": "Blatt für Sortenwesen",
+            "href": "https://www.bundessortenamt.de/bsa/sorten/blatt-fuer-sortenwesen"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           237,
+           390,
+           265
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "max-height",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "opacity",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          }
+         ],
+         "shot": "390-005-open-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Sortenschutz",
+            "href": "https://www.bundessortenamt.de/bsa/sorten/sortenschutz"
+           },
+           {
+            "text": "Sortenzulassung",
+            "href": "https://www.bundessortenamt.de/bsa/sorten/sortenzulassung"
+           },
+           {
+            "text": "Sorten-Datenbanken",
+            "href": "https://www.bundessortenamt.de/bsa/sorten/datenbanken"
+           },
+           {
+            "text": "Beschreibung der Neuzulassungen",
+            "href": "https://www.bundessortenamt.de/bsa/sorten/beschreibung-der-neuzulassungen"
+           },
+           {
+            "text": "Beschreibende Sortenlisten",
+            "href": "https://www.bundessortenamt.de/bsa/sorten/beschreibende-sortenlisten"
+           },
+           {
+            "text": "Blatt für Sortenwesen",
+            "href": "https://www.bundessortenamt.de/bsa/sorten/blatt-fuer-sortenwesen"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           237,
+           390,
+           265
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "max-height",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "opacity",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          }
+         ],
+         "shot": "390-006-open-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Saatgut open",
+       "key": "saatgut open",
+       "role": "link",
+       "kind": "link",
+       "sel": "#bsa-main-navigation>ul>li:nth-of-type(3)>a",
+       "href": "https://www.bundessortenamt.de/bsa/saatgut",
+       "expanded": null,
+       "rect": [
+        0,
+        237,
+        390,
+        44
+       ],
+       "actions": {}
+      },
+      {
+       "name": "open",
+       "key": "open",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#bsa-main-navigation>ul>li:nth-of-type(3)>a>button",
+       "expanded": "false",
+       "rect": [
+        348,
+        237,
+        42,
+        43
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Nationale Angelegenheiten",
+            "href": "https://www.bundessortenamt.de/bsa/saatgut/nationale-angelegenheiten"
+           },
+           {
+            "text": "EU und Internationale Angelegenheiten",
+            "href": "https://www.bundessortenamt.de/bsa/saatgut/eu-und-internationale-angelegenheiten"
+           },
+           {
+            "text": "Internationale Projekte",
+            "href": "https://www.bundessortenamt.de/bsa/saatgut/internationale-projekte"
+           },
+           {
+            "text": "Statistiken Saatguterzeugung",
+            "href": "https://www.bundessortenamt.de/bsa/saatgut/statistiken-saatguterzeugung"
+           },
+           {
+            "text": "Ausnahmeregelungen Inverkehrbringen von Saatgut",
+            "href": "https://www.bundessortenamt.de/bsa/saatgut/ausnahmeregelungen-inverkehrbringen-von-saatgut"
+           },
+           {
+            "text": "Regelungen von ökologischem heterogenem Material",
+            "href": "https://www.bundessortenamt.de/bsa/saatgut/oekologisches-heterogenes-material"
+           },
+           {
+            "text": "Anmeldung Anerkennungsstellen und Saatgutverkehrskontrollstellen",
+            "href": "https://www.bundessortenamt.de/bsa/saatgut/anmeldung-anerkennungsstellen-und-saatgutverkehrskontrollstellen"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           281,
+           390,
+           367
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "max-height",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "opacity",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          }
+         ],
+         "shot": "390-007-open-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Nationale Angelegenheiten",
+            "href": "https://www.bundessortenamt.de/bsa/saatgut/nationale-angelegenheiten"
+           },
+           {
+            "text": "EU und Internationale Angelegenheiten",
+            "href": "https://www.bundessortenamt.de/bsa/saatgut/eu-und-internationale-angelegenheiten"
+           },
+           {
+            "text": "Internationale Projekte",
+            "href": "https://www.bundessortenamt.de/bsa/saatgut/internationale-projekte"
+           },
+           {
+            "text": "Statistiken Saatguterzeugung",
+            "href": "https://www.bundessortenamt.de/bsa/saatgut/statistiken-saatguterzeugung"
+           },
+           {
+            "text": "Ausnahmeregelungen Inverkehrbringen von Saatgut",
+            "href": "https://www.bundessortenamt.de/bsa/saatgut/ausnahmeregelungen-inverkehrbringen-von-saatgut"
+           },
+           {
+            "text": "Regelungen von ökologischem heterogenem Material",
+            "href": "https://www.bundessortenamt.de/bsa/saatgut/oekologisches-heterogenes-material"
+           },
+           {
+            "text": "Anmeldung Anerkennungsstellen und Saatgutverkehrskontrollstellen",
+            "href": "https://www.bundessortenamt.de/bsa/saatgut/anmeldung-anerkennungsstellen-und-saatgutverkehrskontrollstellen"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           281,
+           390,
+           367
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "max-height",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "opacity",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          }
+         ],
+         "shot": "390-008-open-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Pflanzengenetische Ressourcen open",
+       "key": "pflanzengenetische ressourcen open",
+       "role": "link",
+       "kind": "link",
+       "sel": "#bsa-main-navigation>ul>li:nth-of-type(4)>a",
+       "href": "https://www.bundessortenamt.de/bsa/pflanzengenetische-ressourcen",
+       "expanded": null,
+       "rect": [
+        0,
+        281,
+        390,
+        44
+       ],
+       "actions": {}
+      },
+      {
+       "name": "open",
+       "key": "open",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#bsa-main-navigation>ul>li:nth-of-type(4)>a>button",
+       "expanded": "false",
+       "rect": [
+        348,
+        281,
+        42,
+        43
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Deutsche Genbank Zierpflanzen",
+            "href": "https://www.bundessortenamt.de/bsa/pflanzengenetische-ressourcen/deutsche-genbank-zierpflanzen"
+           },
+           {
+            "text": "Deutsche Genbank Obst",
+            "href": "https://www.bundessortenamt.de/bsa/pflanzengenetische-ressourcen/deutsche-genbank-obst"
+           },
+           {
+            "text": "Deutsche Genbank Reben",
+            "href": "https://www.bundessortenamt.de/bsa/pflanzengenetische-ressourcen/deutsche-genbank-reben"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           325,
+           390,
+           133
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "max-height",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "opacity",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          }
+         ],
+         "shot": "390-009-open-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Deutsche Genbank Zierpflanzen",
+            "href": "https://www.bundessortenamt.de/bsa/pflanzengenetische-ressourcen/deutsche-genbank-zierpflanzen"
+           },
+           {
+            "text": "Deutsche Genbank Obst",
+            "href": "https://www.bundessortenamt.de/bsa/pflanzengenetische-ressourcen/deutsche-genbank-obst"
+           },
+           {
+            "text": "Deutsche Genbank Reben",
+            "href": "https://www.bundessortenamt.de/bsa/pflanzengenetische-ressourcen/deutsche-genbank-reben"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           325,
+           390,
+           133
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "max-height",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "opacity",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          }
+         ],
+         "shot": "390-010-open-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Antrag­steller open",
+       "key": "antragsteller open",
+       "role": "link",
+       "kind": "link",
+       "sel": "#bsa-main-navigation>ul>li:nth-of-type(5)>a",
+       "href": "https://www.bundessortenamt.de/bsa/antragsteller",
+       "expanded": null,
+       "rect": [
+        0,
+        325,
+        390,
+        44
+       ],
+       "actions": {}
+      },
+      {
+       "name": "open",
+       "key": "open",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#bsa-main-navigation>ul>li:nth-of-type(5)>a>button",
+       "expanded": "false",
+       "rect": [
+        348,
+        325,
+        42,
+        43
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Wichtige Bekanntmachungen",
+            "href": "https://www.bundessortenamt.de/bsa/antragsteller/wichtige-bekanntmachungen"
+           },
+           {
+            "text": "Antrags- und Vorlagetermine",
+            "href": "https://www.bundessortenamt.de/bsa/antragsteller/antrags-und-vorlagetermine"
+           },
+           {
+            "text": "Antragsformulare",
+            "href": "https://www.bundessortenamt.de/bsa/antragsteller/antragsformulare"
+           },
+           {
+            "text": "Sonstige Formulare",
+            "href": "https://www.bundessortenamt.de/bsa/antragsteller/sonstige-formulare"
+           },
+           {
+            "text": "Hinweise Antragsteller",
+            "href": "https://www.bundessortenamt.de/bsa/antragsteller/hinweise-antragsteller"
+           },
+           {
+            "text": "Gebühren",
+            "href": "https://www.bundessortenamt.de/bsa/antragsteller/gebuehren"
+           },
+           {
+            "text": "Berichte der Wertprüfung",
+            "href": "https://www.bundessortenamt.de/bsa/antragsteller/berichte-der-wertpruefung"
+           },
+           {
+            "text": "Schutz- und Zulassungsurkunden",
+            "href": "https://www.bundessortenamt.de/bsa/antragsteller/schutz-und-zulassungsurkunden"
+           },
+           {
+            "text": "Eignungsprüfung für Rasengräser",
+            "href": "https://www.bundessortenamt.de/bsa/antragsteller/eignungspruefung-fuer-rasengraeser"
+           },
+           {
+            "text": "Vordrucke OECD -Saatgutsysteme",
+            "href": "https://www.bundessortenamt.de/bsa/antragsteller/vordrucke-oecd-saatgutsysteme"
+           },
+           {
+            "text": "Zugang zu Nachkontrollergebnissen",
+            "href": "https://www.bundessortenamt.de/bsa/antragsteller/zugang-zu-nachkontrollergebnissen"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           369,
+           390,
+           475
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "max-height",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "opacity",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          }
+         ],
+         "shot": "390-011-open-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Wichtige Bekanntmachungen",
+            "href": "https://www.bundessortenamt.de/bsa/antragsteller/wichtige-bekanntmachungen"
+           },
+           {
+            "text": "Antrags- und Vorlagetermine",
+            "href": "https://www.bundessortenamt.de/bsa/antragsteller/antrags-und-vorlagetermine"
+           },
+           {
+            "text": "Antragsformulare",
+            "href": "https://www.bundessortenamt.de/bsa/antragsteller/antragsformulare"
+           },
+           {
+            "text": "Sonstige Formulare",
+            "href": "https://www.bundessortenamt.de/bsa/antragsteller/sonstige-formulare"
+           },
+           {
+            "text": "Hinweise Antragsteller",
+            "href": "https://www.bundessortenamt.de/bsa/antragsteller/hinweise-antragsteller"
+           },
+           {
+            "text": "Gebühren",
+            "href": "https://www.bundessortenamt.de/bsa/antragsteller/gebuehren"
+           },
+           {
+            "text": "Berichte der Wertprüfung",
+            "href": "https://www.bundessortenamt.de/bsa/antragsteller/berichte-der-wertpruefung"
+           },
+           {
+            "text": "Schutz- und Zulassungsurkunden",
+            "href": "https://www.bundessortenamt.de/bsa/antragsteller/schutz-und-zulassungsurkunden"
+           },
+           {
+            "text": "Eignungsprüfung für Rasengräser",
+            "href": "https://www.bundessortenamt.de/bsa/antragsteller/eignungspruefung-fuer-rasengraeser"
+           },
+           {
+            "text": "Vordrucke OECD -Saatgutsysteme",
+            "href": "https://www.bundessortenamt.de/bsa/antragsteller/vordrucke-oecd-saatgutsysteme"
+           },
+           {
+            "text": "Zugang zu Nachkontrollergebnissen",
+            "href": "https://www.bundessortenamt.de/bsa/antragsteller/zugang-zu-nachkontrollergebnissen"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           369,
+           390,
+           475
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "max-height",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "opacity",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          }
+         ],
+         "shot": "390-012-open-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Prüfungs­ansteller open",
+       "key": "prüfungsansteller open",
+       "role": "link",
+       "kind": "link",
+       "sel": "#bsa-main-navigation>ul>li:nth-of-type(6)>a",
+       "href": "https://www.bundessortenamt.de/bsa/pruefungsansteller",
+       "expanded": null,
+       "rect": [
+        0,
+        369,
+        390,
+        44
+       ],
+       "actions": {}
+      },
+      {
+       "name": "open",
+       "key": "open",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#bsa-main-navigation>ul>li:nth-of-type(6)>a>button",
+       "expanded": "false",
+       "rect": [
+        348,
+        369,
+        42,
+        43
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Anbaulisten, Übersichten, Rundschreiben, Verrechnungssorten",
+            "href": "https://www.bundessortenamt.de/bsa/pruefungsansteller/anbaulisten"
+           },
+           {
+            "text": "Berichte der Wertprüfung",
+            "href": "https://www.bundessortenamt.de/bsa/pruefungsansteller/berichte-der-wertpruefung"
+           },
+           {
+            "text": "PIAF",
+            "href": "https://www.bundessortenamt.de/bsa/pruefungsansteller/piaf"
+           },
+           {
+            "text": "Richtlinien",
+            "href": "https://www.bundessortenamt.de/bsa/pruefungsansteller/richtlinien"
+           },
+           {
+            "text": "Formulare",
+            "href": "https://www.bundessortenamt.de/bsa/pruefungsansteller/formulare"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           413,
+           390,
+           240
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "max-height",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "opacity",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          }
+         ],
+         "shot": "390-013-open-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Anbaulisten, Übersichten, Rundschreiben, Verrechnungssorten",
+            "href": "https://www.bundessortenamt.de/bsa/pruefungsansteller/anbaulisten"
+           },
+           {
+            "text": "Berichte der Wertprüfung",
+            "href": "https://www.bundessortenamt.de/bsa/pruefungsansteller/berichte-der-wertpruefung"
+           },
+           {
+            "text": "PIAF",
+            "href": "https://www.bundessortenamt.de/bsa/pruefungsansteller/piaf"
+           },
+           {
+            "text": "Richtlinien",
+            "href": "https://www.bundessortenamt.de/bsa/pruefungsansteller/richtlinien"
+           },
+           {
+            "text": "Formulare",
+            "href": "https://www.bundessortenamt.de/bsa/pruefungsansteller/formulare"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           413,
+           390,
+           240
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "visibility",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "max-height",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          },
+          {
+           "kind": "transition",
+           "prop": "opacity",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "div.bsa-main-navigation__sub"
+          }
+         ],
+         "shot": "390-014-open-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      }
+     ]
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 16,
+     "height": 131,
+     "position": "relative",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": -984,
+     "height": 131,
+     "position": "relative",
+     "inView": false
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": -684,
+     "height": 131,
+     "position": "relative",
+     "inView": false
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 16,
+     "height": 131,
+     "position": "relative",
+     "inView": true
+    }
+   ],
+   "states": 14,
+   "truncated": null,
+   "loads": 1,
+   "requests": 21,
+   "maxRequests": 600,
+   "inputsSkipped": 0
+  },
+  "1440": {
+   "root": "body>div>div:nth-of-type(1)>header",
+   "controls": [
+    {
+     "name": "English",
+     "key": "english",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>div>div:nth-of-type(1)>header>nav:nth-of-type(1)>ul>li:nth-of-type(1)>a",
+     "href": "https://www.bundessortenamt.de/bsa/en/",
+     "expanded": null,
+     "rect": [
+      739,
+      16,
+      63,
+      49
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Presse",
+     "key": "presse",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>div>div:nth-of-type(1)>header>nav:nth-of-type(1)>ul>li:nth-of-type(2)>a",
+     "href": "https://www.bundessortenamt.de/bsa/presse-und-oeffentlichkeitsarbeit",
+     "expanded": null,
+     "rect": [
+      798,
+      16,
+      54,
+      49
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Kontakt",
+     "key": "kontakt",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>div>div:nth-of-type(1)>header>nav:nth-of-type(1)>ul>li:nth-of-type(3)>a",
+     "href": "https://www.bundessortenamt.de/bsa/das-bsa/wir-ueber-uns/kontakt",
+     "expanded": null,
+     "rect": [
+      848,
+      16,
+      68,
+      49
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Gebärdensprache",
+     "key": "gebärdensprache",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>div>div:nth-of-type(1)>header>nav:nth-of-type(1)>ul>li:nth-of-type(4)>a",
+     "href": "https://www.bundessortenamt.de/bsa/das-bsa/wir-ueber-uns/gebaerdensprache-video",
+     "expanded": null,
+     "rect": [
+      917,
+      16,
+      151,
+      49
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Leichte Sprache",
+     "key": "leichte sprache",
+     "role": "link",
+     "kind": "locale",
+     "sel": "body>div>div:nth-of-type(1)>header>nav:nth-of-type(1)>ul>li:nth-of-type(5)>a",
+     "href": "https://www.bundessortenamt.de/bsa/das-bsa/wir-ueber-uns/leichte-sprache",
+     "expanded": null,
+     "rect": [
+      1070,
+      16,
+      136,
+      49
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Suchbegriff",
+     "key": "suchbegriff",
+     "role": "input",
+     "kind": "search",
+     "sel": "#bsa-searchbox>form>label>input",
+     "expanded": null,
+     "rect": [
+      975,
+      82,
+      190,
+      35
+     ],
+     "actions": {},
+     "search": {
+      "probe": "direkt",
+      "typeahead": {
+       "links": 0,
+       "options": 0
+      },
+      "submit": "https://www.bundessortenamt.de/bsa/suche"
+     }
+    },
+    {
+     "name": "Suchen",
+     "key": "suchen",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "#bsa-searchbox>form>button",
+     "expanded": null,
+     "rect": [
+      1164,
+      83,
+      35,
+      35
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": false,
+       "navigates": "https://www.bundessortenamt.de/bsa/suche"
+      },
+      "key": {
+       "opened": false,
+       "navigates": "https://www.bundessortenamt.de/bsa/suche"
+      }
+     }
+    },
+    {
+     "name": "Das BSA open",
+     "key": "das bsa open",
+     "role": "link",
+     "kind": "link",
+     "sel": "#bsa-main-navigation>ul>li:nth-of-type(1)>a",
+     "href": "https://www.bundessortenamt.de/bsa/das-bsa",
+     "expanded": null,
+     "rect": [
+      558,
+      156,
+      64,
+      68
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Wir über uns",
+          "href": "https://www.bundessortenamt.de/bsa/das-bsa/wir-ueber-uns"
+         },
+         {
+          "text": "Aufgaben",
+          "href": "https://www.bundessortenamt.de/bsa/das-bsa/aufgaben"
+         },
+         {
+          "text": "Organisation",
+          "href": "https://www.bundessortenamt.de/bsa/das-bsa/organisation"
+         },
+         {
+          "text": "Nationale Zusammenarbeit",
+          "href": "https://www.bundessortenamt.de/bsa/das-bsa/nationale-zusammenarbeit"
+         },
+         {
+          "text": "Internationale Zusammenarbeit",
+          "href": "https://www.bundessortenamt.de/bsa/das-bsa/internationale-zusammenarbeit"
+         },
+         {
+          "text": "Rechtliche Grundlagen",
+          "href": "https://www.bundessortenamt.de/bsa/das-bsa/rechtliche-grundlagen"
+         },
+         {
+          "text": "Europäisches Medienfreiheitsgesetz",
+          "href": "https://www.bundessortenamt.de/bsa/das-bsa/emfa"
+         },
+         {
+          "text": "Adressen / Anfahrt",
+          "href": "https://www.bundessortenamt.de/bsa/das-bsa/adressen-anfahrt"
+         },
+         {
+          "text": "Karriere",
+          "href": "https://www.bundessortenamt.de/bsa/das-bsa/karriere"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         470,
+         224,
+         240,
+         330
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-001-Das-BSA-open-hover.png"
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "leave": true
+     },
+     "children": []
+    },
+    {
+     "name": "open",
+     "key": "open",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#bsa-main-navigation>ul>li:nth-of-type(1)>a>button",
+     "expanded": "false",
+     "rect": [
+      592,
+      186,
+      22,
+      25
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Wir über uns",
+          "href": "https://www.bundessortenamt.de/bsa/das-bsa/wir-ueber-uns"
+         },
+         {
+          "text": "Aufgaben",
+          "href": "https://www.bundessortenamt.de/bsa/das-bsa/aufgaben"
+         },
+         {
+          "text": "Organisation",
+          "href": "https://www.bundessortenamt.de/bsa/das-bsa/organisation"
+         },
+         {
+          "text": "Nationale Zusammenarbeit",
+          "href": "https://www.bundessortenamt.de/bsa/das-bsa/nationale-zusammenarbeit"
+         },
+         {
+          "text": "Internationale Zusammenarbeit",
+          "href": "https://www.bundessortenamt.de/bsa/das-bsa/internationale-zusammenarbeit"
+         },
+         {
+          "text": "Rechtliche Grundlagen",
+          "href": "https://www.bundessortenamt.de/bsa/das-bsa/rechtliche-grundlagen"
+         },
+         {
+          "text": "Europäisches Medienfreiheitsgesetz",
+          "href": "https://www.bundessortenamt.de/bsa/das-bsa/emfa"
+         },
+         {
+          "text": "Adressen / Anfahrt",
+          "href": "https://www.bundessortenamt.de/bsa/das-bsa/adressen-anfahrt"
+         },
+         {
+          "text": "Karriere",
+          "href": "https://www.bundessortenamt.de/bsa/das-bsa/karriere"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         470,
+         224,
+         240,
+         330
+        ]
+       },
+       "expanded": "false",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-002-open-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Wir über uns",
+          "href": "https://www.bundessortenamt.de/bsa/das-bsa/wir-ueber-uns"
+         },
+         {
+          "text": "Aufgaben",
+          "href": "https://www.bundessortenamt.de/bsa/das-bsa/aufgaben"
+         },
+         {
+          "text": "Organisation",
+          "href": "https://www.bundessortenamt.de/bsa/das-bsa/organisation"
+         },
+         {
+          "text": "Nationale Zusammenarbeit",
+          "href": "https://www.bundessortenamt.de/bsa/das-bsa/nationale-zusammenarbeit"
+         },
+         {
+          "text": "Internationale Zusammenarbeit",
+          "href": "https://www.bundessortenamt.de/bsa/das-bsa/internationale-zusammenarbeit"
+         },
+         {
+          "text": "Rechtliche Grundlagen",
+          "href": "https://www.bundessortenamt.de/bsa/das-bsa/rechtliche-grundlagen"
+         },
+         {
+          "text": "Europäisches Medienfreiheitsgesetz",
+          "href": "https://www.bundessortenamt.de/bsa/das-bsa/emfa"
+         },
+         {
+          "text": "Adressen / Anfahrt",
+          "href": "https://www.bundessortenamt.de/bsa/das-bsa/adressen-anfahrt"
+         },
+         {
+          "text": "Karriere",
+          "href": "https://www.bundessortenamt.de/bsa/das-bsa/karriere"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         470,
+         224,
+         240,
+         330
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-003-open-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Wir über uns",
+          "href": "https://www.bundessortenamt.de/bsa/das-bsa/wir-ueber-uns"
+         },
+         {
+          "text": "Aufgaben",
+          "href": "https://www.bundessortenamt.de/bsa/das-bsa/aufgaben"
+         },
+         {
+          "text": "Organisation",
+          "href": "https://www.bundessortenamt.de/bsa/das-bsa/organisation"
+         },
+         {
+          "text": "Nationale Zusammenarbeit",
+          "href": "https://www.bundessortenamt.de/bsa/das-bsa/nationale-zusammenarbeit"
+         },
+         {
+          "text": "Internationale Zusammenarbeit",
+          "href": "https://www.bundessortenamt.de/bsa/das-bsa/internationale-zusammenarbeit"
+         },
+         {
+          "text": "Rechtliche Grundlagen",
+          "href": "https://www.bundessortenamt.de/bsa/das-bsa/rechtliche-grundlagen"
+         },
+         {
+          "text": "Europäisches Medienfreiheitsgesetz",
+          "href": "https://www.bundessortenamt.de/bsa/das-bsa/emfa"
+         },
+         {
+          "text": "Adressen / Anfahrt",
+          "href": "https://www.bundessortenamt.de/bsa/das-bsa/adressen-anfahrt"
+         },
+         {
+          "text": "Karriere",
+          "href": "https://www.bundessortenamt.de/bsa/das-bsa/karriere"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         470,
+         224,
+         240,
+         330
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-004-open-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": false,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "Sorten open",
+     "key": "sorten open",
+     "role": "link",
+     "kind": "link",
+     "sel": "#bsa-main-navigation>ul>li:nth-of-type(2)>a",
+     "href": "https://www.bundessortenamt.de/bsa/sorten",
+     "expanded": null,
+     "rect": [
+      622,
+      156,
+      81,
+      68
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Sortenschutz",
+          "href": "https://www.bundessortenamt.de/bsa/sorten/sortenschutz"
+         },
+         {
+          "text": "Sortenzulassung",
+          "href": "https://www.bundessortenamt.de/bsa/sorten/sortenzulassung"
+         },
+         {
+          "text": "Sorten-Datenbanken",
+          "href": "https://www.bundessortenamt.de/bsa/sorten/datenbanken"
+         },
+         {
+          "text": "Beschreibung der Neuzulassungen",
+          "href": "https://www.bundessortenamt.de/bsa/sorten/beschreibung-der-neuzulassungen"
+         },
+         {
+          "text": "Beschreibende Sortenlisten",
+          "href": "https://www.bundessortenamt.de/bsa/sorten/beschreibende-sortenlisten"
+         },
+         {
+          "text": "Blatt für Sortenwesen",
+          "href": "https://www.bundessortenamt.de/bsa/sorten/blatt-fuer-sortenwesen"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         542,
+         224,
+         240,
+         222
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-005-Sorten-open-hover.png"
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "leave": true
+     },
+     "children": []
+    },
+    {
+     "name": "open",
+     "key": "open",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#bsa-main-navigation>ul>li:nth-of-type(2)>a>button",
+     "expanded": "false",
+     "rect": [
+      673,
+      167,
+      22,
+      25
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Sortenschutz",
+          "href": "https://www.bundessortenamt.de/bsa/sorten/sortenschutz"
+         },
+         {
+          "text": "Sortenzulassung",
+          "href": "https://www.bundessortenamt.de/bsa/sorten/sortenzulassung"
+         },
+         {
+          "text": "Sorten-Datenbanken",
+          "href": "https://www.bundessortenamt.de/bsa/sorten/datenbanken"
+         },
+         {
+          "text": "Beschreibung der Neuzulassungen",
+          "href": "https://www.bundessortenamt.de/bsa/sorten/beschreibung-der-neuzulassungen"
+         },
+         {
+          "text": "Beschreibende Sortenlisten",
+          "href": "https://www.bundessortenamt.de/bsa/sorten/beschreibende-sortenlisten"
+         },
+         {
+          "text": "Blatt für Sortenwesen",
+          "href": "https://www.bundessortenamt.de/bsa/sorten/blatt-fuer-sortenwesen"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         542,
+         224,
+         240,
+         222
+        ]
+       },
+       "expanded": "false",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-006-open-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Sortenschutz",
+          "href": "https://www.bundessortenamt.de/bsa/sorten/sortenschutz"
+         },
+         {
+          "text": "Sortenzulassung",
+          "href": "https://www.bundessortenamt.de/bsa/sorten/sortenzulassung"
+         },
+         {
+          "text": "Sorten-Datenbanken",
+          "href": "https://www.bundessortenamt.de/bsa/sorten/datenbanken"
+         },
+         {
+          "text": "Beschreibung der Neuzulassungen",
+          "href": "https://www.bundessortenamt.de/bsa/sorten/beschreibung-der-neuzulassungen"
+         },
+         {
+          "text": "Beschreibende Sortenlisten",
+          "href": "https://www.bundessortenamt.de/bsa/sorten/beschreibende-sortenlisten"
+         },
+         {
+          "text": "Blatt für Sortenwesen",
+          "href": "https://www.bundessortenamt.de/bsa/sorten/blatt-fuer-sortenwesen"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         542,
+         224,
+         240,
+         222
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-007-open-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Sortenschutz",
+          "href": "https://www.bundessortenamt.de/bsa/sorten/sortenschutz"
+         },
+         {
+          "text": "Sortenzulassung",
+          "href": "https://www.bundessortenamt.de/bsa/sorten/sortenzulassung"
+         },
+         {
+          "text": "Sorten-Datenbanken",
+          "href": "https://www.bundessortenamt.de/bsa/sorten/datenbanken"
+         },
+         {
+          "text": "Beschreibung der Neuzulassungen",
+          "href": "https://www.bundessortenamt.de/bsa/sorten/beschreibung-der-neuzulassungen"
+         },
+         {
+          "text": "Beschreibende Sortenlisten",
+          "href": "https://www.bundessortenamt.de/bsa/sorten/beschreibende-sortenlisten"
+         },
+         {
+          "text": "Blatt für Sortenwesen",
+          "href": "https://www.bundessortenamt.de/bsa/sorten/blatt-fuer-sortenwesen"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         542,
+         224,
+         240,
+         222
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-008-open-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": false,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "Saatgut open",
+     "key": "saatgut open",
+     "role": "link",
+     "kind": "link",
+     "sel": "#bsa-main-navigation>ul>li:nth-of-type(3)>a",
+     "href": "https://www.bundessortenamt.de/bsa/saatgut",
+     "expanded": null,
+     "rect": [
+      703,
+      156,
+      87,
+      68
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Nationale Angelegenheiten",
+          "href": "https://www.bundessortenamt.de/bsa/saatgut/nationale-angelegenheiten"
+         },
+         {
+          "text": "EU und Internationale Angelegenheiten",
+          "href": "https://www.bundessortenamt.de/bsa/saatgut/eu-und-internationale-angelegenheiten"
+         },
+         {
+          "text": "Internationale Projekte",
+          "href": "https://www.bundessortenamt.de/bsa/saatgut/internationale-projekte"
+         },
+         {
+          "text": "Statistiken Saatguterzeugung",
+          "href": "https://www.bundessortenamt.de/bsa/saatgut/statistiken-saatguterzeugung"
+         },
+         {
+          "text": "Ausnahmeregelungen Inverkehrbringen von Saatgut",
+          "href": "https://www.bundessortenamt.de/bsa/saatgut/ausnahmeregelungen-inverkehrbringen-von-saatgut"
+         },
+         {
+          "text": "Regelungen von ökologischem heterogenem Material",
+          "href": "https://www.bundessortenamt.de/bsa/saatgut/oekologisches-heterogenes-material"
+         },
+         {
+          "text": "Anmeldung Anerkennungsstellen und Saatgutverkehrskontrollstellen",
+          "href": "https://www.bundessortenamt.de/bsa/saatgut/anmeldung-anerkennungsstellen-und-saatgutverkehrskontrollstellen"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         626,
+         224,
+         240,
+         324
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-009-Saatgut-open-hover.png"
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "leave": true
+     },
+     "children": []
+    },
+    {
+     "name": "open",
+     "key": "open",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#bsa-main-navigation>ul>li:nth-of-type(3)>a>button",
+     "expanded": "false",
+     "rect": [
+      760,
+      167,
+      22,
+      25
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Nationale Angelegenheiten",
+          "href": "https://www.bundessortenamt.de/bsa/saatgut/nationale-angelegenheiten"
+         },
+         {
+          "text": "EU und Internationale Angelegenheiten",
+          "href": "https://www.bundessortenamt.de/bsa/saatgut/eu-und-internationale-angelegenheiten"
+         },
+         {
+          "text": "Internationale Projekte",
+          "href": "https://www.bundessortenamt.de/bsa/saatgut/internationale-projekte"
+         },
+         {
+          "text": "Statistiken Saatguterzeugung",
+          "href": "https://www.bundessortenamt.de/bsa/saatgut/statistiken-saatguterzeugung"
+         },
+         {
+          "text": "Ausnahmeregelungen Inverkehrbringen von Saatgut",
+          "href": "https://www.bundessortenamt.de/bsa/saatgut/ausnahmeregelungen-inverkehrbringen-von-saatgut"
+         },
+         {
+          "text": "Regelungen von ökologischem heterogenem Material",
+          "href": "https://www.bundessortenamt.de/bsa/saatgut/oekologisches-heterogenes-material"
+         },
+         {
+          "text": "Anmeldung Anerkennungsstellen und Saatgutverkehrskontrollstellen",
+          "href": "https://www.bundessortenamt.de/bsa/saatgut/anmeldung-anerkennungsstellen-und-saatgutverkehrskontrollstellen"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         626,
+         224,
+         240,
+         324
+        ]
+       },
+       "expanded": "false",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-010-open-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Nationale Angelegenheiten",
+          "href": "https://www.bundessortenamt.de/bsa/saatgut/nationale-angelegenheiten"
+         },
+         {
+          "text": "EU und Internationale Angelegenheiten",
+          "href": "https://www.bundessortenamt.de/bsa/saatgut/eu-und-internationale-angelegenheiten"
+         },
+         {
+          "text": "Internationale Projekte",
+          "href": "https://www.bundessortenamt.de/bsa/saatgut/internationale-projekte"
+         },
+         {
+          "text": "Statistiken Saatguterzeugung",
+          "href": "https://www.bundessortenamt.de/bsa/saatgut/statistiken-saatguterzeugung"
+         },
+         {
+          "text": "Ausnahmeregelungen Inverkehrbringen von Saatgut",
+          "href": "https://www.bundessortenamt.de/bsa/saatgut/ausnahmeregelungen-inverkehrbringen-von-saatgut"
+         },
+         {
+          "text": "Regelungen von ökologischem heterogenem Material",
+          "href": "https://www.bundessortenamt.de/bsa/saatgut/oekologisches-heterogenes-material"
+         },
+         {
+          "text": "Anmeldung Anerkennungsstellen und Saatgutverkehrskontrollstellen",
+          "href": "https://www.bundessortenamt.de/bsa/saatgut/anmeldung-anerkennungsstellen-und-saatgutverkehrskontrollstellen"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         626,
+         224,
+         240,
+         324
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-011-open-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Nationale Angelegenheiten",
+          "href": "https://www.bundessortenamt.de/bsa/saatgut/nationale-angelegenheiten"
+         },
+         {
+          "text": "EU und Internationale Angelegenheiten",
+          "href": "https://www.bundessortenamt.de/bsa/saatgut/eu-und-internationale-angelegenheiten"
+         },
+         {
+          "text": "Internationale Projekte",
+          "href": "https://www.bundessortenamt.de/bsa/saatgut/internationale-projekte"
+         },
+         {
+          "text": "Statistiken Saatguterzeugung",
+          "href": "https://www.bundessortenamt.de/bsa/saatgut/statistiken-saatguterzeugung"
+         },
+         {
+          "text": "Ausnahmeregelungen Inverkehrbringen von Saatgut",
+          "href": "https://www.bundessortenamt.de/bsa/saatgut/ausnahmeregelungen-inverkehrbringen-von-saatgut"
+         },
+         {
+          "text": "Regelungen von ökologischem heterogenem Material",
+          "href": "https://www.bundessortenamt.de/bsa/saatgut/oekologisches-heterogenes-material"
+         },
+         {
+          "text": "Anmeldung Anerkennungsstellen und Saatgutverkehrskontrollstellen",
+          "href": "https://www.bundessortenamt.de/bsa/saatgut/anmeldung-anerkennungsstellen-und-saatgutverkehrskontrollstellen"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         626,
+         224,
+         240,
+         324
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-012-open-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": false,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "Pflanzengenetische Ressourcen open",
+     "key": "pflanzengenetische ressourcen open",
+     "role": "link",
+     "kind": "link",
+     "sel": "#bsa-main-navigation>ul>li:nth-of-type(4)>a",
+     "href": "https://www.bundessortenamt.de/bsa/pflanzengenetische-ressourcen",
+     "expanded": null,
+     "rect": [
+      790,
+      156,
+      143,
+      68
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Deutsche Genbank Zierpflanzen",
+          "href": "https://www.bundessortenamt.de/bsa/pflanzengenetische-ressourcen/deutsche-genbank-zierpflanzen"
+         },
+         {
+          "text": "Deutsche Genbank Obst",
+          "href": "https://www.bundessortenamt.de/bsa/pflanzengenetische-ressourcen/deutsche-genbank-obst"
+         },
+         {
+          "text": "Deutsche Genbank Reben",
+          "href": "https://www.bundessortenamt.de/bsa/pflanzengenetische-ressourcen/deutsche-genbank-reben"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         741,
+         224,
+         240,
+         132
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-013-Pflanzengenetische-Ressourcen-open-hover.png"
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "leave": true
+     },
+     "children": []
+    },
+    {
+     "name": "open",
+     "key": "open",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#bsa-main-navigation>ul>li:nth-of-type(4)>a>button",
+     "expanded": "false",
+     "rect": [
+      872,
+      186,
+      22,
+      25
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Deutsche Genbank Zierpflanzen",
+          "href": "https://www.bundessortenamt.de/bsa/pflanzengenetische-ressourcen/deutsche-genbank-zierpflanzen"
+         },
+         {
+          "text": "Deutsche Genbank Obst",
+          "href": "https://www.bundessortenamt.de/bsa/pflanzengenetische-ressourcen/deutsche-genbank-obst"
+         },
+         {
+          "text": "Deutsche Genbank Reben",
+          "href": "https://www.bundessortenamt.de/bsa/pflanzengenetische-ressourcen/deutsche-genbank-reben"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         741,
+         224,
+         240,
+         132
+        ]
+       },
+       "expanded": "false",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-014-open-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Deutsche Genbank Zierpflanzen",
+          "href": "https://www.bundessortenamt.de/bsa/pflanzengenetische-ressourcen/deutsche-genbank-zierpflanzen"
+         },
+         {
+          "text": "Deutsche Genbank Obst",
+          "href": "https://www.bundessortenamt.de/bsa/pflanzengenetische-ressourcen/deutsche-genbank-obst"
+         },
+         {
+          "text": "Deutsche Genbank Reben",
+          "href": "https://www.bundessortenamt.de/bsa/pflanzengenetische-ressourcen/deutsche-genbank-reben"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         741,
+         224,
+         240,
+         132
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-015-open-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Deutsche Genbank Zierpflanzen",
+          "href": "https://www.bundessortenamt.de/bsa/pflanzengenetische-ressourcen/deutsche-genbank-zierpflanzen"
+         },
+         {
+          "text": "Deutsche Genbank Obst",
+          "href": "https://www.bundessortenamt.de/bsa/pflanzengenetische-ressourcen/deutsche-genbank-obst"
+         },
+         {
+          "text": "Deutsche Genbank Reben",
+          "href": "https://www.bundessortenamt.de/bsa/pflanzengenetische-ressourcen/deutsche-genbank-reben"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         741,
+         224,
+         240,
+         132
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-016-open-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": false,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "Antrag­steller open",
+     "key": "antragsteller open",
+     "role": "link",
+     "kind": "link",
+     "sel": "#bsa-main-navigation>ul>li:nth-of-type(5)>a",
+     "href": "https://www.bundessortenamt.de/bsa/antragsteller",
+     "expanded": null,
+     "rect": [
+      933,
+      156,
+      122,
+      68
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Wichtige Bekanntmachungen",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller/wichtige-bekanntmachungen"
+         },
+         {
+          "text": "Antrags- und Vorlagetermine",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller/antrags-und-vorlagetermine"
+         },
+         {
+          "text": "Antragsformulare",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller/antragsformulare"
+         },
+         {
+          "text": "Sonstige Formulare",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller/sonstige-formulare"
+         },
+         {
+          "text": "Hinweise Antragsteller",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller/hinweise-antragsteller"
+         },
+         {
+          "text": "Gebühren",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller/gebuehren"
+         },
+         {
+          "text": "Berichte der Wertprüfung",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller/berichte-der-wertpruefung"
+         },
+         {
+          "text": "Schutz- und Zulassungsurkunden",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller/schutz-und-zulassungsurkunden"
+         },
+         {
+          "text": "Eignungsprüfung für Rasengräser",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller/eignungspruefung-fuer-rasengraeser"
+         },
+         {
+          "text": "Vordrucke OECD -Saatgutsysteme",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller/vordrucke-oecd-saatgutsysteme"
+         },
+         {
+          "text": "Zugang zu Nachkontrollergebnissen",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller/zugang-zu-nachkontrollergebnissen"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         874,
+         224,
+         240,
+         390
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-017-Antrag-steller-open-hover.png"
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "leave": true
+     },
+     "children": []
+    },
+    {
+     "name": "open",
+     "key": "open",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#bsa-main-navigation>ul>li:nth-of-type(5)>a>button",
+     "expanded": "false",
+     "rect": [
+      1025,
+      167,
+      22,
+      25
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Wichtige Bekanntmachungen",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller/wichtige-bekanntmachungen"
+         },
+         {
+          "text": "Antrags- und Vorlagetermine",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller/antrags-und-vorlagetermine"
+         },
+         {
+          "text": "Antragsformulare",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller/antragsformulare"
+         },
+         {
+          "text": "Sonstige Formulare",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller/sonstige-formulare"
+         },
+         {
+          "text": "Hinweise Antragsteller",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller/hinweise-antragsteller"
+         },
+         {
+          "text": "Gebühren",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller/gebuehren"
+         },
+         {
+          "text": "Berichte der Wertprüfung",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller/berichte-der-wertpruefung"
+         },
+         {
+          "text": "Schutz- und Zulassungsurkunden",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller/schutz-und-zulassungsurkunden"
+         },
+         {
+          "text": "Eignungsprüfung für Rasengräser",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller/eignungspruefung-fuer-rasengraeser"
+         },
+         {
+          "text": "Vordrucke OECD -Saatgutsysteme",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller/vordrucke-oecd-saatgutsysteme"
+         },
+         {
+          "text": "Zugang zu Nachkontrollergebnissen",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller/zugang-zu-nachkontrollergebnissen"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         874,
+         224,
+         240,
+         390
+        ]
+       },
+       "expanded": "false",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-018-open-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Wichtige Bekanntmachungen",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller/wichtige-bekanntmachungen"
+         },
+         {
+          "text": "Antrags- und Vorlagetermine",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller/antrags-und-vorlagetermine"
+         },
+         {
+          "text": "Antragsformulare",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller/antragsformulare"
+         },
+         {
+          "text": "Sonstige Formulare",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller/sonstige-formulare"
+         },
+         {
+          "text": "Hinweise Antragsteller",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller/hinweise-antragsteller"
+         },
+         {
+          "text": "Gebühren",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller/gebuehren"
+         },
+         {
+          "text": "Berichte der Wertprüfung",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller/berichte-der-wertpruefung"
+         },
+         {
+          "text": "Schutz- und Zulassungsurkunden",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller/schutz-und-zulassungsurkunden"
+         },
+         {
+          "text": "Eignungsprüfung für Rasengräser",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller/eignungspruefung-fuer-rasengraeser"
+         },
+         {
+          "text": "Vordrucke OECD -Saatgutsysteme",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller/vordrucke-oecd-saatgutsysteme"
+         },
+         {
+          "text": "Zugang zu Nachkontrollergebnissen",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller/zugang-zu-nachkontrollergebnissen"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         874,
+         224,
+         240,
+         390
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-019-open-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Wichtige Bekanntmachungen",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller/wichtige-bekanntmachungen"
+         },
+         {
+          "text": "Antrags- und Vorlagetermine",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller/antrags-und-vorlagetermine"
+         },
+         {
+          "text": "Antragsformulare",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller/antragsformulare"
+         },
+         {
+          "text": "Sonstige Formulare",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller/sonstige-formulare"
+         },
+         {
+          "text": "Hinweise Antragsteller",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller/hinweise-antragsteller"
+         },
+         {
+          "text": "Gebühren",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller/gebuehren"
+         },
+         {
+          "text": "Berichte der Wertprüfung",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller/berichte-der-wertpruefung"
+         },
+         {
+          "text": "Schutz- und Zulassungsurkunden",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller/schutz-und-zulassungsurkunden"
+         },
+         {
+          "text": "Eignungsprüfung für Rasengräser",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller/eignungspruefung-fuer-rasengraeser"
+         },
+         {
+          "text": "Vordrucke OECD -Saatgutsysteme",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller/vordrucke-oecd-saatgutsysteme"
+         },
+         {
+          "text": "Zugang zu Nachkontrollergebnissen",
+          "href": "https://www.bundessortenamt.de/bsa/antragsteller/zugang-zu-nachkontrollergebnissen"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         874,
+         224,
+         240,
+         390
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-020-open-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": false,
+      "toggle": false
+     },
+     "children": []
+    },
+    {
+     "name": "Prüfungs­ansteller open",
+     "key": "prüfungsansteller open",
+     "role": "link",
+     "kind": "link",
+     "sel": "#bsa-main-navigation>ul>li:nth-of-type(6)>a",
+     "href": "https://www.bundessortenamt.de/bsa/pruefungsansteller",
+     "expanded": null,
+     "rect": [
+      1055,
+      156,
+      153,
+      68
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Anbaulisten, Übersichten, Rundschreiben, Verrechnungssorten",
+          "href": "https://www.bundessortenamt.de/bsa/pruefungsansteller/anbaulisten"
+         },
+         {
+          "text": "Berichte der Wertprüfung",
+          "href": "https://www.bundessortenamt.de/bsa/pruefungsansteller/berichte-der-wertpruefung"
+         },
+         {
+          "text": "PIAF",
+          "href": "https://www.bundessortenamt.de/bsa/pruefungsansteller/piaf"
+         },
+         {
+          "text": "Richtlinien",
+          "href": "https://www.bundessortenamt.de/bsa/pruefungsansteller/richtlinien"
+         },
+         {
+          "text": "Formulare",
+          "href": "https://www.bundessortenamt.de/bsa/pruefungsansteller/formulare"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1012,
+         224,
+         240,
+         228
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-021-Pr-fungs-ansteller-open-hover.png"
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "leave": true
+     },
+     "children": []
+    },
+    {
+     "name": "open",
+     "key": "open",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#bsa-main-navigation>ul>li:nth-of-type(6)>a>button",
+     "expanded": "false",
+     "rect": [
+      1178,
+      167,
+      22,
+      25
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Anbaulisten, Übersichten, Rundschreiben, Verrechnungssorten",
+          "href": "https://www.bundessortenamt.de/bsa/pruefungsansteller/anbaulisten"
+         },
+         {
+          "text": "Berichte der Wertprüfung",
+          "href": "https://www.bundessortenamt.de/bsa/pruefungsansteller/berichte-der-wertpruefung"
+         },
+         {
+          "text": "PIAF",
+          "href": "https://www.bundessortenamt.de/bsa/pruefungsansteller/piaf"
+         },
+         {
+          "text": "Richtlinien",
+          "href": "https://www.bundessortenamt.de/bsa/pruefungsansteller/richtlinien"
+         },
+         {
+          "text": "Formulare",
+          "href": "https://www.bundessortenamt.de/bsa/pruefungsansteller/formulare"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1012,
+         224,
+         240,
+         228
+        ]
+       },
+       "expanded": "false",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-022-open-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Anbaulisten, Übersichten, Rundschreiben, Verrechnungssorten",
+          "href": "https://www.bundessortenamt.de/bsa/pruefungsansteller/anbaulisten"
+         },
+         {
+          "text": "Berichte der Wertprüfung",
+          "href": "https://www.bundessortenamt.de/bsa/pruefungsansteller/berichte-der-wertpruefung"
+         },
+         {
+          "text": "PIAF",
+          "href": "https://www.bundessortenamt.de/bsa/pruefungsansteller/piaf"
+         },
+         {
+          "text": "Richtlinien",
+          "href": "https://www.bundessortenamt.de/bsa/pruefungsansteller/richtlinien"
+         },
+         {
+          "text": "Formulare",
+          "href": "https://www.bundessortenamt.de/bsa/pruefungsansteller/formulare"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1012,
+         224,
+         240,
+         228
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-023-open-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Anbaulisten, Übersichten, Rundschreiben, Verrechnungssorten",
+          "href": "https://www.bundessortenamt.de/bsa/pruefungsansteller/anbaulisten"
+         },
+         {
+          "text": "Berichte der Wertprüfung",
+          "href": "https://www.bundessortenamt.de/bsa/pruefungsansteller/berichte-der-wertpruefung"
+         },
+         {
+          "text": "PIAF",
+          "href": "https://www.bundessortenamt.de/bsa/pruefungsansteller/piaf"
+         },
+         {
+          "text": "Richtlinien",
+          "href": "https://www.bundessortenamt.de/bsa/pruefungsansteller/richtlinien"
+         },
+         {
+          "text": "Formulare",
+          "href": "https://www.bundessortenamt.de/bsa/pruefungsansteller/formulare"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1012,
+         224,
+         240,
+         228
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-024-open-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": false,
+      "toggle": false
+     },
+     "children": []
+    }
+   ],
+   "scroll": [],
+   "states": 24,
+   "truncated": null,
+   "loads": 2,
+   "requests": 57,
+   "maxRequests": 600,
+   "inputsSkipped": 0
+  }
+ },
+ "probe": "direkt"
+}

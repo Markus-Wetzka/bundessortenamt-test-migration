@@ -1,0 +1,102 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics plan",
+  "writtenAt": "2026-11-17T14:33:00.835Z",
+  "input": "stardust/current/_dynamics.json",
+  "target": "https://main--4f3d7fd3--aemcoder.aem.page",
+  "migrated": null,
+  "knowledge": null,
+  "chrome": null
+ },
+ "rows": [
+  {
+   "id": "cr-client-rendered-slot-bsa-stage-js-bsa-stage-bsa-stage-ini",
+   "class": "CR",
+   "feature": "client-rendered slot bsa-stage js-bsa-stage bsa-stage--initialised",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "Sorten schützen-Sichert das geistige Eigentum an Pflanzenzüc"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "i18n-locale-variants-de-de-en-us-x-default",
+   "class": "I18N",
+   "feature": "locale variants de-DE,en-US,x-default",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [],
+   "pattern": "locale-tree",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "locale wave",
+   "decision": "scope of the locale trees"
+  },
+  {
+   "id": "l-listing-candidate-news-4-cards",
+   "class": "L",
+   "feature": "listing candidate news (4 cards)",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [],
+   "pattern": "listing-index-backed",
+   "disposition": "index-backed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "listings",
+   "decision": "index-driven or editorially curated?"
+  },
+  {
+   "id": "s-site-search-form-bsa-suche",
+   "class": "S",
+   "feature": "site search form → /bsa/suche",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "text:tx_indexedsearch_pi2[search][sword]"
+   ],
+   "pattern": "search-index-backed",
+   "disposition": "index-backed",
+   "target": "widget",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "search",
+   "decision": "none (corpus = the migrated pages; second corpora stay out)"
+  },
+  {
+   "id": "x-sign-in-account-links",
+   "class": "X",
+   "feature": "sign-in / account links",
+   "pages": 1,
+   "probed": 1,
+   "reach": null,
+   "evidence": [
+    "https://www.bundessortenamt.de/bsa/#bsa-content",
+    "https://www.bundessortenamt.de/bsa/#bsa-main-navigation",
+    "https://www.bundessortenamt.de/bsa/#bsa-footer",
+    "https://www.bundessortenamt.de/bsa/en/"
+   ],
+   "pattern": "decided-out",
+   "disposition": "decided-out",
+   "target": null,
+   "reproducibility": "needs-backend",
+   "status": "pending",
+   "phase": "register",
+   "decision": "auth / commerce on the new host?"
+  }
+ ]
+}

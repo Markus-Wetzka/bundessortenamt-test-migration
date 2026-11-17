@@ -1,0 +1,19 @@
+cap-probe  base 1440 → probe 2560 (from DESIGN.json)
+live   https://www.bundessortenamt.de/bsa/
+  shell     1000px  max-width body.bsa-style-2.bsa-layout-pagets__home > div.bsa-page > div.bsa-container  (tier -1, holds 100% of the text)
+  content    635px  fixed     #bsa-content  (tier 0, holds 100% of the text)
+  other    6 capped box(es) outside the section tier (in the JSON) — e.g. 1000px body.bsa-style-2.bsa-layout-pagets__home > div.bsa-page > div.bsa-container
+  modules  2 sections: capped 391 ×1 · full-bleed ×1
+  contentMaxWidth 635px (content) · shellMaxWidth 1000px · root #bsa-content
+build  http://localhost:8791/bsa-proposed.html
+  shell     1000px  max-width body.bsa-layout-home > div.bsa-page > div.bsa-container  (tier -1, holds 100% of the text)
+  content    635px  fixed     #bsa-content  (tier 0, holds 100% of the text)
+  other    6 capped box(es) outside the section tier (in the JSON) — e.g. 1000px body.bsa-layout-home > div.bsa-page > div.bsa-container
+  modules  2 sections: capped 391 ×1 · full-bleed ×1
+  contentMaxWidth 635px (content) · shellMaxWidth 1000px · root #bsa-content
+rows
+  ✓ wrapper cap: live 635px = build 635px (±20)
+  ⚠ outer shell: live 1000px (body.bsa-style-2.bsa-layout-pagets__home > div.bsa-page > div.bsa-container) encloses the 635px wrapper cap — informational, no content bound of its own
+  ✓ module 1/2: 391px = 391px
+  ✓ module 2/2: full-bleed on both
+cap-probe: PASS at 2560 — 0 of 4 rows failed (evidence stardust/replica/gates/bsa-2560/cap-iter.json)

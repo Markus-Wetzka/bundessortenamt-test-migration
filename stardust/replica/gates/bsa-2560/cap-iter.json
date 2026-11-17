@@ -1,0 +1,381 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-11-17T13:37:25.926Z",
+    "baseWidth": 1440,
+    "urls": [
+      "https://www.bundessortenamt.de/bsa/",
+      "http://localhost:8791/bsa-proposed.html"
+    ],
+    "probeWidth": 2560,
+    "probeNote": "from DESIGN.json",
+    "tolerance": 20
+  },
+  "urls": [
+    "https://www.bundessortenamt.de/bsa/",
+    "http://localhost:8791/bsa-proposed.html"
+  ],
+  "probeNote": "from DESIGN.json",
+  "live": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#bsa-content",
+      "isBody": false,
+      "leaves": 21,
+      "w2": 635
+    },
+    "origins": [
+      {
+        "kind": "other",
+        "px": 1000,
+        "via": "max-width",
+        "selector": "body.bsa-style-2.bsa-layout-pagets__home > div.bsa-page > div.bsa-container",
+        "tier": 4,
+        "share": 0,
+        "section": -1,
+        "w1": 1000,
+        "maxWidth": "1000px"
+      },
+      {
+        "kind": "other",
+        "px": 1000,
+        "via": "max-width",
+        "selector": "body.bsa-style-2.bsa-layout-pagets__home > div.bsa-page > section.bsa-area.bsa-area--highlight > div.bsa-container",
+        "tier": 5,
+        "share": 0,
+        "section": -1,
+        "w1": 1000,
+        "maxWidth": "1000px"
+      },
+      {
+        "kind": "other",
+        "px": 635,
+        "via": "fixed",
+        "selector": "#bsa-stage--panel-1",
+        "tier": 7,
+        "share": 0,
+        "section": -1,
+        "w1": 635,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "other",
+        "px": 635,
+        "via": "fixed",
+        "selector": "#bsa-stage--panel-2",
+        "tier": 7,
+        "share": 0,
+        "section": -1,
+        "w1": 635,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "other",
+        "px": 635,
+        "via": "fixed",
+        "selector": "#bsa-stage--panel-3",
+        "tier": 7,
+        "share": 0,
+        "section": -1,
+        "w1": 635,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "shell",
+        "px": 1000,
+        "via": "max-width",
+        "selector": "body.bsa-style-2.bsa-layout-pagets__home > div.bsa-page > div.bsa-container",
+        "tier": -1,
+        "share": 1,
+        "section": -1,
+        "w1": 1000,
+        "maxWidth": "1000px"
+      },
+      {
+        "kind": "content",
+        "px": 635,
+        "via": "fixed",
+        "selector": "#bsa-content",
+        "tier": 0,
+        "share": 1,
+        "section": -1,
+        "w1": 635,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 391,
+        "via": "fixed",
+        "selector": "div.news > article.bsa-teaser.bsa-teaser--with-image > a.bsa-teaser__link > div.bsa-teaser__text",
+        "tier": 5,
+        "share": 0.1,
+        "section": 0,
+        "w1": 391,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 391,
+        "via": "fixed",
+        "selector": "div.news > article.bsa-teaser.bsa-teaser--with-image > a.bsa-teaser__link > div.bsa-teaser__text",
+        "tier": 5,
+        "share": 0.1,
+        "section": 0,
+        "w1": 391,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 391,
+        "via": "fixed",
+        "selector": "div.news > article.bsa-teaser.bsa-teaser--with-image > a.bsa-teaser__link > div.bsa-teaser__text",
+        "tier": 5,
+        "share": 0.1,
+        "section": 0,
+        "w1": 391,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 391,
+        "via": "fixed",
+        "selector": "div.news > article.bsa-teaser.bsa-teaser--with-image > a.bsa-teaser__link > div.bsa-teaser__text",
+        "tier": 5,
+        "share": 0.1,
+        "section": 0,
+        "w1": 391,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "other",
+        "px": 309,
+        "via": "fixed",
+        "selector": "body.bsa-style-2.bsa-layout-pagets__home > div.bsa-page > div.bsa-container > div.bsa-marginal",
+        "tier": 5,
+        "share": 0,
+        "section": -1,
+        "w1": 309,
+        "maxWidth": "none"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#bsa-content > div.frame.frame-default",
+        "px": 391,
+        "capSelector": "div.news > article.bsa-teaser.bsa-teaser--with-image > a.bsa-teaser__link > div.bsa-teaser__text"
+      },
+      {
+        "index": 1,
+        "selector": "#bsa-content > div.frame.frame-default",
+        "px": null,
+        "capSelector": null
+      }
+    ],
+    "shellMaxWidth": 1000,
+    "contentMaxWidth": 635,
+    "contentFrom": "content",
+    "maxCap": 1000,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 74
+  },
+  "build": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#bsa-content",
+      "isBody": false,
+      "leaves": 21,
+      "w2": 635
+    },
+    "origins": [
+      {
+        "kind": "other",
+        "px": 1000,
+        "via": "max-width",
+        "selector": "body.bsa-layout-home > div.bsa-page > div.bsa-container",
+        "tier": 4,
+        "share": 0,
+        "section": -1,
+        "w1": 1000,
+        "maxWidth": "1000px"
+      },
+      {
+        "kind": "other",
+        "px": 1000,
+        "via": "max-width",
+        "selector": "body.bsa-layout-home > div.bsa-page > section.bsa-area.bsa-area--highlight > div.bsa-container",
+        "tier": 5,
+        "share": 0,
+        "section": -1,
+        "w1": 1000,
+        "maxWidth": "1000px"
+      },
+      {
+        "kind": "other",
+        "px": 635,
+        "via": "fixed",
+        "selector": "#bsa-stage--panel-1",
+        "tier": 7,
+        "share": 0,
+        "section": -1,
+        "w1": 635,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "other",
+        "px": 635,
+        "via": "fixed",
+        "selector": "#bsa-stage--panel-2",
+        "tier": 7,
+        "share": 0,
+        "section": -1,
+        "w1": 635,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "other",
+        "px": 635,
+        "via": "fixed",
+        "selector": "#bsa-stage--panel-3",
+        "tier": 7,
+        "share": 0,
+        "section": -1,
+        "w1": 635,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "shell",
+        "px": 1000,
+        "via": "max-width",
+        "selector": "body.bsa-layout-home > div.bsa-page > div.bsa-container",
+        "tier": -1,
+        "share": 1,
+        "section": -1,
+        "w1": 1000,
+        "maxWidth": "1000px"
+      },
+      {
+        "kind": "content",
+        "px": 635,
+        "via": "fixed",
+        "selector": "#bsa-content",
+        "tier": 0,
+        "share": 1,
+        "section": -1,
+        "w1": 635,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 391,
+        "via": "fixed",
+        "selector": "div.frame.news > article.bsa-teaser.bsa-teaser--with-image > a.bsa-teaser__link > div.bsa-teaser__text",
+        "tier": 4,
+        "share": 0.1,
+        "section": 0,
+        "w1": 391,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 391,
+        "via": "fixed",
+        "selector": "div.frame.news > article.bsa-teaser.bsa-teaser--with-image > a.bsa-teaser__link > div.bsa-teaser__text",
+        "tier": 4,
+        "share": 0.1,
+        "section": 0,
+        "w1": 391,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 391,
+        "via": "fixed",
+        "selector": "div.frame.news > article.bsa-teaser.bsa-teaser--with-image > a.bsa-teaser__link > div.bsa-teaser__text",
+        "tier": 4,
+        "share": 0.1,
+        "section": 0,
+        "w1": 391,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 391,
+        "via": "fixed",
+        "selector": "div.frame.news > article.bsa-teaser.bsa-teaser--with-image > a.bsa-teaser__link > div.bsa-teaser__text",
+        "tier": 4,
+        "share": 0.1,
+        "section": 0,
+        "w1": 391,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "other",
+        "px": 309,
+        "via": "fixed",
+        "selector": "body.bsa-layout-home > div.bsa-page > div.bsa-container > aside.bsa-marginal",
+        "tier": 5,
+        "share": 0,
+        "section": -1,
+        "w1": 309,
+        "maxWidth": "none"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#bsa-content > div.frame.news",
+        "px": 391,
+        "capSelector": "div.frame.news > article.bsa-teaser.bsa-teaser--with-image > a.bsa-teaser__link > div.bsa-teaser__text"
+      },
+      {
+        "index": 1,
+        "selector": "#bsa-content > div.frame.ce-bodytext",
+        "px": null,
+        "capSelector": null
+      }
+    ],
+    "shellMaxWidth": 1000,
+    "contentMaxWidth": 635,
+    "contentFrom": "content",
+    "maxCap": 1000,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 71
+  },
+  "compare": {
+    "probeWidth": 2560,
+    "rows": [
+      {
+        "ok": true,
+        "label": "wrapper cap",
+        "detail": "live 635px = build 635px (±20)",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "outer shell",
+        "detail": "live 1000px (body.bsa-style-2.bsa-layout-pagets__home > div.bsa-page > div.bsa-container) encloses the 635px wrapper cap — informational, no content bound of its own",
+        "advisory": true
+      },
+      {
+        "ok": true,
+        "label": "module 1/2",
+        "detail": "391px = 391px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 2/2",
+        "detail": "full-bleed on both",
+        "advisory": false
+      }
+    ],
+    "fails": 0,
+    "pass": true
+  },
+  "evidence": "stardust/replica/gates/bsa-2560/cap-iter.json"
+}

@@ -1,0 +1,23 @@
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.bundessortenamt.de/bsa/
+  build: http://localhost:8791/bsa-proposed.html
+
+■ header: 4 delta(s) — 24 paired of 24/24 texts, 1/1 icons
+  PAIR         "Direkt zum Inhalt (Navigation überspring"  lineHeight 23.4667px → 22.0001px; color rgb(255, 255, 255) → rgb(34, 34, 34); backgroundColor rgb(55, 55, 55) → rgba(0, 0, 0, 0); paddingTop 10px → 0px; paddingRight 20px → 0px; paddingBottom 10px → 0px; paddingLeft 20px → 0px; Δx +239px (0→239); Δy +55px (-40→15); Δw -39px (40→1); Δh -19px (20→1)
+  PAIR         "Direkt zur Hauptnavigation"  lineHeight 23.4667px → 22.0001px; color rgb(255, 255, 255) → rgb(34, 34, 34); backgroundColor rgb(55, 55, 55) → rgba(0, 0, 0, 0); paddingTop 10px → 0px; paddingRight 20px → 0px; paddingBottom 10px → 0px; paddingLeft 20px → 0px; Δx +239px (0→239); Δy +55px (-40→15); Δw -39px (40→1); Δh -19px (20→1)
+  PAIR         "Direkt zum Seitenfuß"  lineHeight 23.4667px → 22.0001px; color rgb(255, 255, 255) → rgb(34, 34, 34); backgroundColor rgb(55, 55, 55) → rgba(0, 0, 0, 0); paddingTop 10px → 0px; paddingRight 20px → 0px; paddingBottom 10px → 0px; paddingLeft 20px → 0px; Δx +239px (0→239); Δy +55px (-40→15); Δw -39px (40→1); Δh -19px (20→1)
+  PAIR         "Bundessortenamt"  lineHeight 30px → 39px
+
+■ footer: 10 delta(s) — 0 paired of 2/5 texts, 0/1 icons
+  REGION BOX   Δx -484px (484→0), Δy +1483px (590→2073), Δw +1049px (391→1440), Δh +75px (19→94)
+  REGION STYLE backgroundColor rgba(0, 0, 0, 0) → rgb(242, 242, 242)
+  MISSING      "11.11.2026"  live <time> "11.11.2026" has no build element with the same text
+  MISSING      "Pressemitteilung"  live <p> "Pressemitteilung" has no build element with the same text
+  EXTRA        "© 2020 Bundessortenamt"  build <small> "© 2020 Bundessortenamt" has no live source
+  EXTRA        "Impressum"  build <a> "Impressum" has no live source
+  EXTRA        "Datenschutz"  build <a> "Datenschutz" has no live source
+  EXTRA        "Barrierefreiheit"  build <a> "Barrierefreiheit" has no live source
+  EXTRA        "Sitemap"  build <a> "Sitemap" has no live source
+  ICONS        0 live vs 1 build (svg/img) — harvest the live vectors verbatim (recreation-procedure.md § Asset harvest), never approximate
+
+✗ 14 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

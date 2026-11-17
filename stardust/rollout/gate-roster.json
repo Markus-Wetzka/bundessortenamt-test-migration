@@ -1,0 +1,7 @@
+{
+  "note": "Delivered-page roster for gate-all (--state): the 2 plan pages as published on aem.live. state.json keeps the lifecycle (migrated); this file only names what is deployed where.",
+  "pages": [
+    { "slug": "bsa", "url": "https://www.bundessortenamt.de/bsa/", "type": "landing", "status": "deployed", "liveUrl": "https://main--4f3d7fd3--aemcoder.aem.live/bsa/" },
+    { "slug": "index", "url": "https://bundessortenamt.de/", "type": "landing", "status": "deployed", "liveUrl": "https://main--4f3d7fd3--aemcoder.aem.live/" }
+  ]
+}

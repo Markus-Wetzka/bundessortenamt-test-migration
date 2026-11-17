@@ -1,0 +1,22 @@
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.bundessortenamt.de/bsa/ (live side from cache stardust/replica/gates/bsa-1440/chrome-live.json, probed 2026-11-17T13:33:35.646Z — delete the file to re-probe)
+  build: https://main--4f3d7fd3--aemcoder.aem.page/bsa/
+
+■ header: 3 delta(s) — 24 paired of 24/24 texts, 1/1 icons
+  REGION BOX   Δx -240px (240→0), Δw +480px (960→1440)
+  REGION STYLE backgroundColor rgba(0, 0, 0, 0) → rgb(255, 255, 255)
+  REGION STYLE position relative → static (fixed/sticky chrome must stay fixed/sticky — seam symmetry)
+
+■ footer: 10 delta(s) — 0 paired of 2/5 texts, 0/1 icons
+  REGION BOX   Δx -484px (484→0), Δy +1241px (590→1831), Δw +1049px (391→1440), Δh +47px (19→66)
+  REGION STYLE backgroundColor rgba(0, 0, 0, 0) → rgb(242, 242, 242)
+  MISSING      "11.11.2026"  live <time> "11.11.2026" has no build element with the same text
+  MISSING      "Pressemitteilung"  live <p> "Pressemitteilung" has no build element with the same text
+  EXTRA        "© 2020 Bundessortenamt"  build <p> "© 2020 Bundessortenamt" has no live source
+  EXTRA        "Impressum"  build <a> "Impressum" has no live source
+  EXTRA        "Datenschutz"  build <a> "Datenschutz" has no live source
+  EXTRA        "Barrierefreiheit"  build <a> "Barrierefreiheit" has no live source
+  EXTRA        "Sitemap"  build <a> "Sitemap" has no live source
+  ICONS        0 live vs 1 build (svg/img) — harvest the live vectors verbatim (recreation-procedure.md § Asset harvest), never approximate
+
+✗ 13 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.
